@@ -119,7 +119,7 @@ export default async function Home() {
                 <h3>{c.name}</h3>
                 <p>{c.blurb}</p>
                 <div className="meta"><span>{c.cabs}</span><span>24/7</span></div>
-                <Link className="link-more" href="/fleet">Explore {c.name} <Icon name="arrow" /></Link>
+                <Link className="link-more" href={`/${c.slug}`}>Explore {c.name} <Icon name="arrow" /></Link>
               </div>
             ))}
           </div>

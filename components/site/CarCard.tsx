@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Icon from "./Icon";
 import { waLink } from "@/lib/site";
 import type { Car } from "@/lib/types";
@@ -8,19 +9,19 @@ export default function CarCard({ car }: { car: Car }) {
   const photo = car.photo_url && (car.photo_url.startsWith("http") || car.photo_url.startsWith("/")) ? car.photo_url : "";
   return (
     <div className="ccard">
-      <div className="pic">
+      <Link href={`/cars/${car.slug}`} className="pic">
         {car.badge ? <span className={badgeClass}>{car.badge}</span> : null}
         {photo
           ? <img src={photo} alt={car.name} loading="lazy" />
           : <span className="carart"><Icon name="car" className="ca-ic" /><span>{car.name}</span></span>}
-      </div>
+      </Link>
       <div className="cbody">
-        <h3>{car.name}</h3>
+        <Link href={`/cars/${car.slug}`}><h3>{car.name}</h3></Link>
         <div className="cat">{car.category}{car.model_year ? ` · ${car.model_year}` : ""}</div>
         <div className="specs">
-          <span><Icon name="seat" />{car.seats} Seater</span>
-          <span><Icon name="gear" />{car.transmission}</span>
-          <span><Icon name="fuel" />{car.fuel}</span>
+          {car.seats ? <span><Icon name="seat" />{car.seats} Seater</span> : null}
+          {car.transmission ? <span><Icon name="gear" />{car.transmission}</span> : null}
+          {car.fuel ? <span><Icon name="fuel" />{car.fuel}</span> : null}
         </div>
         <div className="price"><b>&#8377;{car.price?.toLocaleString("en-IN")}</b><span>onwards</span></div>
         <div className="btns">

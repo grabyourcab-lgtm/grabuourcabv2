@@ -2,7 +2,7 @@ import { createClient } from "@/lib/supabase/server";
 import type { Car } from "@/lib/types";
 import Header from "@/components/site/Header";
 import Footer from "@/components/site/Footer";
-import CarCard from "@/components/site/CarCard";
+import FleetShowcase from "@/components/site/FleetShowcase";
 
 export const dynamic = "force-dynamic";
 export const metadata = { title: "Our Fleet | Grab Your Cab", description: "All taxis, self-drive and luxury cars available across Delhi NCR, Goa and Jewar Airport." };
@@ -25,9 +25,9 @@ export default async function Fleet() {
           <p className="lead">From CNG hatchbacks to premium SUVs and luxury cars — every ride on one page.</p>
         </div>
       </section>
-      <section className="sec">
+      <section className="sec" style={{ paddingTop: 26 }}>
         <div className="container">
-          <div className="fleet-grid">{cars.map((c) => <CarCard key={c.id} car={c} />)}</div>
+          <FleetShowcase cars={cars} limit={999} carousel={false} />
         </div>
       </section>
       <Footer />

@@ -1,7 +1,8 @@
 "use client";
 import { useState } from "react";
+import Link from "next/link";
 import Icon from "./Icon";
-import { SERVICES, SERVICE_TABS, waLink } from "@/lib/site";
+import { SERVICES, SERVICE_TABS } from "@/lib/site";
 
 export default function ServicesSection() {
   const [tab, setTab] = useState("All");
@@ -26,7 +27,7 @@ export default function ServicesSection() {
         </div>
         <div className="stories">
           {featured && (
-            <a className="story-feat" href={waLink(`Hi Grab Your Cab! I want to book: ${featured.name}.`)} target="_blank" rel="noopener">
+            <Link className="story-feat" href={`/${featured.slug}-delhi-ncr`}>
               <div className="pic"><img src={featured.img} alt={featured.name} loading="lazy" /></div>
               <div className="sb">
                 <span className="story-tag">{featured.group}</span>
@@ -34,18 +35,18 @@ export default function ServicesSection() {
                 <p>{featured.blurb}</p>
                 <span className="go">View &amp; Book <Icon name="arrow" /></span>
               </div>
-            </a>
+            </Link>
           )}
           <div className="story-list">
             {rest.map((s) => (
-              <a className="story-row" key={s.slug} href={waLink(`Hi Grab Your Cab! I want to book: ${s.name}.`)} target="_blank" rel="noopener">
+              <Link className="story-row" key={s.slug} href={`/${s.slug}-delhi-ncr`}>
                 <div className="pic"><img src={s.img} alt={s.name} loading="lazy" /></div>
                 <div>
                   <span className="story-tag">{s.group}</span>
                   <h4><Icon name={s.icon} />{s.name}</h4>
                   <p>{s.blurb}</p>
                 </div>
-              </a>
+              </Link>
             ))}
           </div>
         </div>

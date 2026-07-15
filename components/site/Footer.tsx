@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Icon from "./Icon";
 import { SERVICES, waLink } from "@/lib/site";
+import { serviceHref } from "@/lib/pages";
 
 const VALUES = [
   ["medal", "10 Years", "Trusted on the road"], ["taxi", "500+ Cabs", "Sedans to luxury buses"],
@@ -17,7 +18,7 @@ export default function Footer() {
         </div>
         <div className="foot-grid">
           <div className="foot-brand">
-            <div className="brand"><span className="m">GC</span> Grab Your Cab</div>
+            <Link href="/" className="logo"><img src="/images/logo.png" alt="Grab Your Cab" /></Link>
             <p>Full-service cab &amp; car rental across Delhi NCR, Goa and Jewar Airport — city rides, self-drive, luxury cars, tempo travellers and corporate travel.</p>
             <div className="socials">
               <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook"><Icon name="facebook" /></a>
@@ -25,11 +26,15 @@ export default function Footer() {
               <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram"><Icon name="instagram" /></a>
             </div>
           </div>
-          <div className="foot-col"><h4>Services</h4>{SERVICES.map((s) => <a key={s.slug} href={waLink(`Hi! I want to book: ${s.name}.`)} target="_blank" rel="noopener">{s.name}</a>)}</div>
-          <div className="foot-col"><h4>Cities</h4>
-            <Link href="/#cities">Delhi NCR</Link><Link href="/#cities">Goa</Link>
-            <Link href="/#cities">Jewar Airport</Link>
-            <Link href="/#services">Services</Link><Link href="/#fleet">Our Fleet</Link>
+          <div className="foot-col"><h4>Services</h4>
+            {SERVICES.map((s) => <Link key={s.slug} href={serviceHref(s.slug)}>{s.name}</Link>)}
+          </div>
+          <div className="foot-col"><h4>Explore</h4>
+            <Link href="/delhi-ncr">Delhi NCR</Link>
+            <Link href="/goa">Goa</Link>
+            <Link href="/noida-international-airport-jewar">Jewar Airport</Link>
+            <Link href="/fleet">Our Fleet</Link>
+            <Link href="/#services">All Services</Link>
           </div>
           <div className="foot-col"><h4>Get in touch</h4>
             <ul className="foot-contact">
