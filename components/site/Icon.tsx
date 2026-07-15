@@ -25,6 +25,7 @@ const P: Record<string, string> = {
   check: "<path d='M20 6L9 17l-5-5'/>",
   arrow: "<path d='M5 12h14M13 6l6 6-6 6'/>",
   search: "<circle cx='11' cy='11' r='7'/><path d='M21 21l-4-4'/>",
+  swap: "<path d='M7 4L4 7l3 3'/><path d='M4 7h13a3 3 0 0 1 3 3'/><path d='M17 20l3-3-3-3'/><path d='M20 17H7a3 3 0 0 1-3-3'/>",
   car: "<path d='M3 13l1.8-5.2A3 3 0 0 1 7.6 6h8.8a3 3 0 0 1 2.8 1.8L21 13'/><path d='M3 13h18v4H3z'/><circle cx='7' cy='16.5' r='1.4'/><circle cx='17' cy='16.5' r='1.4'/>",
   pin: "<path d='M12 21s7-5.6 7-11a7 7 0 0 0-14 0c0 5.4 7 11 7 11z'/><circle cx='12' cy='10' r='2.6'/>",
   star: "<path d='M12 3l2.6 5.6 6.1.7-4.5 4.1 1.2 6-5.4-3-5.4 3 1.2-6L3.3 9.3l6.1-.7z'/>",

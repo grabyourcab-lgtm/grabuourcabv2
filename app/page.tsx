@@ -42,8 +42,9 @@ export default async function Home() {
             </div>
           </div>
           <div className="hero-art">
-            <img src="/images/hero.jpg" alt="Grab Your Cab premium fleet" />
-            <div className="tag"><b>4.9★</b> · Loved by 2,000+ riders</div>
+            <div className="frame"><img src="/images/hero.jpg" alt="Grab Your Cab premium fleet" /></div>
+            <div className="chip a"><span className="d"><Icon name="shield" /></span><div><b>Verified drivers</b><small>Trained &amp; background-checked</small></div></div>
+            <div className="chip b"><span className="d"><Icon name="star" /></span><div><b>4.9 / 5 rating</b><small>2,000+ happy riders</small></div></div>
           </div>
         </div>
         <div className="container"><BookingBar /></div>
