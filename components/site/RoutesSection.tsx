@@ -8,9 +8,15 @@ export default function RoutesSection() {
   return (
     <section className="sec" id="routes">
       <div className="container">
-        <div className="sec-head"><span className="eyebrow">Loved by riders</span><h2>Popular routes &amp; trips</h2></div>
-        <div className="route-tabs">{Object.keys(ROUTES).map((t) => (
-          <button key={t} className={tab === t ? "active" : ""} onClick={() => setTab(t)}>{t}</button>))}</div>
+        <div className="sec-head">
+          <span className="eyebrow">Fixed fares</span>
+          <h2>Popular routes &amp; trips</h2>
+        </div>
+        <div className="chips" style={{ marginTop: 0 }}>
+          {Object.keys(ROUTES).map((t) => (
+            <button key={t} className={tab === t ? "active" : ""} onClick={() => setTab(t)}>{t}</button>
+          ))}
+        </div>
         <div className="routes">
           {ROUTES[tab].map((r) => (
             <a className="route" key={r.from} href={waLink(`Hi! I want to book: ${r.from}`)} target="_blank" rel="noopener">

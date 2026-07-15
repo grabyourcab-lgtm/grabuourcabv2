@@ -19,15 +19,16 @@ export default function Header() {
         <nav className="nav">{LINKS.map(([l, h]) => <Link key={l} href={h}>{l}</Link>)}</nav>
         <div className="hdr-cta">
           <a className="hdr-phone" href={`tel:+${WA}`}><Icon name="phone" />{PHONE_DISPLAY}</a>
-          <a className="btn btn-amber btn-sm" href={waLink("Hello Grab Your Cab! I'd like to book a ride.")} target="_blank" rel="noopener">Book a Taxi</a>
+          <a className="btn btn-dark btn-sm" href={waLink("Hello Grab Your Cab! I'd like to book a ride.")} target="_blank" rel="noopener">Book a Taxi</a>
           <button className="hamburger" onClick={() => setOpen(true)} aria-label="Menu"><Icon name="menu" /></button>
         </div>
       </div>
       <div className={"mobile-nav" + (open ? " open" : "")} onClick={() => setOpen(false)}>
         <div className="panel" onClick={(e) => e.stopPropagation()}>
-          <div className="x"><button onClick={() => setOpen(false)}><Icon name="close" /></button></div>
+          <div className="x"><button onClick={() => setOpen(false)} aria-label="Close"><Icon name="close" /></button></div>
           {LINKS.map(([l, h]) => <Link key={l} href={h} onClick={() => setOpen(false)}>{l}</Link>)}
-          <a className="btn btn-amber btn-block" style={{ marginTop: 16 }} href={waLink("Hello Grab Your Cab!")} target="_blank" rel="noopener">Book on WhatsApp</a>
+          <a className="btn btn-amber btn-block" style={{ marginTop: 18 }} href={waLink("Hello Grab Your Cab!")} target="_blank" rel="noopener">Book on WhatsApp</a>
+          <a className="btn btn-ghost btn-block" style={{ marginTop: 10 }} href={`tel:+${WA}`}><Icon name="phone" />{PHONE_DISPLAY}</a>
         </div>
       </div>
     </header>

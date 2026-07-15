@@ -31,7 +31,7 @@ export default function BookingBar() {
           <input value={drop} onChange={(e) => setDrop(e.target.value)} placeholder="IGI Airport, Delhi" /></div>
         <div className="f"><label>Pickup date</label>
           <input type="date" value={date} onChange={(e) => setDate(e.target.value)} /></div>
-        <button className="btn btn-wa go" onClick={book}><Icon name="chat" />Search &amp; Book</button>
+        <button className="btn btn-amber go" onClick={book}><Icon name="search" />Search &amp; Book</button>
       </div>
     </div>
   );

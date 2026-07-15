@@ -40,7 +40,12 @@ export default function Footer() {
             </ul>
           </div>
         </div>
-        <div className="copyright"><span>© {new Date().getFullYear()} Grab Your Cab. All rights reserved.</span><span>Delhi NCR · Goa · Noida International Airport (Jewar)</span></div>
+      </div>
+      <div className="foot-bottom">
+        <div className="container in">
+          <span>© {new Date().getFullYear()} Grab Your Cab. All rights reserved.</span>
+          <span>Delhi NCR · Goa · Noida International Airport (Jewar)</span>
+        </div>
       </div>
     </footer>
   );
