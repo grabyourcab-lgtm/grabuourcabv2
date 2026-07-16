@@ -13,16 +13,17 @@ export default function Header() {
   const [open, setOpen] = useState(false);
   return (
     <header className="hdr">
-      {/* white top bar: logo + phone + hours */}
+      {/* top bar: (mobile) hamburger left · logo center · phone right */}
       <div className="topbar">
         <div className="container in">
+          <button className="hamburger hb-top" onClick={() => setOpen(true)} aria-label="Menu"><Icon name="menu" /></button>
           <Link href="/" className="logo" aria-label="Grab Your Cab — Home">
             <img src="/images/logo.png" alt="Grab Your Cab" />
           </Link>
           <div className="top-info">
             <a className="tinfo" href={`tel:+${WA}`}>
               <span className="i"><Icon name="phone" /></span>
-              <span><small>Dial / Request a call</small><b>{PHONE_DISPLAY}</b></span>
+              <span className="ttxt"><small>Dial / Request a call</small><b>{PHONE_DISPLAY}</b></span>
             </a>
             <div className="tinfo hours">
               <span className="i"><Icon name="clock" /></span>
@@ -31,16 +32,16 @@ export default function Header() {
           </div>
         </div>
       </div>
-      {/* maroon nav strip */}
+      {/* maroon nav strip (desktop / tablet) */}
       <div className="mainnav">
         <div className="container in">
           <nav className="nav">{LINKS.map(([l, h]) => <Link key={l} href={h}>{l}</Link>)}</nav>
           <div className="hdr-cta">
             <a className="btn btn-wa btn-sm" href={waLink("Hello Grab Your Cab! I'd like to book a ride.")} target="_blank" rel="noopener"><Icon name="chat" />Book on WhatsApp</a>
-            <button className="hamburger" onClick={() => setOpen(true)} aria-label="Menu"><Icon name="menu" /></button>
           </div>
         </div>
       </div>
+      {/* slide-in menu */}
       <div className={"mobile-nav" + (open ? " open" : "")} onClick={() => setOpen(false)}>
         <div className="panel" onClick={(e) => e.stopPropagation()}>
           <div className="x">
@@ -52,6 +53,10 @@ export default function Header() {
           <a className="btn btn-ghost btn-block" style={{ marginTop: 10 }} href={`tel:+${WA}`}><Icon name="phone" />{PHONE_DISPLAY}</a>
         </div>
       </div>
+      {/* floating WhatsApp pill (mobile) */}
+      <a className="wa-fab" href={waLink("Hello Grab Your Cab! I'd like to book a ride.")} target="_blank" rel="noopener" aria-label="Book on WhatsApp">
+        <Icon name="chat" />WhatsApp
+      </a>
     </header>
   );
 }

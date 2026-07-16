@@ -81,6 +81,9 @@ img{max-width:100%;display:block}
 .hdr-cta .btn-wa{border-radius:4px;padding:8px 16px;font-size:12.5px}
 .hamburger{display:none;width:42px;height:42px;border:1px solid rgba(255,255,255,.4);border-radius:4px;background:transparent;align-items:center;justify-content:center;cursor:pointer}
 .hamburger .ic{width:20px;height:20px;color:#fff}
+.hb-top{border:1px solid var(--line);border-radius:10px}
+.hb-top .ic{color:var(--ink)}
+.wa-fab{display:none}
 
 /* mobile slide-in */
 .mobile-nav{display:none;position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:80;opacity:0;pointer-events:none;transition:opacity .2s}
@@ -386,6 +389,7 @@ footer.site{margin-top:30px;background:var(--slate);color:#cfd6dd}
   .top-info .tinfo.hours{display:none}
   .hamburger{display:flex}
   .mobile-nav{display:block}
+  .mainnav .in{justify-content:flex-end}
   .fleet-grid{grid-template-columns:repeat(3,1fr)}
   .stories{grid-template-columns:1fr}
   .city-grid{grid-template-columns:repeat(2,1fr)}
@@ -503,6 +507,83 @@ footer.site{margin-top:30px;background:var(--slate);color:#cfd6dd}
   .banner .hbtns{width:100%}
   .banner .hbtns .btn{width:100%}
 }
+/* ============================================================
+   MOBILE APP SKIN (Revv-style: grey canvas, rounded white boxes,
+   centered logo header, pill tabs & chips, floating WhatsApp)
+   ============================================================ */
+@media (max-width:620px){
+  body{background:#eef1f6}
+  .sec,.sec.grey,.bookwrap{background:transparent;border:0}
+  .sec{padding:26px 0}
+
+  /* header: hamburger | centered logo | phone circle */
+  .topbar{border-bottom:0;box-shadow:0 1px 8px rgba(30,40,60,.06)}
+  .topbar .in{display:grid;grid-template-columns:42px 1fr 42px;align-items:center;gap:8px;padding:9px 0}
+  .hb-top{width:42px;height:42px}
+  .logo{justify-self:center}
+  .logo img{height:46px}
+  .top-info{justify-self:end;margin:0}
+  .tinfo .i{width:42px;height:42px;background:#eef1f6}
+  .tinfo .ttxt{display:none}
+  .mainnav{display:none}
+
+  /* floating WhatsApp pill */
+  .wa-fab{display:inline-flex;position:fixed;bottom:20px;right:16px;z-index:70;align-items:center;gap:8px;
+    background:var(--wa);color:#fff;border-radius:999px;padding:13px 20px;font-weight:700;font-size:14px;
+    box-shadow:0 10px 26px rgba(0,0,0,.28)}
+  .wa-fab .ic{width:17px;height:17px}
+
+  /* section headings — big, left, app-like */
+  .sec-head,.sec-head.split{text-align:left;margin-bottom:16px}
+  .sec-head .eyebrow{display:none}
+  .sec-head h2{font-size:24px;color:#77839b;font-weight:700;padding-bottom:0}
+  .sec-head h2::after{display:none}
+  .sec-head p{font-size:13px;margin-top:4px}
+
+  /* rounded white boxes everywhere */
+  .booking,.ccard,.story-feat,.story-row,.tst,.step,.route,.loc,.office,.svc-card,.feat,.brand,
+  .faq details,.city,.cd-pic,.cd-specs .sp,.cd-price,.linkchips a{
+    border:0;border-radius:18px;box-shadow:0 2px 12px rgba(30,40,60,.07)}
+  .ccard .cbody{border-top:1px solid #f0f2f6}
+  .banner{border-radius:20px}
+  .pitch .pic{border:0;border-radius:18px}
+
+  /* booking card — floating, app style */
+  .booking{border-radius:22px;box-shadow:0 10px 34px rgba(30,40,60,.16);margin-top:-36px;padding:18px 16px}
+  .tabs{width:100%;display:flex;background:#eef1f6;border:0;border-radius:14px;padding:5px;gap:5px}
+  .tabs button{flex:1;border-radius:10px;background:transparent;padding:11px 8px;font-size:13px}
+  .tabs button.active{background:var(--red);color:#fff}
+  .f input{background:#f2f4f8;border:0;border-radius:12px;padding:14px 16px;font-size:15px}
+  .f input:focus{outline:2px solid var(--red);outline-offset:-2px}
+  .f label{font-size:11px;color:#77839b}
+  .go{border-radius:12px;padding:15px;font-size:14px}
+
+  /* trust chips */
+  .trust{display:flex;flex-wrap:wrap;gap:8px;padding:14px 0 0}
+  .trust .t{background:#fff;border-radius:999px;padding:8px 14px;box-shadow:0 1px 8px rgba(30,40,60,.06);font-size:12px}
+  .trust .rate{margin:0;background:#fff;border:0;border-radius:999px;padding:8px 14px;box-shadow:0 1px 8px rgba(30,40,60,.06)}
+
+  /* pill filter chips (fleet / routes tabs) */
+  .chips:not(.linkchips){border-bottom:0;gap:8px;padding-block:4px}
+  .chips button{border-radius:999px;background:#fff;box-shadow:0 1px 8px rgba(30,40,60,.06);
+    padding:10px 18px;font-size:12.5px;color:var(--text);text-transform:none;font-family:"Inter"}
+  .chips button::after{display:none}
+  .chips button.active{background:var(--red);color:#fff}
+
+  /* cards fine-tuning */
+  .ccard .pic{height:140px;padding:12px}
+  .cbody h3{font-size:15px}
+  .price b{font-size:18px}
+  .btns .btn{border-radius:10px}
+  .btn{border-radius:10px}
+  .stats-band{margin:0 16px;border-radius:20px}
+  .stats-band .in{padding:26px 14px;gap:18px}
+  .brands-grid{gap:10px}
+  .faq details{padding:0 16px}
+  .faq summary{font-size:14.5px}
+  .steps .step{border-radius:18px}
+  .foot-values{padding:22px 0}
+}
 @media (max-width:380px){
   .container{padding:0 13px}
   .chips:not(.linkchips){margin-inline:-13px;padding-inline:13px}
@@ -511,7 +592,6 @@ footer.site{margin-top:30px;background:var(--slate);color:#cfd6dd}
   .fleet-grid.static{grid-template-columns:1fr;margin-inline:0;padding-inline:0}
   .btns{flex-direction:column}
   .loc-grid{grid-template-columns:1fr}
-  .logo img{height:38px}
+  .logo img{height:40px}
   .brands-grid{grid-template-columns:1fr 1fr}
-  .hdr-cta .btn-wa{display:none}
 }
