@@ -3,31 +3,32 @@ import Icon from "./Icon";
 import { waLink } from "@/lib/site";
 import type { Car } from "@/lib/types";
 
-export default function CarCard({ car }: { car: Car }) {
-  const msg = `Hi Grab Your Cab! I want to book the ${car.name}. Please share availability & fare.`;
-  const badgeClass = car.badge === "Luxury" ? "badge lux" : car.badge === "New" ? "badge dark" : "badge";
+export default function CarCard({ car, waMsg }: { car: Car; waMsg?: string }) {
+  const msg = waMsg || `Hi Grab Your Cab! I want to book the ${car.name}. Please share availability & fare.`;
   const photo = car.photo_url && (car.photo_url.startsWith("http") || car.photo_url.startsWith("/")) ? car.photo_url : "";
+  const isLux = car.category === "Luxury";
   return (
     <div className="ccard">
-      <Link href={`/cars/${car.slug}`} className="pic">
-        {car.badge ? <span className={badgeClass}>{car.badge}</span> : null}
-        {photo
-          ? <img src={photo} alt={car.name} loading="lazy" />
-          : <span className="carart"><Icon name="car" className="ca-ic" /><span>{car.name}</span></span>}
+      <Link href={`/cars/${car.slug}`} className="chead">
+        <div className="cname">
+          <span>{car.category}{car.model_year ? ` ${car.model_year}` : ""}</span>
+          <h3>{car.name}</h3>
+          {car.badge ? <em className="cbadge">{car.badge}</em> : null}
+        </div>
+        <div className="cimg">
+          {photo
+            ? <img src={photo} alt={car.name} loading="lazy" />
+            : <span className="carart"><Icon name="car" className="ca-ic" /></span>}
+        </div>
       </Link>
-      <div className="cbody">
-        <Link href={`/cars/${car.slug}`}><h3>{car.name}</h3></Link>
-        <div className="cat">{car.category}{car.model_year ? ` · ${car.model_year}` : ""}</div>
-        <div className="specs">
-          {car.seats ? <span><Icon name="seat" />{car.seats} Seater</span> : null}
-          {car.transmission ? <span><Icon name="gear" />{car.transmission}</span> : null}
-          {car.fuel ? <span><Icon name="fuel" />{car.fuel}</span> : null}
-        </div>
-        <div className="price"><b>&#8377;{car.price?.toLocaleString("en-IN")}</b><span>{car.category === "Luxury" ? "/ Day" : "/ 8hr · 80km"}</span></div>
-        <div className="btns">
-          <Link className="btn btn-amber btn-sm" href={`/cars/${car.slug}`}>View Details</Link>
-          <a className="btn btn-wa btn-sm" href={waLink(msg)} target="_blank" rel="noopener"><Icon name="chat" />WhatsApp</a>
-        </div>
+      <div className="specs">
+        <span><Icon name="car" />{car.category}</span>
+        {car.transmission ? <span><Icon name="gear" />{car.transmission}</span> : null}
+        {car.seats ? <span><Icon name="seat" />{car.seats} seats</span> : null}
+      </div>
+      <div className="cfoot">
+        <div className="price"><b>&#8377;{car.price?.toLocaleString("en-IN")}</b><span>{isLux ? "per day" : "per 8hr · 80km"}</span></div>
+        <a className="wa-mini" href={waLink(msg)} target="_blank" rel="noopener" aria-label={`Book ${car.name} on WhatsApp`}><Icon name="chat" /></a>
       </div>
     </div>
   );

@@ -5,7 +5,7 @@ import Icon from "./Icon";
 import { waLink, PHONE_DISPLAY, WA } from "@/lib/site";
 
 const LINKS = [
-  ["Home", "/"], ["All Cars", "/fleet"], ["Services", "/#services"],
+  ["Home", "/"], ["All Cars", "/fleet"], ["Self Drive", "/self-drive"], ["Services", "/#services"],
   ["Delhi NCR", "/delhi-ncr"], ["Goa", "/goa"], ["Jewar Airport", "/noida-international-airport-jewar"],
 ];
 

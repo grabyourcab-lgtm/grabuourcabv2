@@ -1,22 +1,25 @@
 "use client";
 import { useState } from "react";
+import { useRouter } from "next/navigation";
 import Icon from "./Icon";
 import { WA } from "@/lib/site";
 
 export default function BookingBar() {
+  const router = useRouter();
   const [mode, setMode] = useState("Taxi Service");
   const [pickup, setPickup] = useState("");
   const [drop, setDrop] = useState("");
   const [date, setDate] = useState("");
   const [sdLocation, setSdLocation] = useState("");
-  const [sdWhen, setSdWhen] = useState("");
 
   const taxi = mode === "Taxi Service";
   function swap() { setPickup(drop); setDrop(pickup); }
   function book() {
-    const msg = taxi
-      ? `Hello Grab Your Cab! I'd like to book a Taxi.\nPickup: ${pickup || "-"}\nDrop: ${drop || "-"}\nDate: ${date || "-"}`
-      : `Hello Grab Your Cab! I'd like a Self Drive car.\nLocation: ${sdLocation || "-"}\nPickup date & time: ${sdWhen ? sdWhen.replace("T", " ") : "-"}`;
+    if (!taxi) {
+      router.push(`/self-drive${sdLocation.trim() ? `?loc=${encodeURIComponent(sdLocation.trim())}` : ""}`);
+      return;
+    }
+    const msg = `Hello Grab Your Cab! I'd like to book a Taxi.\nPickup: ${pickup || "-"}\nDrop: ${drop || "-"}\nDate: ${date || "-"}`;
     window.open(`https://wa.me/${WA}?text=${encodeURIComponent(msg)}`, "_blank");
   }
 
@@ -42,10 +45,9 @@ export default function BookingBar() {
       ) : (
         <div className="fields sd">
           <div className="f"><label>Car location</label>
-            <input value={sdLocation} onChange={(e) => setSdLocation(e.target.value)} placeholder="Noida / Delhi / Goa" /></div>
-          <div className="f"><label>Pickup date &amp; time</label>
-            <input type="datetime-local" value={sdWhen} onChange={(e) => setSdWhen(e.target.value)} /></div>
-          <button className="btn btn-amber go" onClick={book}><Icon name="search" />Search</button>
+            <input value={sdLocation} onChange={(e) => setSdLocation(e.target.value)} placeholder="Noida / Delhi / Goa"
+              onKeyDown={(e) => { if (e.key === "Enter") book(); }} /></div>
+          <button className="btn btn-amber go" onClick={book}><Icon name="search" />Select location to search</button>
         </div>
       )}
     </div>
