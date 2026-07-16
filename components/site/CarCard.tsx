@@ -23,9 +23,9 @@ export default function CarCard({ car }: { car: Car }) {
           {car.transmission ? <span><Icon name="gear" />{car.transmission}</span> : null}
           {car.fuel ? <span><Icon name="fuel" />{car.fuel}</span> : null}
         </div>
-        <div className="price"><b>&#8377;{car.price?.toLocaleString("en-IN")}</b><span>onwards</span></div>
+        <div className="price"><b>&#8377;{car.price?.toLocaleString("en-IN")}</b><span>{car.category === "Luxury" ? "/ Day" : "/ 8hr · 80km"}</span></div>
         <div className="btns">
-          <a className="btn btn-amber btn-sm" href={waLink(msg)} target="_blank" rel="noopener">Book Now</a>
+          <Link className="btn btn-amber btn-sm" href={`/cars/${car.slug}`}>View Details</Link>
           <a className="btn btn-wa btn-sm" href={waLink(msg)} target="_blank" rel="noopener"><Icon name="chat" />WhatsApp</a>
         </div>
       </div>
