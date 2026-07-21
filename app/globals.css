@@ -339,6 +339,17 @@ footer.site{margin-top:30px;background:var(--slate);color:#cfd6dd}
 .slots button.active{background:var(--red);border-color:var(--red);color:#fff}
 .wiz-go{margin-top:10px;border-radius:999px;padding:16px;font-size:15px}
 
+.wiz-input{width:100%;border:0;background:#f2f4f8;border-radius:12px;padding:14px 16px;font-size:15px;font-family:inherit;color:var(--ink);outline:none}
+.wiz-input:focus{outline:2px solid var(--red);outline-offset:-2px}
+.wiz-note{color:var(--muted);font-size:12.5px;text-align:center;margin-top:14px}
+
+/* SEO content blocks (content-only service pages) */
+.seo-wrap{max-width:840px}
+.seo-block{margin-bottom:30px}
+.seo-block h2{font-size:clamp(19px,2.6vw,25px);font-weight:700;margin-bottom:12px;position:relative;padding-bottom:10px}
+.seo-block h2::after{content:"";position:absolute;left:0;bottom:0;width:54px;height:3px;background:var(--red)}
+.seo-block p{color:var(--text);font-size:14.5px;margin-bottom:12px;line-height:1.75}
+
 /* results summary bar */
 .rs-bar{background:#fff;border-bottom:1px solid var(--line)}
 .rs-bar .in{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 0;flex-wrap:wrap}

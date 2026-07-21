@@ -173,7 +173,8 @@ async function CityPage({ city }: { city: (typeof CITY_INFO)[number] }) {
 async function ServiceCityPage({ service, city }: {
   service: (typeof SERVICE_INFO)[number]; city: (typeof CITY_INFO)[number];
 }) {
-  const cars = await fetchCars(city.slug, service.cats);
+  const cars = service.noCars ? [] : await fetchCars(city.slug, service.cats);
+  const seo = service.seo ? service.seo(city.name) : [];
   const otherCities = CITY_INFO.filter((c) => c.slug !== city.slug);
   const otherServices = SERVICE_INFO.filter((s) => s.slug !== service.slug);
   const waMsg = `Hello Grab Your Cab! I want to book: ${service.name} in ${city.name}.`;
@@ -209,8 +210,24 @@ async function ServiceCityPage({ service, city }: {
         </div>
       </section>
 
+      {/* SEO content sections (content-only services) */}
+      {seo.length > 0 && (
+        <section className="sec" style={{ paddingTop: 0 }}>
+          <div className="container">
+            <div className="seo-wrap">
+              {seo.map((s) => (
+                <div className="seo-block" key={s.h}>
+                  <h2>{s.h}</h2>
+                  {s.ps.map((p, i) => <p key={i}>{p}</p>)}
+                </div>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
       {/* cars for this service */}
-      {cars.length > 0 && (
+      {!service.noCars && cars.length > 0 && (
         <section className="sec" style={{ paddingTop: 0 }}>
           <div className="container">
             <div className="sec-head split">

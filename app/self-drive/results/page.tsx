@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { createClient } from "@/lib/supabase/server";
 import type { Car } from "@/lib/types";
+import { forService } from "@/lib/types";
 import Header from "@/components/site/Header";
 import Footer from "@/components/site/Footer";
 import CarCard from "@/components/site/CarCard";
@@ -23,7 +24,7 @@ export default async function Results({ searchParams }: {
     let q = supabase.from("cars").select("*").eq("available", true).order("sort_order");
     if (goa) q = q.contains("cities", ["goa"]);
     const { data } = await q;
-    cars = (data as Car[]) ?? [];
+    cars = forService((data as Car[]) ?? [], "self-drive");
   } catch { cars = []; }
 
   return (

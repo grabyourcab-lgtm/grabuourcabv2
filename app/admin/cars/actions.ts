@@ -21,6 +21,7 @@ export async function saveCar(formData: FormData) {
     transmission: formData.get("transmission"),
     price: Number(formData.get("price")) || null,
     badge: formData.get("badge") || "",
+    service_type: formData.get("service_type") || "both",
     photo_url: formData.get("photo_url") || "",
     available: formData.get("available") === "on",
     cities: formData.getAll("cities"),

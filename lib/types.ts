@@ -14,7 +14,17 @@ export type Car = {
   cities: string[];
   available: boolean;
   sort_order: number;
+  service_type?: string; // 'taxi' | 'self-drive' | 'both'
 };
+
+// Filter helper — treats missing column/value as 'both' so the site
+// keeps working even before add-service-type.sql has been run.
+export function forService(cars: Car[], type: "taxi" | "self-drive") {
+  return cars.filter((c) => {
+    const t = c.service_type || "both";
+    return t === "both" || t === type;
+  });
+}
 
 export type Enquiry = {
   id: string;

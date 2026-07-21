@@ -12,7 +12,13 @@ const CITIES = [
   ["noida-international-airport-jewar", "Jewar Airport"],
 ];
 
-export default function CarForm({ car }: { car?: Car }) {
+const SERVICE_TYPES: [string, string][] = [
+  ["both", "Both (Taxi + Self Drive)"],
+  ["taxi", "Taxi Service only"],
+  ["self-drive", "Self Drive only"],
+];
+
+export default function CarForm({ car, defaultType }: { car?: Car; defaultType?: string }) {
   const [photo, setPhoto] = useState(car?.photo_url || "");
   const [uploading, setUploading] = useState(false);
 
@@ -49,6 +55,12 @@ export default function CarForm({ car }: { car?: Car }) {
         <div className="field"><label>Model year</label>
           <input name="model_year" defaultValue={car?.model_year || ""} placeholder="2025" />
         </div>
+      </div>
+
+      <div className="field"><label>Service type</label>
+        <select name="service_type" defaultValue={car?.service_type || defaultType || "both"}>
+          {SERVICE_TYPES.map(([v, l]) => <option key={v} value={v}>{l}</option>)}
+        </select>
       </div>
 
       <div className="row">

@@ -14,6 +14,7 @@ create table if not exists cars (
   price int,
   badge text default '',
   photo_url text default '',
+  service_type text default 'both',
   cities text[] default '{delhi-ncr,goa,noida-international-airport-jewar}',
   available boolean default true,
   sort_order int default 0,

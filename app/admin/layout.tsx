@@ -14,7 +14,9 @@ export default async function AdminLayout({ children }: { children: React.ReactN
       <aside>
         <div className="b"><span className="m">GC</span> Admin</div>
         <Link href="/admin">Dashboard</Link>
-        <Link href="/admin/cars">Cars</Link>
+        <Link href="/admin/cars?type=taxi">Taxi Service Cars</Link>
+        <Link href="/admin/cars?type=self-drive">Self Drive Cars</Link>
+        <Link href="/admin/cars">All Cars</Link>
         <Link href="/admin/enquiries">Enquiries</Link>
         <Link href="/admin/blog">Blog</Link>
         <Link href="/admin/content">Content</Link>
