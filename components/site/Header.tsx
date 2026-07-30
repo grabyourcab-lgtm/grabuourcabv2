@@ -7,6 +7,7 @@ import { waLink, PHONE_DISPLAY, WA } from "@/lib/site";
 const LINKS = [
   ["Home", "/"], ["Taxi Services", "/taxi"], ["Self Drive", "/self-drive"], ["Services", "/#services"],
   ["Delhi NCR", "/delhi-ncr"], ["Goa", "/goa"], ["Jewar Airport", "/noida-international-airport-jewar"],
+  ["Contact Us", "/contact"]
 ];
 
 export default function Header() {
