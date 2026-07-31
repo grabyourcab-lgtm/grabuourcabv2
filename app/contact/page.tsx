@@ -38,17 +38,17 @@ const IconChevronRight = () => (
 /* ------------------------------------------------------------------ */
 /*  Static content                                                     */
 /* ------------------------------------------------------------------ */
-const PHONE_DISPLAY = '+91 98765 43210'
-const PHONE_TEL = '+919876543210'
-const WHATSAPP_NUMBER = '919876543210'
-const EMAIL = 'support@grabyourcab.com'
+const PHONE_DISPLAY = '+91 7522817555'
+const PHONE_TEL = '+917522817555, 7522817555, '
+const WHATSAPP_NUMBER = '917522817555'
+const EMAIL = 'grabyourcab12@gmail.com'
 
 const CITY_OFFICES = [
   {
     id: 'delhi',
     city: 'New Delhi',
     tag: 'Head Office',
-    address: 'B-42, Connaught Place, New Delhi, Delhi 110001',
+    address: 'first floor, Galaxy Diamond Plaza, FB-133, Noida-Greater Noida Link Rd, Haibatpur, Sector 4, Greater Noida',
     hours: 'Open daily · 6:00 AM – 11:00 PM',
     phone: PHONE_DISPLAY,
     lat: 28.6315,
@@ -228,15 +228,15 @@ const Page = () => {
               <div className="i"><IconClock /></div>
               <div className="qt-body">
                 <span>Support hours</span>
-                <b>6:00 AM – 11:00 PM, daily</b>
+                <b>24/7, daily</b>
               </div>
             </div>
 
             <div className="quick-tile">
               <div className="i"><IconPin /></div>
-              <div className="qt-body">
+              <div className="qt-body" style={{width:440}}>
                 <span>Head office</span>
-                <b>Connaught Place, New Delhi</b>
+                <p style={{fontWeight:"bold", color:"black" }}>First floor, Galaxy Diamond Plaza, FB-133, Noida-Greater Noida Link Rd, Haibatpur, Sector 4, Greater Noida, Uttar Pradesh</p>
               </div>
             </div>
           </div>
