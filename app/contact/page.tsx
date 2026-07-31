@@ -114,6 +114,17 @@ const CITY_OFFICES = [
     lat: 26.9124,
     lng: 75.7873,
   },
+   {
+    id: 'goa',
+    city: 'Goa',
+    tag: 'Branch',
+    address: 'H. No. - 66, Bogda, Vosco Da Gama, Goa',
+    hours: 'Open daily · 7:00 AM – 10:00 PM',
+    phone:  9108617014,
+    lat: 26.9124,
+    lng: 75.7873,
+  },
+  
 
 
 ]
