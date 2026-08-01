@@ -124,6 +124,16 @@ const CITY_OFFICES = [
     lat: 26.9124,
     lng: 75.7873,
   },
+   {
+    id: 'meerut',
+    city: 'Meerut',
+    tag: 'Branch',
+    address: 'Gitanjali Tower, near Shani mandir, Main Divider Road, Meerut',
+    hours: 'Open daily · 7:00 AM – 10:00 PM',
+    phone:   9108617014,
+    lat: 26.9124,
+    lng: 75.7873,
+  },
   
 
 
