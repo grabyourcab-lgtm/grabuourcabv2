@@ -800,3 +800,21 @@ footer.site{margin-top:30px;background:var(--slate);color:#cfd6dd}
   .logo img{height:40px}
   .brands-grid{grid-template-columns:1fr 1fr}
 }
+
+
+
+.founder-img-wrap {
+  width: 100%;
+  max-width: 220px;
+  aspect-ratio: 1 / 1;
+  border-radius: 12px;
+  overflow: hidden;
+  margin: 0 auto 16px;
+}
+
+.founder-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}

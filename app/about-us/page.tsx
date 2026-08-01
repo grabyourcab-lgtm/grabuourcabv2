@@ -367,12 +367,14 @@ const founders = [
     name: 'Mr. Kamal Srivastava',
     role: 'Founder',
     bio: 'A seasoned professional with over 18 years in senior leadership roles across top corporate organisations in India and abroad. Extensive business travel gave him a first-hand view of what was missing from the industry \u2014 reliability, convenience, personalisation and a truly customer-centric approach. That gap became the reason Grab Your Cab exists.',
+    image:"/images/founders/kamal.jpeg"
   },
   {
     icon: Award,
     name: 'Ms. Vinnie Sharma',
     role: 'Co-Founder',
     bio: 'Brings over 18 years of corporate experience in senior leadership roles with some of India\u2019s leading organisations, spanning Sales, Marketing, Auditing, Business Operations and Customer Experience. Her strategic thinking and innovative mindset have played a significant role in shaping Grab Your Cab into a customer-focused brand that stands apart from the competition.',
+    image:"/images/founders/vinnie.jpeg"
   },
 ]
 
@@ -501,7 +503,7 @@ const AboutPage = () => {
       </section>
 
       {/* ---------- Founders cards ---------- */}
-      <section className="sec grey">
+      {/* <section className="sec grey">
         <div className="container">
           <div className="sec-head">
             <span className="eyebrow">Leadership</span>
@@ -526,7 +528,49 @@ const AboutPage = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
+      <section className="sec grey">
+  <div className="container">
+    <div className="sec-head">
+      <span className="eyebrow">Leadership</span>
+      <h2>Meet Our Founders</h2>
+      <p>
+        Two leaders, one shared vision &mdash; building India&rsquo;s most trusted mobility
+        company.
+      </p>
+    </div>
+    <div className="svc-cards">
+      {founders.map((f, i) => (
+        <div className="svc-card" key={i}>
+          <div className="founder-img-wrap">
+            <img
+              src={f.image}
+              alt={f.name}
+              className="founder-img"
+            />
+          </div>
+          <div>
+            <h3>{f.name}</h3>
+            <span
+              style={{
+                display: 'block',
+                color: 'var(--red)',
+                fontWeight: 600,
+                fontSize: 12.5,
+                letterSpacing: '.08em',
+                textTransform: 'uppercase',
+                margin: '2px 0 8px',
+              }}
+            >
+              {f.role}
+            </span>
+            <p>{f.bio}</p>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
 
       {/* ---------- Stats band ---------- */}
       <section className="stats-band">
