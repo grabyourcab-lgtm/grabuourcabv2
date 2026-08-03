@@ -38,8 +38,8 @@ const IconChevronRight = () => (
 /* ------------------------------------------------------------------ */
 /*  Static content                                                     */
 /* ------------------------------------------------------------------ */
-const PHONE_DISPLAY = '+91 7522817555'
-const PHONE_TEL = '+917522817555, 7522817555, '
+const PHONE_DISPLAY = '7522817555'
+const PHONE_TEL = '+917522817555, '
 const WHATSAPP_NUMBER = '917522817555'
 const EMAIL = 'grabyourcab12@gmail.com'
 
@@ -287,7 +287,7 @@ const Page = () => {
 
             <div className="quick-tile">
               <div className="i"><IconPin /></div>
-              <div className="qt-body" style={{width:440}}>
+              <div className="qt-body" >
                 <span>Head office</span>
                 <p style={{fontWeight:"bold", color:"black" }}>First floor, Galaxy Diamond Plaza, FB-133, Noida-Greater Noida Link Rd, Haibatpur, Sector 4, Greater Noida, Uttar Pradesh</p>
               </div>
@@ -525,6 +525,16 @@ const Page = () => {
           flex: 1;
           min-width: 0;
         }
+        .qt-body p {
+  margin: 2px 0 0;
+  font-family: 'Poppins';
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--ink);
+  white-space: normal;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}
         .qt-body span {
           display: block;
           font-size: 11.5px;

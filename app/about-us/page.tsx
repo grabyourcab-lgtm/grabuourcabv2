@@ -430,7 +430,7 @@ const AboutPage = () => {
           </p>
           <div className="hero-ctas" style={{ marginTop: 22 }}>
             <a href="/contact" className="btn btn-amber">Get In Touch</a>
-            <a href="/services" className="btn btn-ghost">Explore Services</a>
+            <a href="/" className="btn btn-ghost">Explore Services</a>
           </div>
         </div>
       </section>
@@ -445,10 +445,8 @@ const AboutPage = () => {
               </span>
               <h2>Built From 18 Years On The Road</h2>
               <p>
-                Grab Your Cab was founded with a vision to redefine the way people experience
-                transportation in India. The company was established by Mr. Kamal Srivastava, a
-                seasoned professional who spent over 18 years working in senior leadership roles
-                with some of the top corporate organisations in India and abroad.
+               Grab Your Cab was founded by Mr. Kamal Srivastava, a visionary entrepreneur with over 18 years of experience in senior leadership positions with leading corporate organizations in India and abroad.
+Throughout his corporate career, he travelled extensively across cities and countries. While managing business travel, corporate transportation, and client visits, he observed that the transportation industry lacked consistency, professionalism, customer focus, and personalized solutions. Travellers often had to depend on multiple vendors for different requirements, with little assurance of quality, safety, or reliability.
               </p>
               <p>
                 During his corporate journey, extensive business travel gave him a first-hand view
@@ -458,18 +456,13 @@ const AboutPage = () => {
                 multiple providers with no assurance of consistent quality.
               </p>
               <p>
-                That gap became the reason Grab Your Cab exists: one trusted brand for every travel
-                requirement, delivered with professionalism, transparency, safety and genuinely
-                exceptional service.
+                Recognizing this gap, Mr. Srivastava envisioned a company where every transportation requirement could be fulfilled under one trusted roof. This vision became Grab Your Cab, a brand dedicated to delivering world-class transportation services while introducing innovative solutions that genuinely solve customer problems.
               </p>
               <p>
-                The journey has been further strengthened by Co-Founder Ms. Vinnie Sharma, who
-                brings over 18 years of corporate experience in senior leadership roles with some
-                of India&rsquo;s leading organisations. Her expertise across Sales, Marketing,
-                Auditing, Business Operations and Customer Experience has played a significant role
-                in shaping Grab Your Cab into a customer-focused brand that stands apart from the
-                competition &mdash; introducing fresh ideas, improving service quality and building
-                customer-first solutions at every step.
+                The journey of Grab Your Cab has been further strengthened by its Co-Founder, Ms. Vinnie Sharma, who brings over 18 years of corporate experience in senior leadership roles with some of India's leading organizations.
+Her expertise spans Sales, Marketing, Auditing, Business Operations, Customer Experience, and multiple industry verticals. Her strategic thinking, operational excellence, and innovative mindset have played a significant role in shaping Grab Your Cab into a customer-focused brand that stands apart from the competition.
+Ms. Sharma has been instrumental in introducing fresh ideas, improving service quality, strengthening operational processes, and building customer-first solutions that differentiate Grab Your Cab from conventional transportation companies.
+
               </p>
               <p>
                 Together, Mr. Kamal Srivastava and Ms. Vinnie Sharma share a common vision: building
@@ -603,14 +596,7 @@ const AboutPage = () => {
       {/* ---------- Services ---------- */}
       <section className="sec grey">
         <div className="container">
-          <div className="sec-head">
-            <span className="eyebrow">What We Offer</span>
-            <h2>One Brand, Every Journey</h2>
-            <p>
-              From a self-drive weekend to a full corporate mobility programme, our portfolio is
-              built to cover every kind of trip under one trusted name.
-            </p>
-          </div>
+          
           {/* <div className="svc-cards">
             {services.map((s, i) => (
               <div className="svc-card" key={i}>
@@ -702,7 +688,7 @@ const AboutPage = () => {
       </section>
 
       {/* ---------- Quote / closing statement ---------- */}
-      <section className="sec">
+      {/* <section className="sec">
         <div className="container">
           <div className="tst" style={{ maxWidth: 760, margin: '0 auto', padding: '32px 36px' }}>
             <Quote className="ic" style={{ width: 26, height: 26, color: 'var(--red)' }} />
@@ -712,7 +698,7 @@ const AboutPage = () => {
             </p>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* ---------- Call banner ---------- */}
       <section className="sec" style={{ paddingTop: 0 }}>
@@ -728,8 +714,15 @@ const AboutPage = () => {
                 let&rsquo;s plan your next journey together.
               </p>
               <div className="hbtns">
-                <a href="/contact" className="btn btn-amber">Book Now</a>
-                <a href="tel:+910000000000" className="btn btn-ghost" style={{ background: 'transparent', color: '#fff', borderColor: 'rgba(255,255,255,.5)' }}>
+               <a
+  href="https://wa.me/917522817555"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="btn btn-amber"
+>
+  Book Now
+</a>
+                <a href="tel:+917522817555" className="btn btn-ghost" style={{ background: 'transparent', color: '#fff', borderColor: 'rgba(255,255,255,.5)' }}>
                   Call Us
                 </a>
               </div>
