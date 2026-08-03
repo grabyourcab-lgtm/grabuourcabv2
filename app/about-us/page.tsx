@@ -330,18 +330,31 @@ import {
 import Header from '@/components/site/Header'
 import Footer from '@/components/site/Footer'
 
+// const services = [
+//   { icon: Car, title: 'Self Drive Car Rental', desc: 'Keys in your hand, freedom on your terms.' },
+//   { icon: Navigation, title: 'Taxi Services', desc: 'Reliable rides across every city we serve.' },
+//   { icon: Sparkles, title: 'Luxury Car Rental', desc: 'Premium vehicles for the moments that matter.' },
+//   { icon: Briefcase, title: 'Corporate Transportation', desc: 'Dependable mobility built for business.' },
+//   { icon: Plane, title: 'Airport Transfers', desc: 'On-time pickups and drops, every time.' },
+//   { icon: Truck, title: 'Tempo Traveller Rental', desc: 'Spacious rides for groups on the move.' },
+//   { icon: Tent, title: 'Caravan Rental', desc: 'A home on wheels for the open road.' },
+//   { icon: Bus, title: 'Luxury Bus Rental', desc: 'Comfortable travel for larger gatherings.' },
+//   { icon: Heart, title: 'Wedding & Event Transportation', desc: 'Beautifully arranged rides for special days.' },
+//   { icon: Users, title: 'Group & Outstation Travel', desc: 'Well-planned journeys, near or far.' },
+// ]
+
 const services = [
-  { icon: Car, title: 'Self Drive Car Rental', desc: 'Keys in your hand, freedom on your terms.' },
-  { icon: Navigation, title: 'Taxi Services', desc: 'Reliable rides across every city we serve.' },
-  { icon: Sparkles, title: 'Luxury Car Rental', desc: 'Premium vehicles for the moments that matter.' },
-  { icon: Briefcase, title: 'Corporate Transportation', desc: 'Dependable mobility built for business.' },
-  { icon: Plane, title: 'Airport Transfers', desc: 'On-time pickups and drops, every time.' },
-  { icon: Truck, title: 'Tempo Traveller Rental', desc: 'Spacious rides for groups on the move.' },
-  { icon: Tent, title: 'Caravan Rental', desc: 'A home on wheels for the open road.' },
-  { icon: Bus, title: 'Luxury Bus Rental', desc: 'Comfortable travel for larger gatherings.' },
-  { icon: Heart, title: 'Wedding & Event Transportation', desc: 'Beautifully arranged rides for special days.' },
-  { icon: Users, title: 'Group & Outstation Travel', desc: 'Well-planned journeys, near or far.' },
-]
+  { image: '/taxi-services/self-drive.jpeg', title: 'Self Drive Car Rental', desc: 'Keys in your hand, freedom on your terms.' },
+  { image: '/taxi-services/taxi.jpeg', title: 'Taxi Services', desc: 'Reliable rides across every city we serve.' },
+  { image: '/taxi-services/luxury-car.jpeg', title: 'Luxury Car Rental', desc: 'Premium vehicles for the moments that matter.' },
+  { image: '/taxi-services/corporate.jpeg', title: 'Corporate Transportation', desc: 'Dependable mobility built for business.' },
+  { image: '/taxi-services/airport.jpg', title: 'Airport Transfers', desc: 'On-time pickups and drops, every time.' },
+  { image: '/taxi-services/tempo.jpeg', title: 'Tempo Traveller Rental', desc: 'Spacious rides for groups on the move.' },
+  { image: '/taxi-services/tempo-travel.jpeg', title: 'Caravan Rental', desc: 'A home on wheels for the open road.' },
+  { image: '/taxi-services/luxury-bus.jpeg', title: 'Luxury Bus Rental', desc: 'Comfortable travel for larger gatherings.' },
+  { image: '/taxi-services/wedding.webp', title: 'Wedding & Event Transportation', desc: 'Beautifully arranged rides for special days.' },
+  { image: '/taxi-services/outstation.webp', title: 'Group & Outstation Travel', desc: 'Well-planned journeys, near or far.' },
+];
 
 const unique = [
   { icon: TrainFront, title: 'Platform-to-Coach Taxi Assistance', desc: 'Help right up to your train compartment, so you never travel the last stretch alone.' },
@@ -598,7 +611,7 @@ const AboutPage = () => {
               built to cover every kind of trip under one trusted name.
             </p>
           </div>
-          <div className="svc-cards">
+          {/* <div className="svc-cards">
             {services.map((s, i) => (
               <div className="svc-card" key={i}>
                 <div className="i"><s.icon className="ic" /></div>
@@ -609,7 +622,33 @@ const AboutPage = () => {
                 <ChevronRight className="go" />
               </div>
             ))}
+          </div> */}
+          <section className="sec grey">
+  <div className="container">
+    <div className="sec-head">
+      <span className="eyebrow">What We Offer</span>
+      <h2>One Brand, Every Journey</h2>
+      <p>
+        From a self-drive weekend to a full corporate mobility programme, our portfolio is
+        built to cover every kind of trip under one trusted name.
+      </p>
+    </div>
+    <div className="svc-cards">
+      {services.map((s, i) => (
+        <div className="svc-card" key={i}>
+          <div className="i">
+            <img src={s.image} alt={s.title} className="ic" />
           </div>
+          <div>
+            <h3>{s.title}</h3>
+            <p>{s.desc}</p>
+          </div>
+          <ChevronRight className="go" />
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
         </div>
       </section>
 
