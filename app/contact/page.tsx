@@ -86,7 +86,7 @@ const CITY_OFFICES = [
   // },
   {
     id: 'Noida Extension',
-    city: 'Greater Noida',
+    city: 'Greater Noida West',
     tag: 'Branch',
     address: 'first floor, Galaxy Diamond Plaza, FB-133, Noida-Greater Noida Link Rd, Haibatpur, Sector 4, Greater Noida, Uttar',
     hours: 'Open daily · 7:00 AM – 10:00 PM',
