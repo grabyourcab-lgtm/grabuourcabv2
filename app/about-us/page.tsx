@@ -1,4 +1,4 @@
-
+"use client"
 
 import React from 'react'
 import {
@@ -93,17 +93,17 @@ const founders = [
 
 const values = [
   {
-    icon: Eye,
+    image:"/images/about/vision.png",
     title: 'Our Vision',
     desc: 'To become India\u2019s most trusted and innovative mobility company by delivering world-class transportation solutions that combine technology, safety, convenience, and exceptional customer service. We aspire to continuously introduce innovative travel solutions that make transportation simpler, smarter, and more accessible for individuals, families, businesses, and communities across India.',
   },
   {
-    icon: Target,
+    image:"/images/about/mission.png",
     title: 'Our Mission',
     desc: 'To provide reliable, transparent, and customer-centric transportation services while continuously raising industry standards through innovation, operational excellence, and personalized travel experiences. Every journey we serve reflects our commitment to quality, trust, and customer satisfaction.',
   },
   {
-    icon: HeartHandshake,
+    image:"/images/about/promise.png",
     title: 'Our Promise',
     desc: 'Whether you are travelling alone, with your family, with colleagues, or with hundreds of guests, Grab Your Cab is committed to delivering the same level of professionalism, comfort, and care. We don\u2019t just provide vehicles. We provide confidence. We provide convenience. We create journeys that people remember.',
   },
@@ -432,7 +432,7 @@ Ms. Sharma has been instrumental in introducing fresh ideas, improving service q
               Three ideas that guide every decision we make and every journey we deliver.
             </p>
           </div>
-          <div className="svc-cards">
+          {/* <div className="svc-cards">
             {values.map((v, i) => (
               <div className="svc-card" key={i}>
                 <div className="i"><v.icon className="ic" /></div>
@@ -442,7 +442,20 @@ Ms. Sharma has been instrumental in introducing fresh ideas, improving service q
                 </div>
               </div>
             ))}
-          </div>
+          </div> */}
+          <div className="svc-cards">
+  {values.map((v, i) => (
+    <div className="svc-card" key={i}>
+      <div className="value-icon-box">
+        <img src={v.image} alt={v.title} />
+      </div>
+      <div>
+        <h3>{v.title}</h3>
+        <p>{v.desc}</p>
+      </div>
+    </div>
+  ))}
+</div>
         </div>
       </section>
 
@@ -491,9 +504,31 @@ Ms. Sharma has been instrumental in introducing fresh ideas, improving service q
       </section>
     </div>
      <Footer/>
+     <style jsx>{`
+      .value-icon-box {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.value-icon-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+     
+     `}
+     
+     </style>
     </>
    
   )
 }
+
 
 export default AboutPage
