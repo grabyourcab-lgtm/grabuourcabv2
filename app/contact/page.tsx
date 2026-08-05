@@ -44,16 +44,16 @@ const WHATSAPP_NUMBER = '917522817555'
 const EMAIL = 'grabyourcab12@gmail.com'
 
 const CITY_OFFICES = [
-  // {
-  //   id: 'delhi',
-  //   city: 'New Delhi',
-  //   tag: 'Head Office',
-  //   address: 'first floor, Galaxy Diamond Plaza, FB-133, Noida-Greater Noida Link Rd, Haibatpur, Sector 4, Greater Noida',
-  //   hours: 'Open daily · 6:00 AM – 11:00 PM',
-  //   phone: PHONE_DISPLAY,
-  //   lat: 28.6315,
-  //   lng: 77.2167,
-  // },
+  {
+    id: 'delhi',
+    city: 'Delhi',
+    tag: 'Head Office',
+    address: 'Rz-1110/A gali no 10 sadh nagar palam colony new delhi -110045',
+    hours: 'Open daily · 6:00 AM – 11:00 PM',
+    phone: PHONE_DISPLAY,
+    lat: 28.6315,
+    lng: 77.2167,
+  },
   {
     id: 'gurugram',
     city: 'Gurugram',

@@ -267,33 +267,7 @@ Ms. Sharma has been instrumental in introducing fresh ideas, improving service q
         </div>
       </section>
 
-      {/* ---------- Founders cards ---------- */}
-      {/* <section className="sec grey">
-        <div className="container">
-          <div className="sec-head">
-            <span className="eyebrow">Leadership</span>
-            <h2>Meet Our Founders</h2>
-            <p>
-              Two leaders, one shared vision &mdash; building India&rsquo;s most trusted mobility
-              company.
-            </p>
-          </div>
-          <div className="svc-cards">
-            {founders.map((f, i) => (
-              <div className="svc-card" key={i}>
-                <div className="i"><f.icon className="ic" /></div>
-                <div>
-                  <h3>{f.name}</h3>
-                  <span style={{ display: 'block', color: 'var(--red)', fontWeight: 600, fontSize: 12.5, letterSpacing: '.08em', textTransform: 'uppercase', margin: '2px 0 8px' }}>
-                    {f.role}
-                  </span>
-                  <p>{f.bio}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section> */}
+     
       <section className="sec grey">
   <div className="container">
     <div className="sec-head">
