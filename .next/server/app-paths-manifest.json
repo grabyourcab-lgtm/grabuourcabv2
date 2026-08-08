@@ -1,7 +1,4 @@
 {
-  "/self-drive/results/page": "app/self-drive/results/page.js",
-  "/taxi/results/page": "app/taxi/results/page.js",
-  "/page": "app/page.js",
-  "/contact/page": "app/contact/page.js",
-  "/about-us/page": "app/about-us/page.js"
+  "/_not-found/page": "app/_not-found/page.js",
+  "/page": "app/page.js"
 }

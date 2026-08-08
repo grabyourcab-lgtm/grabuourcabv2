@@ -2,11 +2,12 @@
 import { useEffect, useState } from "react";
 
 const SLIDES = [
-  { img: "/images/hero.jpg", tag: "10 Years · 24/7", title: "Your ride is ready when you are.", sub: "Cabs, self-drive and luxury cars across Delhi NCR, Goa & Jewar Airport." },
-  { img: "/images/luxury-cars.jpg", tag: "Luxury Cars on Rent", title: "Mercedes, BMW & Audi for the occasion.", sub: "Chauffeur-driven luxury for weddings, events and corporate travel." },
-  { img: "/images/self-drive.jpg", tag: "Self Drive Car Rental", title: "Take the wheel. Go anywhere.", sub: "Hourly, daily and weekly self-drive rentals with quick handover." },
-  { img: "/images/city-goa.jpg", tag: "Goa", title: "Beach hops on your schedule.", sub: "Airport pickups, sightseeing and self-drive across North & South Goa." },
-  { img: "/images/city-jewar.jpg", tag: "Jewar Airport", title: "Fixed-fare airport transfers.", sub: "On-time pickups for Noida International Airport, day or night." },
+  { img: "/slider-hero/hero.jpeg", tag: "10 Years · 24/7", title: "Your ride is ready when you are.", sub: "Cabs, self-drive and luxury cars across Delhi NCR, Goa & Jewar Airport." },
+  // { img: "/images/hero.jpg", tag: "10 Years · 24/7", title: "Your ride is ready when you are.", sub: "Cabs, self-drive and luxury cars across Delhi NCR, Goa & Jewar Airport." },
+  // { img: "/images/luxury-cars.jpg", tag: "Luxury Cars on Rent", title: "Mercedes, BMW & Audi for the occasion.", sub: "Chauffeur-driven luxury for weddings, events and corporate travel." },
+  // { img: "/images/self-drive.jpg", tag: "Self Drive Car Rental", title: "Take the wheel. Go anywhere.", sub: "Hourly, daily and weekly self-drive rentals with quick handover." },
+  // { img: "/images/city-goa.jpg", tag: "Goa", title: "Beach hops on your schedule.", sub: "Airport pickups, sightseeing and self-drive across North & South Goa." },
+  // { img: "/images/city-jewar.jpg", tag: "Jewar Airport", title: "Fixed-fare airport transfers.", sub: "On-time pickups for Noida International Airport, day or night." },
 ];
 
 export default function HeroSlider() {
