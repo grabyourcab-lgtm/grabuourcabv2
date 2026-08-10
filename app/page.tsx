@@ -244,7 +244,7 @@ export default async function Home() {
       </section>
 
       {/* ABOUT + DELIVERS */}
-      <section className="sec grey">
+      {/* <section className="sec grey">
         <div className="container">
           <div className="about-wrap">
             <div>
@@ -267,7 +267,7 @@ export default async function Home() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <RoutesSection />
 
