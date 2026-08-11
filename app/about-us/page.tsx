@@ -115,7 +115,7 @@ const AboutPage = () => {
     <Header/>
     <div>
       {/* ---------- Page hero ---------- */}
-      <section className="page-hero">
+      {/* <section className="page-hero">
         <div className="container">
           <div className="crumbs">
             <a href="/">Home</a>
@@ -133,9 +133,47 @@ const AboutPage = () => {
             <a href="/" className="btn btn-ghost">Explore Services</a>
           </div>
         </div>
-      </section>
+      </section> */}
+      <section
+  className="page-hero"
+  style={{
+    backgroundImage:
+      "linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url('/services/about.png')",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+     
+    position: "relative",
+    minHeight: "420px",
+    width: "100%",
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "center",
+  }}
+>
+  <div className="container">
+    <div className="crumbs">
+      <a href="/">Home</a>
+      <ChevronRight className="ic" style={{ width: 12, height: 12 }} />
+      <b>About Us</b>
+    </div>
 
-      {/* ---------- Founder story ---------- */}
+    <span className="eyebrow">Who We Are</span>
+
+    <h1>Doorstep to the Skies, We Take You Everywhere</h1>
+
+    <p className="lead">
+      Grab Your Cab is India&rsquo;s trusted mobility partner &mdash; built on the belief that
+      every journey, big or small, deserves reliability, safety and a personal touch.
+    </p>
+
+    <div className="hero-ctas" style={{ marginTop: 22 }}>
+      <a href="/contact" className="btn btn-amber">Get In Touch</a>
+      <a href="/" className="btn btn-ghost">Explore Services</a>
+    </div>
+  </div>
+</section>
+        {/* ---------- Founder story ---------- */}
       <section className="sec">
         <div className="container">
           <div className="about-wrap">

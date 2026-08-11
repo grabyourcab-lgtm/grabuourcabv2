@@ -1,5 +1,7 @@
 {
+  "/about-us/page": "app/about-us/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/taxi/page": "app/taxi/page.js",
   "/page": "app/page.js",
-  "/self-drive/page": "app/self-drive/page.js",
-  "/[slug]/page": "app/[slug]/page.js"
+  "/taxi-service-delhi/page": "app/taxi-service-delhi/page.js"
 }

@@ -132,7 +132,7 @@ const LOCATIONS = [
   {
     label: "DELHI",
     sub: [
-      ["Taxi Service in Delhi", "/taxi-service-in-delhi"],
+      ["Taxi Service in Delhi", "/taxi-service-delhi"],
       ["Self Drive Car Rental Delhi", "/self-drive-car-rental-delhi"],
     ],
   },

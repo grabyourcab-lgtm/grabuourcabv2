@@ -217,7 +217,7 @@ const Page = () => {
       <Header />
 
       {/* ---------------- HERO ---------------- */}
-      <section className="page-hero">
+      {/* <section className="page-hero">
         <div className="container">
           <div className="crumbs">
             <a href="/">Home</a>
@@ -239,8 +239,44 @@ const Page = () => {
             </a>
           </div>
         </div>
-      </section>
-
+      </section> */}
+  <section
+  className="page-hero"
+  style={{
+    backgroundImage: `linear-gradient(180deg, rgba(0,0,0,0.55), rgba(0,0,0,0.35)), url(/services/contact.png)`,
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+    position: "relative",
+    minHeight: "420px",
+    width: "100%",
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "center",
+  }}
+>
+  <div className="container">
+    <div className="crumbs">
+      <a href="/">Home</a>
+      <IconChevronRight />
+      <b>Contact Us</b>
+    </div>
+    <span className="eyebrow">We&rsquo;d love to hear from you</span>
+    <h1>Let&rsquo;s plan your next ride</h1>
+    <p className="lead">
+      Questions about a booking, a quote for an outstation trip, or a self-drive car for the
+      weekend — our team replies fastest on WhatsApp, but every channel below reaches a real person.
+    </p>
+    <div className="hero-ctas" style={{ marginTop: 22 }}>
+      <a className="btn btn-wa" href={`https://wa.me/${WHATSAPP_NUMBER}`} target="_blank" rel="noreferrer">
+        <IconWhatsapp /> Chat on WhatsApp
+      </a>
+      <a className="btn btn-ghost" href={`tel:${PHONE_TEL}`}>
+        <IconPhone /> Call Us Now
+      </a>
+    </div>
+  </div>
+</section>
       {/* ---------------- QUICK CONTACT TILES ---------------- */}
       <section className="sec">
         <div className="container">
