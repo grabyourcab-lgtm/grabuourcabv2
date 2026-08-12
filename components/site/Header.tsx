@@ -775,7 +775,7 @@ export default function Header() {
           </div>
 
           <Link href="/about-us" onClick={() => setOpen(false)}>Blogs</Link>
-          <Link href="/about-us" onClick={() => setOpen(false)}>About US</Link>
+          <Link href="/about-us" onClick={() => setOpen(false)}>About Us</Link>
           <Link href="/contact" onClick={() => setOpen(false)}>Contact Us</Link>
 
           <a className="btn btn-wa btn-block" style={{ marginTop: 16 }} href={waLink("Hello Grab Your Cab!")} target="_blank" rel="noopener"><Icon name="chat" />Book on WhatsApp</a>
