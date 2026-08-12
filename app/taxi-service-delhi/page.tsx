@@ -2,6 +2,9 @@ import Footer from "@/components/site/Footer";
 import Header from "@/components/site/Header";
 import type { Metadata } from "next";
 import Link from "next/link";
+import TaxiCabsPage from "../admin/taxi/page";
+import TaxiCabForm from "@/components/TaxiCabForm";
+import TaxiSearch from "../taxi/page";
 
 export const metadata: Metadata = {
   title: "Taxi Service in Delhi | Cab Booking & Outstation Taxi",
@@ -274,6 +277,8 @@ export default function TaxiServiceDelhiPage() {
           </div>
         </div>
       </section>
+
+      <TaxiSearch/>
 
       {/* ---------- INTRO + CONTENT ---------- */}
       <section className="sec">

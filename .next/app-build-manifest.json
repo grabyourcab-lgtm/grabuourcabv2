@@ -1,9 +1,9 @@
 {
   "pages": {
-    "/page": [
+    "/taxi-service-delhi/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
+      "static/chunks/app/taxi-service-delhi/page.js"
     ],
     "/layout": [
       "static/chunks/webpack.js",
@@ -16,25 +16,10 @@
       "static/chunks/main-app.js",
       "static/chunks/app/[slug]/page.js"
     ],
-    "/about-us/page": [
+    "/_not-found/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/about-us/page.js"
-    ],
-    "/contact/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/contact/page.js"
-    ],
-    "/taxi-service-delhi/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/taxi-service-delhi/page.js"
-    ],
-    "/taxi/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/taxi/page.js"
+      "static/chunks/app/_not-found/page.js"
     ]
   }
 }
