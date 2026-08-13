@@ -81,9 +81,10 @@ img{max-width:100%;display:block}
 
 /* vehicle type grid (fills the "cars available" section) */
 .fleet-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
-.fleet-card{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:26px 22px;text-align:left}
-.fleet-card .ico{width:44px;height:44px;border-radius:10px;border:1.5px solid var(--red);display:grid;place-items:center;margin-bottom:14px;color:var(--red)}
-.fleet-card .ico svg{width:20px;height:20px}
+.fleet-card{background:#fff;border:1px solid var(--line);border-radius:var(--r);overflow:hidden;text-align:left}
+.fleet-card .img-wrap{width:100%;aspect-ratio:4/3;background:var(--grey);overflow:hidden}
+.fleet-card .img-wrap img{width:100%;height:100%;object-fit:cover;display:block}
+.fleet-card .body{padding:20px 22px}
 .fleet-card h3{font-size:16px;font-weight:600;margin-bottom:8px}
 .fleet-card p{color:var(--muted);font-size:13.5px;line-height:1.6}
 
@@ -178,18 +179,22 @@ table.cmp-table tbody td:first-child{font-weight:700;color:var(--ink);font-famil
 const fleetTypes = [
   {
     title: "Hatchbacks",
+    image: "https://hips.hearstapps.com/hmg-prod/images/2023-lightning-lap-volkswagen-golf-gti-mu-105-1675446169.jpg?crop=0.629xw:0.630xh;0.121xw,0.199xh",
     text: "Perfect for daily city driving, road-trips, or even those who like to drive smaller vehicles. Also, these are a good pick for Delhi NCR traffic.",
   },
   {
     title: "Sedans",
+    image: "https://cdn-s3.autocarindia.com/Mercedes/cla-electric/Mercedes-Benz_CLA_EV_Front_Quarter_Tracking.jpg?w=640&q=75&fm=auto",
     text: "With extra cabin and boot space, sedans are ideal for family travel, business trip and long distance travel. There may also be automatic transmission options, depending upon the availability of the fleet at the moment.",
   },
   {
     title: "SUVs and MUVs",
+    image: "https://www.spinny.com/blog/wp-content/uploads/2025/11/New-Toyota-7-Seater-SUV.jpg",
     text: "SUVs and MUVs are handy for more passengers and luggage. They are also for the taking if you are on a road trip and find yourself needing more space or a higher driving position.",
   },
   {
     title: "Luxury Cars",
+    image: "https://www.autocar.co.uk/sites/autocar.co.uk/files/styles/body-image/public/rolls-rocyce-cullinan-top_10.jpg?itok=w_HPkyxC",
     text: "In case of self drive luxury car rental delhi for the prospective customers, the availability for that particular luxury model and hire terms should be checked. Grab Your Cab's wider fleet include the likes of Audi, Mercedes and BMW.",
   },
 ];
@@ -325,7 +330,7 @@ export default function SelfDriveCarRentalDelhiPage() {
         </div>
       </section>
 
-        <TaxiSearch/>
+      <TaxiSearch/>
 
       {/* ---------- INTRO ---------- */}
       <section className="sec">
@@ -396,13 +401,13 @@ export default function SelfDriveCarRentalDelhiPage() {
           <div className="fleet-grid">
             {fleetTypes.map((car) => (
               <div className="fleet-card" key={car.title}>
-                <span className="ico">
-                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                    <path d="M5 17h14M5 17a2 2 0 0 1-2-2v-2l2-5a2 2 0 0 1 2-1.4h10A2 2 0 0 1 19 8l2 5v2a2 2 0 0 1-2 2M5 17a2 2 0 0 0 2 2h0a2 2 0 0 0 2-2M17 17a2 2 0 0 0 2 2h0a2 2 0 0 0 2-2" />
-                  </svg>
-                </span>
-                <h3>{car.title}</h3>
-                <p>{car.text}</p>
+                <div className="img-wrap">
+                  <img src={car.image} alt={`${car.title} self drive rental in Delhi`} loading="lazy" />
+                </div>
+                <div className="body">
+                  <h3>{car.title}</h3>
+                  <p>{car.text}</p>
+                </div>
               </div>
             ))}
           </div>
@@ -700,3 +705,4 @@ export default function SelfDriveCarRentalDelhiPage() {
     </>
   );
 }
+
