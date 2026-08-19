@@ -138,9 +138,9 @@ const AboutPage = () => {
   className="page-hero"
   style={{
     backgroundImage:
-      "linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url('/services/about.png')",
+      "linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url('/services/about-us.jpeg')",
     backgroundSize: "cover",
-    backgroundPosition: "center",
+    backgroundPosition: "",
     backgroundRepeat: "no-repeat",
      
     position: "relative",

@@ -243,7 +243,8 @@ const Page = () => {
   <section
   className="page-hero"
   style={{
-    backgroundImage: `linear-gradient(180deg, rgba(0,0,0,0.55), rgba(0,0,0,0.35)), url(/services/contact.png)`,
+    // backgroundImage: `linear-gradient(180deg, rgba(0,0,0,0.55), rgba(0,0,0,0.35)), url(/services/contact.jpeg)`,
+        backgroundImage: `url(/services/contact.jpeg)`,
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
@@ -255,7 +256,7 @@ const Page = () => {
     justifyContent: "center",
   }}
 >
-  <div className="container">
+  {/* <div className="container">
     <div className="crumbs">
       <a href="/">Home</a>
       <IconChevronRight />
@@ -275,7 +276,7 @@ const Page = () => {
         <IconPhone /> Call Us Now
       </a>
     </div>
-  </div>
+  </div> */}
 </section>
       {/* ---------------- QUICK CONTACT TILES ---------------- */}
       <section className="sec">
