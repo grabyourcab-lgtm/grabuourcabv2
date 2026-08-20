@@ -1,5 +1,6 @@
 {
-  "/about-us/page": "app/about-us/page.js",
   "/page": "app/page.js",
-  "/contact/page": "app/contact/page.js"
+  "/[slug]/page": "app/[slug]/page.js",
+  "/self-drive-car-rental-gurgaon/page": "app/self-drive-car-rental-gurgaon/page.js",
+  "/cab-service-gurgaon/page": "app/cab-service-gurgaon/page.js"
 }

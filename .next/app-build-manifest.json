@@ -11,15 +11,20 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/about-us/page": [
+    "/[slug]/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/about-us/page.js"
+      "static/chunks/app/[slug]/page.js"
     ],
-    "/contact/page": [
+    "/cab-service-gurgaon/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/contact/page.js"
+      "static/chunks/app/cab-service-gurgaon/page.js"
+    ],
+    "/self-drive-car-rental-gurgaon/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/self-drive-car-rental-gurgaon/page.js"
     ]
   }
 }

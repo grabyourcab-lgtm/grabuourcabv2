@@ -597,7 +597,7 @@ const LOCATIONS = [
   {
     label: "GURGAON",
     sub: [
-      ["Cab Service in Gurgaon", "/cab-service-in-gurgaon"],
+      ["Cab Service in Gurgaon", "/cab-service-gurgaon"],
       ["Self Drive Car Rental Gurgaon", "/self-drive-car-rental-gurgaon"],
     ],
   },
