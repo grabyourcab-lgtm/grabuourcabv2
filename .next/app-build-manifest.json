@@ -16,15 +16,15 @@
       "static/chunks/main-app.js",
       "static/chunks/app/[slug]/page.js"
     ],
-    "/cab-service-gurgaon/page": [
+    "/cab-service-noida/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/cab-service-gurgaon/page.js"
+      "static/chunks/app/cab-service-noida/page.js"
     ],
-    "/self-drive-car-rental-gurgaon/page": [
+    "/self-drive-car-rental-noida/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/self-drive-car-rental-gurgaon/page.js"
+      "static/chunks/app/self-drive-car-rental-noida/page.js"
     ]
   }
 }
