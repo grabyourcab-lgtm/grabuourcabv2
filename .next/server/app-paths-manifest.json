@@ -1,6 +1,6 @@
 {
   "/page": "app/page.js",
-  "/cab-service-noida/page": "app/cab-service-noida/page.js",
+  "/taxi-service-greater-noida/page": "app/taxi-service-greater-noida/page.js",
   "/[slug]/page": "app/[slug]/page.js",
-  "/self-drive-car-rental-noida/page": "app/self-drive-car-rental-noida/page.js"
+  "/jewar-airport-cab-service/page": "app/jewar-airport-cab-service/page.js"
 }

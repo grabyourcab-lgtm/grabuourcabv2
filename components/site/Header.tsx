@@ -31,8 +31,9 @@ const LOCATIONS = [
 
 // Flat location items (no sub-menu) — shown at the end of the Locations dropdown
 const LOCATIONS_FLAT = [
-  ["Taxi Service in Greater Noida", "/taxi-service-in-greater-noida"],
-  ["Taxi Services in Noida International Airport Jewar", "/taxi-service-noida-international-airport-jewar"],
+  ["Taxi Service in Greater Noida", "/taxi-service-greater-noida"],
+  ["Jewar Airport Cab Service", "/jewar-airport-cab-service"],
+  // ["Taxi Services in Noida International Airport Jewar", "/taxi-service-noida-international-airport-jewar"],
   ["Taxi Service in Ghaziabad", "/taxi-service-in-ghaziabad"],
   ["Taxi Service in Faridabad", "/taxi-service-in-faridabad"],
   ["Taxi Service in Meerut", "/taxi-service-in-meerut"],
