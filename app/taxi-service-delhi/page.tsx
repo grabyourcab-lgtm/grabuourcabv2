@@ -160,10 +160,11 @@ const whyChoose = [
   { title: "24/7 Service", text: "Taxi bookings and support are available 24 hours a day." },
   { title: "WhatsApp Booking", text: "Travellers can send their trip details and book a trip on WhatsApp." },
   { title: "Verified Drivers", text: "The company claims that its taxi services come with verified drivers." },
-  { title: "Tended Vehicles", text: "Vehicle maintenance is a Grab Your Cab priority." },
-  { title: "Different Categories of Vehicles", text: "Budget cars, sedans, SUVs/MUVs and luxury cars." },
-  { title: "City and Inter-City Trips", text: "Passengers can book city rides as well as long haul rides." },
-  { title: "Transparent Fares", text: "Clear fares with select fixed-fare routes shown on the website." },
+  // { title: "Tended Vehicles", text: "Vehicle maintenance is a Grab Your Cab priority." },
+    { title: "Well Maintained Vehicles", text: "Vehicle maintenance is a Grab Your Cab’s priority." },
+  { title: "Different Categories of Vehicles", text: "It has various types of vehicles like budget cars, sedans, SUVs/MUVs and luxury cars." },
+  { title: "City and Inter-City Trips", text: "Passengers can book city rides as well as long haul rides." },
+  { title: "Transparent Fares", text: "The company promotes clear fares and currently displays selected fixed-fare routes on its website. " },
 ];
 
 const bookingSteps = [
@@ -181,14 +182,14 @@ const whoCanUse = [
   "Business and corporate travellers",
   "Tourists visiting Delhi and its neighbourhoods",
   "Travellers from Delhi to NCR cities",
-  "Outstation travellers planning road trips",
-  "Larger groups needing tailored travel plans",
+  "Outstation travelers Customers planning road trips outstation",
+  "Larger groups or those needing tailored travel plans",
 ];
 
 const comparisonRows = [
   { option: "Booked Cab", best: "Door-to-door travel", consider: "Fare varies by route and vehicle" },
   { option: "Metro", best: "Regular city travel", consider: "Limited to metro stations and routes" },
-  { option: "Auto Rickshaw", best: "Short local journeys", consider: "Less suitable for large luggage or groups" },
+  { option: "Auto Rickshaw", best: "Short local travel", consider: "Less suitable for large luggage or groups" },
   { option: "Bus", best: "Budget public transport", consider: "Fixed routes and schedules" },
 ];
 
@@ -198,6 +199,7 @@ const advice = [
   "Reserve your space early for travel during the early morning, late night, or busy times.",
   "Before confirming, check the type of vehicle.",
   "Enquire about the outstation fares in advance.",
+  "Travel time from ← Help for Traffic on the Roads in Delhi NCR Traffic in Delhi NCR is chaos and gridlock. Yes, there is life after living in Delhi NCR.",
   "Keep the driver's details and booking confirmation with you at all times.",
   "Please indicate if you have luggage or require special travel arrangements.",
 ];
@@ -291,58 +293,42 @@ export default function TaxiServiceDelhiPage() {
           <div className="seo-wrap">
             <div className="seo-block">
               <p>
-                For all your travel needs in and around Delhi, be it a local trip, airport
-                transfer, business travel, or an outing, Grab Your Cab provides the best taxi
-                service in Delhi across the Delhi NCR. The company functions 24/7 and allows
-                users to book taxis via its website and on WhatsApp, with verified drivers,
-                well-maintained vehicles and transparent fares.
+                For all your travel needs in and around Delhi, whether it’s a local trip, airport transfer, business travel, or an outing, Grab Your Cab provides reliable taxi services across Delhi NCR. The company operates 24/7 and allows customers to book taxis through its website and WhatsApp, with verified drivers, well-maintained vehicles, and transparent fares.
               </p>
               <p>
-                Grab Your Cab provides discounted taxi services from Delhi to NCR hubs such as
-                Noida, Gurugram, Ghaziabad and Faridabad for the flexible use of your money.
-                Users can select the appropriate vehicle and input their pickup, destination,
-                date and travel specifics before booking the ride.
+               Grab Your Cab also provides affordable and discounted taxi services from Delhi to major cities and destinations across Delhi NCR, including Noida, Gurugram, Ghaziabad, and Faridabad, helping customers make the most of their travel budget. Users can select a suitable vehicle and enter their pickup location, destination, travel date, and other travel details before booking their ride. 
               </p>
             </div>
 
             <div className="seo-block">
               <h2>What Does the Taxi Service in Delhi Include?</h2>
               <p>
-                The taxi service in Delhi covers point-to-point city travel as well as drives to
-                and from Delhi between nearby locations. In contrast to public transport, a
-                personal cab can take passengers directly to their destination from the exact
-                location they want to be picked up — that can come handy if you have luggage,
-                are travelling with family, or are heading for a meeting or the airport.
+               The taxi service in Delhi covers local travel within the city, as well as one-way and round-trip car journeys to and from Delhi and nearby locations. In contrast to public transport, a personal cab can take passengers directly to their destination from the exact location where they want to be picked up, which can be especially convenient when you have luggage, are travelling with family, heading for meetings, or going to the airport.
               </p>
               <p>
-                We have city taxis, inter-city cabs, local cab packages, and airport and
-                outstation travel solutions. Its taxi service is available 24/7 and bookings can
-                be confirmed via WhatsApp with details of the vehicle, driver and fare.
+               We offer city taxis, inter-city cabs, local cab packages, airport transfers, and outstation travel solutions. The taxi service is available 24/7, and bookings can be confirmed via WhatsApp with details of the vehicle, driver, and fare.
               </p>
             </div>
 
             <div className="seo-block">
               <h2>Cab Service in Delhi for Local and Outstation Travel</h2>
               <p>
-                Residential enclaves, commercial hubs, railway stations, airports and major NCR
-                cities are all connected through Delhi's road map, so a dedicated cab can be
-                convenient for short jaunts within the city as much as for a long road trip.
+                Residential areas, business districts, railway stations, airports, and major NCR cities are all well connected through Delhi’s road network. Therefore, a dedicated cab can be convenient for short trips within the city as well as longer road journeys
               </p>
               <p>
-                Grab Your Cab's Delhi NCR coverage spans Delhi, Noida, Gurugram, Ghaziabad and
-                Faridabad — that makes this service suitable for commuters within the broader
-                National Capital Region, and not just those within the administrative boundary
-                of Delhi. As for airport journeys, it also offers services to Delhi's IGI Airport
-                and the Noida International Airport, Jewar; the website currently shows selected
-                route-specific airport fares, but the final fare depends on the route and the car.
+                Grab Your Cab’s Delhi NCR service covers Delhi, Noida, Gurugram, Ghaziabad, and Faridabad. This makes the service suitable for commuters and travellers across the broader National Capital Region, and not just those within the administrative boundaries of Delhi.
+              </p>
+              <p>
+                For airport travel, Grab Your Cab also offers services to and from Delhi’s IGI Airport and Noida International Airport in Jewar. Its website displays route-specific airport fares, although the final fare may vary depending on the route and the type of vehicle selected.
               </p>
             </div>
 
             <div className="seo-block">
               <h2>Why Choose Grab Your Cab for Taxi Service in Delhi?</h2>
               <p>
-                Selecting a cab is frequently about more than just getting from point A to point
-                B. Grab Your Cab caters to realistic travelling needs:
+                Selecting a cab is frequently about more than just getting from point A to point B. Grab Your Cab caters to practical travel needs:
+
+
               </p>
               <ul>
                 {whyChoose.map((item) => (
@@ -418,47 +404,35 @@ export default function TaxiServiceDelhiPage() {
             <div className="seo-block">
               <h2>Service Availability in Delhi NCR Region</h2>
               <p>
-                Grab Your Cab's cab service in Delhi provides travel to all around the places,
-                within the city and in the Delhi NCR. Presently the listed coverage areas are
-                Delhi, Noida, Greater Noida West, Ghaziabad, Gurugram and Faridabad, with more
-                service locations perhaps to be added to the list in the future.
+               Grab Your Cab's cab service in Delhi provides you travel to all around the places, within the city and in the Delhi NCR. Presently the listed coverage areas are Delhi, Noida, Greater Noida West, Ghaziabad, Gurugram and Faridabad, with more service locations perhaps to be adjoined to the list in the future
               </p>
               <p>
-                For a Delhi-to-NCR ride, travellers can enter the precise location of pickup and
-                destination for a quotation — important for trips to and from residential areas,
-                offices, hotels, airports and railway stations, where the exact distance
-                determines the particular requirement of the trip.
+               For a Delhi-to-NCR ride, travelers can enter the precise location of pickup and destination for a quotation. This is important for trips to and from residential areas, offices, hotels, airports and railway stations, where the exact distance determines the particular requirement of the trip. 
               </p>
             </div>
 
             <div className="seo-block">
               <h2>Options for Cab and Vehicle Type</h2>
               <p>
-                Vehicle availability is subject to the route and booking conditions. Grab Your
-                Cab has a diverse fleet of vehicles ranging from hatchbacks, sedans, compact
-                SUVs, SUVs/MUVs and luxury cars, with brands like Maruti Suzuki, Hyundai, Toyota,
-                Tata, Mahindra, Kia, Audi, Mercedes and BMW.
+                Vehicle availability is subject to the route and booking conditions. Grab Your Cab has a diverse fleet of vehicles ranging from hatchbacks, sedans, compact SUVs, SUVs/MUVs and luxury cars. The website also has brands like Maruti Suzuki, Hyundai, Toyota, Tata, Mahindra, Kia, Audi, Mercedes and BMW.
+
+
               </p>
               <p>
-                For a big party, the company has tempo travellers ranging from 9 to 26 seaters
-                and luxury buses with 27 to 55 seaters.
+                For a big party, the company has tempo travellers ranging from 9 to 26 seaters and luxury buses with 27 to 55 seaters.
               </p>
             </div>
 
             <div className="seo-block">
               <h2>Rates for Outstation Cabs in Delhi</h2>
               <p>
-                There is no fixed taxi fare in Delhi for outstation trips, as it varies with
-                distance, vehicle type, travel time and booking demand. While comparing cab
-                fares from the cheapest cab services in Delhi, customers should take into
-                account the entire journey cost instead of just the first-mile fare — the final
-                amount may be influenced by distance, type of vehicle, tolls, parking, waiting
-                time and any other charges specific to the route.
+                There is no fixed taxi fare in Delhi for outstation as it vary with distance, vehicle type, travel time and booking demand.
               </p>
               <p>
-                Grab Your Cab shows you the best selected route fares online and confirms the
-                vehicle and fare on booking. Customers can even get a quote for their outstation
-                destination before confirming the ride.
+                While comparing cab fares from the cheapest cab services in Delhi, customers should take into account the entire journey cost instead of just the first mile fare. The final amount may be influenced by distance, type of vehicle, tolls, parkings, waiting time and any other charges specific to the route.
+              </p>
+              <p>
+               Grab Your Cab shows you the best selected route fares online and confirms the vehicle and fare on booking. Customers can even get a quote for their outstation destination before confirming the ride. 
               </p>
             </div>
           </div>
@@ -496,6 +470,15 @@ export default function TaxiServiceDelhiPage() {
               </tbody>
             </table>
           </div>
+        </div>
+        <div className="container">
+          
+          <p className="sec">
+            A booked cab can be especially convenient when direct pickup, luggage space, flexible timing or inter-city travel is important.
+          </p> 
+          <p>
+            Grab Your Cab shows you the best selected route fares online and confirms the vehicle and fare on booking. Customers can even get a quote for their outstation destination before confirming the ride. 
+          </p>
         </div>
       </section>
 
@@ -537,11 +520,12 @@ export default function TaxiServiceDelhiPage() {
             <div className="in">
               <h2>Book a Taxi in Delhi with Grab Your Cab</h2>
               <p>
-                If you are looking for a Delhi taxi service for a local trip, an airport
-                transfer, a one-way taxi route, or an outstation cab, Grab Your Cab has all your
-                needs covered across Delhi NCR with 24/7 support. Through its booking service
-                you can send your travel details and get to know your vehicle, driver and fare
-                before the journey.
+                If you are looking for a Delhi taxi service for a local trip, an airport transfer, a one way taxi service Delhi onewaycabs route, or a outstation cab,Grab The Cab have all your needs covered in Delhi NCR with 24/7 support. With its booking service you can send your travel details, get to know your vehicle and driver, and fare information before the journey.
+
+
+              </p>
+              <p>
+                For the Booking of Cab in Delhi, people can either book a cab from the official website of Grab Your Cab or they can also reach the company through WhatsApp. 
               </p>
               <div className="hbtns">
                 <a href="https://wa.me/910000000000" className="btn btn-wa">
