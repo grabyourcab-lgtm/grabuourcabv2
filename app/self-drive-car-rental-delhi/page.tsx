@@ -180,22 +180,22 @@ const fleetTypes = [
   {
     title: "Hatchbacks",
     image: "https://hips.hearstapps.com/hmg-prod/images/2023-lightning-lap-volkswagen-golf-gti-mu-105-1675446169.jpg?crop=0.629xw:0.630xh;0.121xw,0.199xh",
-    text: "Perfect for daily city driving, road-trips, or even those who like to drive smaller vehicles. Also, these are a good pick for Delhi NCR traffic.",
+    text: "They are perfect for daily city driving, road-trips, or even those who like to drive smaller vehicles. Also, these are a good pick for Delhi NCR traffic.",
   },
   {
     title: "Sedans",
     image: "https://cdn-s3.autocarindia.com/Mercedes/cla-electric/Mercedes-Benz_CLA_EV_Front_Quarter_Tracking.jpg?w=640&q=75&fm=auto",
-    text: "With extra cabin and boot space, sedans are ideal for family travel, business trip and long distance travel. There may also be automatic transmission options, depending upon the availability of the fleet at the moment.",
+    text: "With extra cabin and boot space, sedans are ideal for family travel, business trip and long distance travel. There may also be automatic transmission options, depending upon the availability of the fleet at the moment.",
   },
   {
     title: "SUVs and MUVs",
     image: "https://www.spinny.com/blog/wp-content/uploads/2025/11/New-Toyota-7-Seater-SUV.jpg",
-    text: "SUVs and MUVs are handy for more passengers and luggage. They are also for the taking if you are on a road trip and find yourself needing more space or a higher driving position.",
+    text: "SUVs and MUVs are handy for more passengers and luggage. They are also for the taking if you are on a road trip and find yourself needing more space or a higher driving position.",
   },
   {
     title: "Luxury Cars",
     image: "https://www.autocar.co.uk/sites/autocar.co.uk/files/styles/body-image/public/rolls-rocyce-cullinan-top_10.jpg?itok=w_HPkyxC",
-    text: "In case of self drive luxury car rental delhi for the prospective customers, the availability for that particular luxury model and hire terms should be checked. Grab Your Cab's wider fleet include the likes of Audi, Mercedes and BMW.",
+    text: "For customers looking for a self-drive luxury car rental in Delhi, the availability of the preferred luxury vehicle and its applicable rental terms should be checked before booking. Grab Your Cab’s wider fleet includes luxury vehicles from premium brands such as Audi, Mercedes-Benz, BMW, Range Rover, Land Rover Defender, and more.",
   },
 ];
 
@@ -219,33 +219,33 @@ const comparisonRows = [
 const whyChoose = [
   {
     title: "A Decade in Business",
-    text: "Grab Your Cab is a cab and car rental provider in Delhi NCR, Goa and Noida International Airport (Jewar), backed by claimed experience of a decade in business.",
+    text: "Grab Your Cab is a cab and car rental provider offering services in Delhi NCR, Goa, and at Noida International Airport in Jewar. The company has been operating for over a decade and provides customer support around the clock.",
   },
   {
     title: "Support at All Times",
-    text: "The company provides support at all times of the day.",
+    text: "For self-drive customers, practical factors such as the condition and availability of the vehicle, transparency of rental terms, and responsive customer support are important. Grab Your Cab has an in-house maintenance team that helps ensure its vehicles are regularly maintained.",
   },
   {
     title: "In-House Maintenance",
-    text: "Grab Your Cab claim they own and operate their own in-house maintenance team to make sure the vehicles are regularly maintained.",
+    text: "The company has a strong presence across Delhi NCR, with offices in major locations including Delhi, Noida, Greater Noida, Ghaziabad, Gurugram, and Faridabad. This adds convenience for customers looking for a self-drive car rental in Delhi and those travelling across the wider NCR region.",
   },
   {
     title: "Delhi NCR Coverage",
-    text: "The company also has a Delhi NCR presence including Delhi, Noida, Gurugram, Ghaziabad and Faridabad, which adds convenience for travellers who require a self drive car rental in Delhi while travelling all through the NCR.",
+    text: "It also offers services across both North Goa and South Goa, providing convenient travel options for local travel, airport transfers, and other transportation needs.",
   },
 ];
 
 const inclusionChecklist = [
-  "Length of rental and pick up / return time",
-  "Allowed kilometres",
-  "Extra kilometre fee",
-  "Fuel requirements",
-  "Security deposit",
-  "Cancellation policy",
-  "Late-return penalties",
-  "Damage and cleaning policies",
-  "Tolls, parking and other travel expenses",
-  "Outstation permission and other charges applicable to this booking",
+  "Rental duration and vehicle pickup and return timings",
+  "Kilometres included in the rental package",
+  "Charges for additional kilometres",
+  "Fuel policy and fuel requirements",
+  "Security deposit amount and refund conditions",
+  "Cancellation and refund policy",
+  "Charges for late return of the vehicle",
+  "Damage, cleaning, and other applicable charges",
+  "Responsibility for tolls, parking fees, and other travel-related expenses",
+  // "Outstation permission and other charges applicable to this booking",
 ];
 
 const faqs = [
@@ -308,10 +308,7 @@ export default function SelfDriveCarRentalDelhiPage() {
           <span className="eyebrow">Delhi NCR · Hourly, Daily &amp; Weekly</span>
           <h1>Self Drive Car Rental in Delhi – Flexible Cars for Local &amp; Outstation Travel</h1>
           <p className="lead">
-            Get around Delhi on your own pace with our self drive car rental service at Grab Your
-            Cab. Whether you are looking for a car for a few hours, a day, a weekend road trip, or
-            an outstation trip, self drive has the best of both worlds as you can decide the
-            route, the stop, and the schedule.
+           Get around Delhi at your own pace with Grab Your Cab’s self-drive car rental service. Whether you are looking for a car for a few hours, a day, a weekend road trip, or an outstation journey, a self-drive car gives you complete flexibility to decide your own route, stops, and schedule. Grab Your Cab provides hourly, daily, and weekly self-drive car rental options, giving customers access to a wide range of cars, from mini hatchbacks and sedans to SUVs and luxury vehicles.
           </p>
           <div className="hero-ctas">
             <a href="https://wa.me/910000000000" className="btn btn-wa">
@@ -337,6 +334,12 @@ export default function SelfDriveCarRentalDelhiPage() {
         <div className="container">
           <div className="seo-wrap">
             <div className="seo-block">
+            
+              <p>
+                Self-drive cars are suitable for local travel in and around Delhi NCR, business travel, family outings, airport visits, and road trips to popular nearby destinations such as Agra, Jaipur, Mathura, Vrindavan, Haridwar, Rishikesh, and other permitted outstation locations. The best rental option for you depends on your travel dates, vehicle choice, rental duration, number of kilometres, and the applicable terms and conditions.
+
+Car options with Grab Your Cab are available for different travel requirements. The booking process is also simple: just pick a car, confirm your booking through the available booking channels, complete the verification process, and you are ready to drive. The self-drive rental service is backed by a fleet of well-maintained vehicles and 24/7 customer support.
+              </p>
               <p>
                 Grab Your Cab now provides a gamut of hourly, daily and weekly self-drive car
                 rentals, giving you access to a wide range of cars from mini hatchbacks and
@@ -360,25 +363,18 @@ export default function SelfDriveCarRentalDelhiPage() {
             <div className="seo-block">
               <h2>What Is Self Drive Car Rental In Delhi?</h2>
               <p>
-                Self Drive Car Rental in Delhi provides you the flexibility to rent a car and
-                drive on your own within the city or country roads without any driver. You can
-                take as many breaks as you want or just enjoy a little more privacy.
+               Self Drive Car Rental in Delhi gives you the flexibility to rent a car and drive on your own within the city or on outstation roads without a driver. You can take as many breaks as you want, travel according to your own schedule, and enjoy more privacy throughout the journey.
+
+
               </p>
               <p>
-                You are self-hired and in the driver's seat rather than taking a taxi or bus.
-                Depending on the car type, rental conditions, and your needs, you can rent a car
-                for different periods of time. Why not discover the city at your own pace? You
-                grab the car, you're the driver, and you make the rules.
+        Instead of depending on a taxi or bus, you stay in control of your journey and drive the car yourself. Depending on the car type, rental conditions, and your requirements, you can rent a car for different periods of time. Why not explore the city at your own pace? You choose the car, you take the wheel, and you decide the route, stops, and schedule.
               </p>
               <p>
-                Grab Your Cab is a whole lot different from the other car rental apps we've
-                looked at. It allows you to choose the vehicle of your choice and grab a car for
-                rent on hourly, daily, weekly, monthly etc basis.
+              Grab Your Cab is different from many other car rental apps and services. It allows you to choose a vehicle of your choice and rent a car on an hourly, daily, weekly, or monthly basis, depending on your travel requirements.
               </p>
               <p>
-                For those customers who intend to travel beyond Delhi, please ensure that the
-                respective make of vehicle, destination, and time of booking has the option of
-                self drive outstation car rental available before making the payment.
+               For customers planning to travel beyond Delhi, please ensure that the selected vehicle, destination, and booking duration are eligible for self-drive outstation car rental before making the payment.
               </p>
             </div>
           </div>
@@ -392,10 +388,9 @@ export default function SelfDriveCarRentalDelhiPage() {
             <span className="eyebrow">Pick Your Ride</span>
             <h2>Self Drive Cars Available in Delhi</h2>
             <p>
-              Grab Your Cab's fleet is composed of affordable cars, sedans, compact SUVs, SUVs,
-              and luxury cars. Its currently shown fleet consists of the likes of Maruti Wagon R,
-              Maruti Celerio, Maruti Swift Dzire, Hyundai Aura, Honda City, Toyota Corolla Altis,
-              Tata Nexon and Maruti Brezza.
+             Grab Your Cab’s fleet includes affordable cars, sedans, compact SUVs, premium SUVs, luxury vehicles, and spacious family cars to suit different travel requirements. The currently available fleet features popular models such as the Maruti Swift, Maruti Baleno, Maruti Brezza, Honda City, Hyundai Creta, Kia Carens, Maruti Ertiga, Innova Crysta, MG Hector Plus, Mahindra Thar Roxx, Mahindra Scorpio, Scorpio N, Mahindra XUV700, Toyota Fortuner, Mercedes C-Class, and more.
+
+
             </p>
           </div>
           <div className="fleet-grid">
@@ -507,9 +502,15 @@ export default function SelfDriveCarRentalDelhiPage() {
                   </tr>
                 ))}
               </tbody>
+              
             </table>
+            
           </div>
+          <p className="sec-head">
+          A customer renting a self-drive car normally requires an active driving license and government issued identity proof. There may be some more verification, or eligibility terms, or security deposit, or documents according the vehicle and rental contract.
+        </p>
         </div>
+          
       </section>
 
       {/* ---------- WHY CHOOSE GRID ---------- */}
@@ -542,8 +543,7 @@ export default function SelfDriveCarRentalDelhiPage() {
             <span className="eyebrow">Read Before You Book</span>
             <h2>What's Included or Excluded in Your Rental?</h2>
             <p>
-              The available inclusions vary based on the vehicle, rental offer, and booking
-              conditions. Before booking a rental car, make sure to ask about:
+              The inclusions and rental terms may vary depending on the vehicle selected, rental plan, and booking conditions. Before confirming your self-drive car rental, it is advisable to check the following details:
             </p>
           </div>
           <div className="check-grid">

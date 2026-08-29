@@ -16,15 +16,15 @@
       "static/chunks/main-app.js",
       "static/chunks/app/[slug]/page.js"
     ],
-    "/taxi-service-greater-noida/page": [
+    "/taxi-service-delhi/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/taxi-service-greater-noida/page.js"
+      "static/chunks/app/taxi-service-delhi/page.js"
     ],
-    "/jewar-airport-cab-service/page": [
+    "/self-drive-car-rental-delhi/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/jewar-airport-cab-service/page.js"
+      "static/chunks/app/self-drive-car-rental-delhi/page.js"
     ]
   }
 }
