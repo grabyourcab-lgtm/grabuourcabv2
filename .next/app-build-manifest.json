@@ -1,9 +1,9 @@
 {
   "pages": {
-    "/self-drive-car-rental-delhi/page": [
+    "/about-us/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/self-drive-car-rental-delhi/page.js"
+      "static/chunks/app/about-us/page.js"
     ],
     "/layout": [
       "static/chunks/webpack.js",
@@ -11,10 +11,10 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/taxi-service-delhi/page": [
+    "/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/taxi-service-delhi/page.js"
+      "static/chunks/app/page.js"
     ]
   }
 }
