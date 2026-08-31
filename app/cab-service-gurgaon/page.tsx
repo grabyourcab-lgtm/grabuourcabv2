@@ -172,14 +172,15 @@ table.cmp-table tbody td:first-child{font-weight:700;color:var(--ink);font-famil
 
 /* Why Choose Our Cab Service in Gurgaon? */
 const whyChooseChecklist = [
-  "Instantly Book Your Ride For Predefined Routes or Nearby Locations",
-  "Experienced Drivers for Intercity and Local Travel",
-  "Clean and Well-maintained Vehicles for all trip needs",
-  "Maruti, Mahindra, Kia, Luxury And Larger Vehicle Options where available",
-  "Flexible pick-up and drop-off options",
-  "Local, Airport, Corporate & Outstation Travel Services",
-  "Clear pricing information based on your selected journey",
-  "Prebooking for Planned Travel",
+  "Book a cab online or offline at any time, with 24-hour booking support.",
+  "Dedicated customer care available 24 hours a day to assist with bookings, updates, and travel-related queries.",
+  "Instantly book rides for predefined routes or nearby locations",
+  "Experienced and verified drivers for all travel needs.",
+  "Clean and well-maintained vehicles for every type of trip.",
+  "A wide range of car makers and models, including Maruti, Mahindra, Toyota, Hyundai, Kia, MG, Tata, Mercedes, Audi, BMW, Jaguar, Range Rover, Hummer, and Rolls-Royce.",
+  "Local, airport, corporate, wedding, one-way, and outstation travel services.",
+  "Customized and specialized services for wedding and corporate events.",
+  "Special options such as pet-friendly cabs, women-only cabs, elderly-friendly cabs, and cabs with attendants."
 ];
 
 /* Cab Booking In Gurgaon */
@@ -196,41 +197,44 @@ const cabServiceTypes = [
   {
     title: "Local Cabs Service in Gurgaon",
     image: "https://images.unsplash.com/photo-1449965408869-eaa3f722e40d?w=600",
-    text: "Local cabs are good for a commute, grocery shopping, business appointments, business meetings, train or metro travel, or traveling in various locations in Gurugram.",
+    text: "Local cabs are good for a commute, grocery shopping, business appointments, business meetings, train or metro travel, or traveling in various locations in Gurugram.",
   },
   {
     title: "Gurgaon Airport Cab Service",
     image: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=600",
-    text: "IGI Delhi airport taxi for Old Gurgaon cab and Sector 53 Gurgaon means you don't have to worry about late arrivals or long commuting times, especially with luggage or an early/late flight.",
+    text: "If there is an IGI Delhi airport taxi for Old Gurgaon cab and Sector 53 Gurgaon, then you don’t have to worry about late arrivals or long commuting times. It can be especially helpful if you’re traveling with luggage or catching an early or late flight. Grab Your cab also started 24 hours airport transfer for new Noida  International Airport in Jewar.",
   },
   {
     title: "Outstation Cab Service from Gurgaon",
     image: "https://images.unsplash.com/photo-1502877338535-766e1452684a?w=600",
-    text: "Best for travelling out of and beyond the city, including Delhi, Jaipur, Agra, Haridwar, Rishikesh, and Chandigarh. Passengers can opt for one way or round trip based on their trip.",
+    text: "An outstation taxi in Gurgaon is best for travelling out of and beyond the city. A few among the best list are Delhi, Jaipur, Agra, Haridwar, Rishikesh, Simla, Manali & Chandigarh. Passengers can opt for one way or round trip based on their trip.",
   },
   {
     title: "One-Way Cab from Gurgaon",
     image: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=600",
-    text: "One way cabs from Gurgaon are made available if you wish to travel only in one direction from here — hire a oneway taxi from Gurgaon.",
+    text: "One-way cabs from Gurgaon are also available if you wish to travel in only one direction. If you are travelling from Gurgaon to a single destination, you can book a one-way cab or hire a one-way taxi from Gurgaon with Grab Your Cab. Grab Your Cab charges only for the one-way distance and kilometres travelled, helping you avoid paying for the return journey. This makes Grab Your Cab a unique and affordable car rental company in Gurgaon, offering cost-effective one-way cab services for convenient and comfortable travel to your chosen destination",
   },
   {
     title: "Round-Trip Cab Service",
     image: "https://images.unsplash.com/photo-1494976388531-d1058494cdd8?w=600",
-    text: "Ideal for family visits, work travel, weekend getaways, sightseeing, or trips where you expect to return to Gurgaon after reaching your destination.",
+    text: "Round-trip cabs are ideal for family visits, work travel, weekend getaways, sightseeing, or trips where you expect to return to Gurgaon after reaching your destination.",
   },
   {
     title: "Corporate Cab Service",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReTpeN1ID4mEY7KJ2qpkjGoi7YAcVzvM1rGZy2M7yb6Y-kiy0Zne1OsKY&s=10",
-    text: "Companies can avail cab transportation for employee travel, client meetings, conferences, airport transfers, and an array of professional excursions.",
+    text: "Companies can avail cab transportation for employee travel, client meetings, conferences, airport transfers, and an array of professional excursions.",
   },
 ];
 
 /* Cars Available for Cab Service in Gurgaon */
 const carsAvailable = [
-  { title: "Maruti Cabs", text: "Are you a single, a couple or a small family." },
-  { title: "Mahindra Cabs", text: "When travellers need extra space for passengers or luggage." },
-  { title: "Luxury Cars", text: "Suitable for business travel and events where extra comfort is needed." },
-  { title: "Bigger Vehicles", text: "Ideal for families or a group of travelers, subject to availability." },
+  { title: "5-Seater Cars", text: "Suitable for solo travellers, couples, or small families." },
+  { title: "7-Seater Cars", text: "Ideal when travellers need extra space for passengers or luggage." },
+  { title: "Luxury Cars", text: "Suitable for business travel, special occasions, and events where extra comfort and style are required." },
+  { title: "Tempo Traveller", text: "Ideal for families or groups of travellers for personal, official, or group trips." },
+    { title: "Luxury Caravan", text: "Suitable for families seeking ultra-luxury travel without compromising on comfort, space, or premium amenities." },
+    { title: "Luxury Bus", text: "Suitable for large groups, including corporate employees, wedding guests, group tours, and pilgrimage tours." },
+
 ];
 
 /* Gurgaon to Outstation Cab Service */
@@ -309,12 +313,8 @@ export default function CabServiceGurgaonPage() {
           <span className="eyebrow">Local · Airport · Outstation</span>
           <h1>Cab Service in Gurgaon for Local &amp; Outstation Travel</h1>
           <p className="lead">
-            Dependable local transportation in Gurgaon is that much more possible with your cab
-            service if it offers easy booking, the right kind of vehicles, professional
-            chauffeurs and a wide array of travel solutions. Grab Your Cab provides local trip,
-            airport transfer, business travel and outstation trip cab services from Gurgaon.
-            Whether you're looking for a trip within Gurugram or a drive to another city, you can
-            pick from a range of services based on the distance of travel, time and requirements.
+            Dependable local transportation in Gurgaon is made much more convenient with a cab service that offers easy booking, the right kind of vehicles, professional chauffeurs, and a wide array of travel solutions. Grab Your Cab provides local trips, airport transfers, business travel, and outstation cab services from Gurgaon. Whether you're looking for a trip within Gurugram or a drive to another city, you can choose from a range of services based on the distance of travel, time, and your requirements.
+
           </p>
           <div className="hero-ctas">
             <a href="https://wa.me/910000000000" className="btn btn-wa">
@@ -344,18 +344,10 @@ export default function CabServiceGurgaonPage() {
             <div className="seo-block">
               <h2>Reliable Cab Service in Gurgaon for Local and Outstation Travel</h2>
               <p>
-                A taxi in Gurgaon operates for daily transport up and down the city, meetings,
-                shopping, airport transfers, family excursions and long distance travel. The busy
-                business areas, residential colonies, highways and close vicinity of Gurgaon to
-                Delhi requires easy travel options to have for the locals as well as the
-                visitors.
+                A taxi in Gurgaon is useful for all kinds of travel, whether you’re heading to a business meeting, going shopping, catching a flight, visiting family, or planning a long-distance trip. You can book a cab for local travel, outstation journeys, or one-way rides. Grab Your Cab offers convenient services across popular residential, business, and commercial areas such as Sushant Lok, DLF Phase 1, DLF Phase 2, DLF Phase 3, Sohna Road, Golf Course Road, DLF Cyber City, Cyber Hub, Sector 29, MG Road, Udyog Vihar, and Manesar. With busy offices, residential neighborhoods, highways, and Delhi just a short distance away, having a reliable way to get around Gurgaon is important for both residents and visitors.
               </p>
               <p>
-                With Grab Your Cab, cab booking in Gurgaon can be planned around your pickup
-                location, destination, travel date and rest of the way details, and selecting
-                from a range of vehicles. The service is for the benefit of travelers within
-                Gurugram as well as for those going to Delhi, Jaipur, Agra, Haridwar, Rishikesh,
-                Chandigarh and many more.
+                With Grab Your Cab, you can plan your Gurgaon cab booking around your pickup point, destination, travel date, and other trip details. A variety of vehicles is available, so you can choose one that suits your needs. You can also book local and outstation cabs from Gurgaon to destinations such as Delhi, Agra, Jaipur, Chandigarh, Jewar Airport, Haridwar, Rishikesh, Shimla, Manali, and many other places.
               </p>
             </div>
           </div>
@@ -369,9 +361,7 @@ export default function CabServiceGurgaonPage() {
             <span className="eyebrow">Reasons To Book With Us</span>
             <h2>Why Choose Our Cab Service in Gurgaon?</h2>
             <p>
-              An efficient taxi service should allow to make the entire trip, including booking
-              and pickup, easy and hassle-free. Grab Your Cab is about easy travel for the
-              diverse needs of travelers.
+              Our services are designed to make every trip convenient, safe, and comfortable, with flexible options for different travel requirements:
             </p>
           </div>
           <div className="check-grid">
@@ -395,7 +385,7 @@ export default function CabServiceGurgaonPage() {
           <div className="sec-head">
             <span className="eyebrow">Simple Process</span>
             <h2>Cab Booking In Gurgaon</h2>
-            <p>Booking a cab in Gurgaon can be planned in a few simple steps.</p>
+            <p>Booking a cab in Gurgaon can be planned in a few simple steps:</p>
           </div>
           <div className="steps">
             {bookingSteps.map((step, i) => (
@@ -407,7 +397,7 @@ export default function CabServiceGurgaonPage() {
             ))}
           </div>
           <p style={{ textAlign: "center", marginTop: 20, color: "var(--muted)", fontSize: "14.5px" }}>
-            This simple process makes online cab booking in Gurgaon really convenient.
+            In both cases, this simple process makes online cab booking in Gurgaon really convenient.
           </p>
 
           <div className="banner alt" style={{ marginTop: 40 }}>
@@ -450,13 +440,60 @@ export default function CabServiceGurgaonPage() {
         </div>
       </section>
 
+
+            {/* ---------- SPECIAL & CORPORATE SERVICES ---------- */}
+      <section className="sec">
+        <div className="container">
+          <div className="seo-wrap">
+            <div className="seo-block">
+              <h2>Pet-Friendly Cab in Gurgaon</h2>
+              <p>
+                Grab Your Cab offers a pet-friendly cab in Gurgaon for travellers who want to travel comfortably with their pets. Finding a special taxi for pets can often be difficult, especially when travelling to the airport, another city, or for an important appointment.
+              </p>
+              <p>
+                Our pet-friendly cab service allows you to travel with your pet more conveniently. Whether you are planning local travel, an airport transfer, or an outstation journey, you can book a suitable cab based on your travel requirements. Grab Your Cab aims to provide a comfortable travel option for both pet owners and their pets.
+              </p>
+            </div>
+
+            <div className="seo-block">
+              <h2>Women-Only Cab in Gurgaon</h2>
+              <p>
+                Grab Your Cab offers a women-only cab in Gurgaon for women who prefer a more secure and comfortable travel option. With a focus on safety and convenience, this service is designed for women travelling for work, daily requirements, airport transfers, or other local and outstation journeys.
+              </p>
+              <p>
+                Our women-only cab service is among the safest taxi options for women in Gurgaon, providing a more comfortable and dependable travel experience based on individual requirements.
+              </p>
+            </div>
+
+            <div className="seo-block">
+              <h2>Wedding Transport Management in Gurgaon</h2>
+              <p>
+                Grab Your Cab provides complete wedding transport management services to ensure smooth and well-organised transportation for wedding guests, family members, and the wedding couple. We can arrange 7-seater vehicles, Tempo Travellers, and luxury buses for the convenient transportation of guests between hotels, venues, airports, and other locations.
+              </p>
+              <p>
+                We also provide luxury wedding cars for the bride, groom, and their family members. Our team manages the transportation schedule and vehicle movement to help ensure smooth operations throughout the wedding celebrations, allowing families and guests to travel comfortably and on time.
+              </p>
+            </div>
+
+            <div className="seo-block">
+              <h2>Corporate Car Rental</h2>
+              <p>
+                Grab Your Cab provides reliable corporate car rental services for businesses looking for comfortable and dependable transportation for their employees. We offer dedicated cabs with professional drivers to ensure smooth and timely employee pickup and drop services based on office schedules and travel requirements.
+              </p>
+              <p>
+                For senior management, directors, and other executives, we also provide a wide range of luxury cars for official travel, meetings, airport transfers, and special corporate requirements. Our corporate car rental services can be customized to suit the transportation needs of companies of different sizes.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
       {/* ---------- CARS AVAILABLE ---------- */}
       <section className="sec">
         <div className="container">
           <div className="sec-head">
             <span className="eyebrow">Fleet Options</span>
             <h2>Cars Available for Cab Service in Gurgaon</h2>
-            <p>Type of vehicle should be appropriate for number of passengers, luggage and type of trip.</p>
+            <p>The type of vehicle should be selected according to the number of passengers, luggage requirements, and the nature of the trip.</p>
           </div>
           <div className="check-grid">
             {carsAvailable.map((c) => (
@@ -478,14 +515,10 @@ export default function CabServiceGurgaonPage() {
             <div className="seo-block">
               <h2>Popular Areas We Serve in Gurgaon</h2>
               <p>
-                Cab requests are originated from homes, offices, and commercial establishments
-                all over Gurgaon. The usual service areas are DLF Cyber City, Golf Course Road,
-                Golf Course Extension Road, MG Road, Sohna Road, Sector 14, Sector 29, Sector 44,
-                Sector 49, Udyog Vihar, Manesar, Dwarka Expressway, and New Gurgaon.
+                Cab requests are originated from homes, offices, and commercial establishments all over Gurgaon. Strategic Places: The usual service areas are Sushant Lok, DLF PHASE I, II. III Cyber  City, Golf Course Road,Golf Course Extension Road, MG Road, Sohna Road, Sector 14, Sector 29, Sector 44, Sector 49, Udyog Vihar, Manesar, Dwarka Expressway, and New Gurgaon.
               </p>
               <p>
-                Availability is subject to the selected pickup location, destination, vehicle,
-                and time of booking.
+                Availability is subject to the selected pickup location, destination, vehicle, and time of booking. 
               </p>
             </div>
           </div>
@@ -499,9 +532,7 @@ export default function CabServiceGurgaonPage() {
             <span className="eyebrow">Long Distance Travel</span>
             <h2>Gurgaon to Outstation Cab Service</h2>
             <p>
-              For long distance travel, outstation cabs from Gurgaon offer hassle free door to
-              door service without the need of driving on your own. They are especially useful
-              for families, groups, business travelers and those traveling with baggage.
+              For long distance travel, outstation cabs from Gurgaon offer hassle free door to door service without the need of driving on your own. They are especially useful for families, groups, business travelers and those traveling with baggage.
             </p>
           </div>
           <div className="cmp-table-wrap">
@@ -532,30 +563,22 @@ export default function CabServiceGurgaonPage() {
             <div className="seo-block">
               <h2>Cab Fare in Gurgaon: How Much Does a Cab Cost?</h2>
               <p>
-                Gurgaon Taxi prices are calculated on many common parameters, and not one
-                specifically. Travel distance, vehicle type, travel duration, one way trip or
-                round trip, pick up and drop, airport or outstation trip are some of the
-                important considerations.
+                Gurgaon Taxi prices are calculated on many common parameters, and not one specifically. Travel distance, vehicle type, travel duration, one way trip or round trip, pick up and drop, airport or outstation trip are some of the important considerations.
               </p>
               <p>
-                Tolls, parking, fee for using highways, and other relevant costs could also
-                contribute to the final price. Knowing the full fare in advance allows the
-                passengers to plan their travel budget.
+                Tolls, parking, fee for using highways, and other relevant costs could also contribute to the final price. Knowing the full fare in advance allows the passengers to plan their travel budget.
+
+
               </p>
             </div>
 
             <div className="seo-block">
               <h2>Why Book a Cab Instead of Driving Yourself?</h2>
               <p>
-                Taking a cab can make your trip a little easier if you'd rather not deal with the
-                traffic, the parking headaches, and the energy-sapping driving. It is convenient
-                for airport travel, business trips, long distance travel and traveling with
-                family or luggage.
+                Taking a cab can make your trip a little easier if you’d rather not deal with the traffic, the parking headaches, and the energy-sapping driving. It is convenient for airport travel, business trips, long distance travel and traveling with family or luggage.
               </p>
               <p>
-                Since cab travel provides doorstep service even for outstation travel, passengers
-                get to rest or attend to other activities inside the car, while enjoying the
-                journey.
+                Since cab travel provides doorstep service even for outstation travel, passengers get to rest or attend to other activities inside the car, while enjoying the journey. 
               </p>
             </div>
           </div>
@@ -569,15 +592,10 @@ export default function CabServiceGurgaonPage() {
             <div className="seo-block">
               <h2>Why Choose to Grab Your Cab for Gurgaon Travel?</h2>
               <p>
-                Grab Your Cab is also a good choice for passengers looking for local or
-                intercity travel from Gurgaon. The service concentrates on easy booking,
-                different kind of vehicles requirements, local travelling, airport travelling and
-                outstation travelling.
+                Grab Your Cab is a convenient choice for passengers looking for local or intercity travel from Gurgaon. Along with local travel, airport transfers, and outstation journeys, the service offers specialised options such as pet-friendly and family-friendly cabs, women-only taxis, special taxi services for elderly passengers, corporate car rental, corporate event transportation, self-drive cars, and car rental with PSOs for additional personal security.
               </p>
               <p>
-                If you want to book a Gurugram taxi service for a day trip in the city or an
-                outstation cab for a trip for a long time, pre selecting the vehicle, route and
-                fare will certainly give a better travelling experience overall.
+               Whether you need a Gurugram taxi service for a local trip or an outstation cab for a longer journey, Grab Your Cab offers different vehicle options and travel solutions based on your specific requirements.
               </p>
             </div>
           </div>
@@ -614,15 +632,10 @@ export default function CabServiceGurgaonPage() {
             <div className="seo-block" style={{ marginBottom: 0 }}>
               <h2>Cab Service in Gurgaon for Different Travel Needs</h2>
               <p>
-                Not all passengers have the same travel needs. Local cabs can cater to regular
-                commuters, and families flying to outstation can opt for comfortable rides.
-                Businessmen can book cabs for their meetings and corporate transport, while
-                tourists can opt for city and intercity travel on the basis of their plan.
+                Not all passengers on a train have the same travel needs. Local cabs can cater to regular commuters, and families flying to outstation can opt for comfortable rides. Businessmen can book cabs for their meetings and corporate transport, while tourists can opt for city and intercity travel on the basis of their plan.
               </p>
               <p>
-                Also subject to the relevant booking conditions, full day cab in Gurgaon can be
-                included when transportation for two or more stops or long distance local
-                travelling is required.
+               Also subject to the relevant booking conditions, full day cab in Gurgaon can be included when transportation for two or more stops or long distance local travelling is required. 
               </p>
             </div>
           </div>
