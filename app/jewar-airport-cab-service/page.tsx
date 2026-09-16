@@ -339,10 +339,10 @@ export default function JewarAirportCabServicePage() {
                 another city, you'll be able to pick the best cab for your travel needs.
               </p>
               <div className="hero-ctas">
-                <a href="https://wa.me/910000000000" className="btn btn-wa">
+                <a href="https://wa.me/917522817555" className="btn btn-wa">
                   Book on WhatsApp
                 </a>
-                <a href="tel:+910000000000" className="btn btn-ghost">
+                <a href="tel:+917522817555" className="btn btn-ghost">
                   Call to Book
                 </a>
               </div>
@@ -547,10 +547,10 @@ export default function JewarAirportCabServicePage() {
               <h2>Ready to Book Your Jewar Airport Cab?</h2>
               <p>Share your pickup, destination and flight details to get started.</p>
               <div className="hbtns">
-                <a href="https://wa.me/910000000000" className="btn btn-wa">
+                <a href="https://wa.me/917522817555" className="btn btn-wa">
                   Book on WhatsApp
                 </a>
-                <a href="tel:+910000000000" className="btn btn-ghost">
+                <a href="tel:+917522817555" className="btn btn-ghost">
                   Call Now
                 </a>
               </div>
@@ -691,10 +691,10 @@ export default function JewarAirportCabServicePage() {
                 pre-booked transportation.
               </p>
               <div className="hbtns">
-                <a href="https://wa.me/910000000000" className="btn btn-wa">
+                <a href="https://wa.me/917522817555" className="btn btn-wa">
                   Book on WhatsApp
                 </a>
-                <a href="tel:+910000000000" className="btn btn-ghost">
+                <a href="tel:+917522817555" className="btn btn-ghost">
                   Call Now
                 </a>
               </div>

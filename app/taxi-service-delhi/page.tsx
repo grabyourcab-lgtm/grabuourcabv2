@@ -268,10 +268,10 @@ export default function TaxiServiceDelhiPage() {
             24/7.
           </p>
           <div className="hero-ctas">
-            <a href="https://wa.me/910000000000" className="btn btn-wa">
+            <a href="https://wa.me/917522817555" className="btn btn-wa">
               Book on WhatsApp
             </a>
-            <a href="tel:+910000000000" className="btn btn-ghost">
+            <a href="tel:+917522817555" className="btn btn-ghost">
               Call to Book
             </a>
           </div>
@@ -370,10 +370,10 @@ export default function TaxiServiceDelhiPage() {
                 vehicle and fare confirmed in minutes.
               </p>
               <div className="hbtns">
-                <a href="https://wa.me/910000000000" className="btn btn-wa">
+                <a href="https://wa.me/917522817555" className="btn btn-wa">
                   Book on WhatsApp
                 </a>
-                <a href="tel:+910000000000" className="btn btn-ghost">
+                <a href="tel:+917522817555" className="btn btn-ghost">
                   Call Now
                 </a>
               </div>
@@ -493,7 +493,7 @@ export default function TaxiServiceDelhiPage() {
                 distance, tolls or waiting charges.
               </p>
               <div className="hbtns">
-                <a href="https://wa.me/910000000000" className="btn btn-dark">
+                <a href="https://wa.me/917522817555" className="btn btn-dark">
                   Get a Quote on WhatsApp
                 </a>
               </div>
@@ -528,10 +528,10 @@ export default function TaxiServiceDelhiPage() {
                 For the Booking of Cab in Delhi, people can either book a cab from the official website of Grab Your Cab or they can also reach the company through WhatsApp. 
               </p>
               <div className="hbtns">
-                <a href="https://wa.me/910000000000" className="btn btn-wa">
+                <a href="https://wa.me/917522817555" className="btn btn-wa">
                   Book on WhatsApp
                 </a>
-                <a href="tel:+910000000000" className="btn btn-ghost">
+                <a href="tel:+917522817555" className="btn btn-ghost">
                   Call Now
                 </a>
               </div>

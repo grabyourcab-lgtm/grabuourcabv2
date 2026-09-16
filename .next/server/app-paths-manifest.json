@@ -1,5 +1,8 @@
 {
   "/self-drive-car-rental-noida/page": "app/self-drive-car-rental-noida/page.js",
-  "/page": "app/page.js",
-  "/cab-service-noida/page": "app/cab-service-noida/page.js"
+  "/cab-service-gurgaon/page": "app/cab-service-gurgaon/page.js",
+  "/taxi-service-delhi/page": "app/taxi-service-delhi/page.js",
+  "/self-drive-car-rental-delhi/page": "app/self-drive-car-rental-delhi/page.js",
+  "/tempo-traveller-rent/page": "app/tempo-traveller-rent/page.js",
+  "/page": "app/page.js"
 }

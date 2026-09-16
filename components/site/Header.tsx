@@ -35,14 +35,14 @@ const LOCATIONS_FLAT = [
   ["Jewar Airport Cab Service", "/jewar-airport-cab-service"],
   // ["Taxi Services in Noida International Airport Jewar", "/taxi-service-noida-international-airport-jewar"],
   ["Taxi Service in Ghaziabad", "/taxi-service-in-ghaziabad"],
-  ["Taxi Service in Faridabad", "/taxi-service-in-faridabad"],
-  ["Taxi Service in Meerut", "/taxi-service-in-meerut"],
-  ["Taxi Service in Goa", "/taxi-service-in-goa"],
+  ["Car on Rent in Faridabad", "/car-rent-faridabad"],
+  ["Taxi Service in Meerut", "/taxi-service-meerut"],
+  ["Car rental in Goa ", "/car-rental-goa"],
 ];
 
 // Services dropdown items
 const SERVICES_SUB = [
-  ["Tempo Traveller on Rent", "/tempo-traveller-on-rent"],
+  ["Tempo Traveller on Rent", "/tempo-traveller-rent"],
   ["Luxury Car Rental", "/luxury-car-rental"],
   ["Corporate Cab Services", "/corporate-cab-services"],
 ];

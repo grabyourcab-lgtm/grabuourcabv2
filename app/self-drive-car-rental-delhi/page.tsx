@@ -311,10 +311,10 @@ export default function SelfDriveCarRentalDelhiPage() {
            Get around Delhi at your own pace with Grab Your Cab’s self-drive car rental service. Whether you are looking for a car for a few hours, a day, a weekend road trip, or an outstation journey, a self-drive car gives you complete flexibility to decide your own route, stops, and schedule. Grab Your Cab provides hourly, daily, and weekly self-drive car rental options, giving customers access to a wide range of cars, from mini hatchbacks and sedans to SUVs and luxury vehicles.
           </p>
           <div className="hero-ctas">
-            <a href="https://wa.me/910000000000" className="btn btn-wa">
+            <a href="https://wa.me/917522817555" className="btn btn-wa">
               Book on WhatsApp
             </a>
-            <a href="tel:+910000000000" className="btn btn-ghost">
+            <a href="tel:+917522817555" className="btn btn-ghost">
               Call to Book
             </a>
           </div>
@@ -436,10 +436,10 @@ Car options with Grab Your Cab are available for different travel requirements. 
               <h2>Ready to Drive Delhi on Your Own Terms?</h2>
               <p>Choose a car, confirm your booking and get verified in minutes.</p>
               <div className="hbtns">
-                <a href="https://wa.me/910000000000" className="btn btn-wa">
+                <a href="https://wa.me/917522817555" className="btn btn-wa">
                   Book on WhatsApp
                 </a>
-                <a href="tel:+910000000000" className="btn btn-ghost">
+                <a href="tel:+917522817555" className="btn btn-ghost">
                   Call Now
                 </a>
               </div>
@@ -612,10 +612,10 @@ Car options with Grab Your Cab are available for different travel requirements. 
                 availability and price for your dates.
               </p>
               <div className="hbtns">
-                <a href="https://wa.me/910000000000" className="btn btn-wa">
+                <a href="https://wa.me/917522817555" className="btn btn-wa">
                   Book on WhatsApp
                 </a>
-                <a href="tel:+910000000000" className="btn btn-ghost">
+                <a href="tel:+917522817555" className="btn btn-ghost">
                   Call Now
                 </a>
               </div>

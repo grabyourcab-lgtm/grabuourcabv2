@@ -317,10 +317,10 @@ export default function CabServiceGurgaonPage() {
 
           </p>
           <div className="hero-ctas">
-            <a href="https://wa.me/910000000000" className="btn btn-wa">
+            <a href="https://wa.me/917522817555" className="btn btn-wa">
               Book on WhatsApp
             </a>
-            <a href="tel:+910000000000" className="btn btn-ghost">
+            <a href="tel:+917522817555" className="btn btn-ghost">
               Call to Book
             </a>
           </div>
@@ -405,10 +405,10 @@ export default function CabServiceGurgaonPage() {
               <h2>Ready to Book Your Cab in Gurgaon?</h2>
               <p>Choose your route, pick a vehicle and confirm your booking in minutes.</p>
               <div className="hbtns">
-                <a href="https://wa.me/910000000000" className="btn btn-wa">
+                <a href="https://wa.me/917522817555" className="btn btn-wa">
                   Book on WhatsApp
                 </a>
-                <a href="tel:+910000000000" className="btn btn-ghost">
+                <a href="tel:+917522817555" className="btn btn-ghost">
                   Call Now
                 </a>
               </div>
@@ -653,10 +653,10 @@ export default function CabServiceGurgaonPage() {
                 services and confirm your booking in a few simple steps.
               </p>
               <div className="hbtns">
-                <a href="https://wa.me/910000000000" className="btn btn-wa">
+                <a href="https://wa.me/917522817555" className="btn btn-wa">
                   Book on WhatsApp
                 </a>
-                <a href="tel:+910000000000" className="btn btn-ghost">
+                <a href="tel:+917522817555" className="btn btn-ghost">
                   Call Now
                 </a>
               </div>

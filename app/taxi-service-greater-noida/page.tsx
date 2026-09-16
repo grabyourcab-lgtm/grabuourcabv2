@@ -313,10 +313,10 @@ export default function TaxiServiceGreaterNoidaPage() {
                 needs and arrange for pickup and drop-off.
               </p>
               <div className="hero-ctas">
-                <a href="https://wa.me/910000000000" className="btn btn-wa">
+                <a href="https://wa.me/917522817555" className="btn btn-wa">
                   Book on WhatsApp
                 </a>
-                <a href="tel:+910000000000" className="btn btn-ghost">
+                <a href="tel:+917522817555" className="btn btn-ghost">
                   Call to Book
                 </a>
               </div>
@@ -506,10 +506,10 @@ export default function TaxiServiceGreaterNoidaPage() {
               <h2>Ready to Book Your Taxi in Greater Noida?</h2>
               <p>Choose your car, confirm your booking and get ready for pickup.</p>
               <div className="hbtns">
-                <a href="https://wa.me/910000000000" className="btn btn-wa">
+                <a href="https://wa.me/917522817555" className="btn btn-wa">
                   Book on WhatsApp
                 </a>
-                <a href="tel:+910000000000" className="btn btn-ghost">
+                <a href="tel:+917522817555" className="btn btn-ghost">
                   Call Now
                 </a>
               </div>
@@ -633,10 +633,10 @@ export default function TaxiServiceGreaterNoidaPage() {
                 your next journey with easy cab travels.
               </p>
               <div className="hbtns">
-                <a href="https://wa.me/910000000000" className="btn btn-wa">
+                <a href="https://wa.me/917522817555" className="btn btn-wa">
                   Book on WhatsApp
                 </a>
-                <a href="tel:+910000000000" className="btn btn-ghost">
+                <a href="tel:+917522817555" className="btn btn-ghost">
                   Call Now
                 </a>
               </div>
