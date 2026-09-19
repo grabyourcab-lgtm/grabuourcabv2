@@ -783,6 +783,7 @@ export default function TaxiServiceGhaziabadPage() {
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
               />
+              
             </div>
 
             <div className="garage-info">
