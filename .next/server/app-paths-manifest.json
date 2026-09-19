@@ -1,4 +1,5 @@
 {
   "/page": "app/page.js",
-  "/luxury-car-rental/page": "app/luxury-car-rental/page.js"
+  "/corporate-cab-services/page": "app/corporate-cab-services/page.js",
+  "/[slug]/page": "app/[slug]/page.js"
 }
