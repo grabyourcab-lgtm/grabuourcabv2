@@ -286,7 +286,8 @@ const Page = () => {
               <div className="i"><IconPhone /></div>
               <div className="qt-body">
                 <span>Call the booking desk</span>
-                <b>{PHONE_DISPLAY}</b>
+                <b>{PHONE_DISPLAY},</b>
+                <b>9108617014</b>
               </div>
               <button
                 type="button"
