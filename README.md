@@ -7,14 +7,7 @@ A self-manageable website + admin panel for your cab business.
 
 ## Folder guide
 - `supabase/schema.sql` — creates tables, security rules, and the car-photo storage bucket.
-- `supabase/seed.sql` — loads your 40 cars + starter content + blog posts.
-- `app/` — the app: `/` (public home), `/login`, `/admin/*` (admin panel).
-- `lib/`, `components/`, `middleware.ts` — connection helpers + route protection.
-
-## One-time setup (~15 minutes)
-
-### 1. Database (Supabase — free)
-1. supabase.com → **New project** (region: Mumbai/Singapore). Save the database password.
+- `supabase/seed.sql` — loads your 40 cars + 
 2. **SQL Editor → New query** → paste `supabase/schema.sql` → **Run**.
 3. **New query** → paste `supabase/seed.sql` → **Run**. Check **Table editor → cars** shows 40 rows.
 
@@ -48,3 +41,11 @@ password, and tick **Auto Confirm User**. This is the login for `/admin`.
 - **Phase 5:** deploy to Vercel + connect grabyourcab.com.
 
 Never share or commit `.env.local` (secret keys).
+starter content + blog posts.
+- `app/` — the app: `/` (public home), `/login`, `/admin/*` (admin panel).
+- `lib/`, `components/`, `middleware.ts` — connection helpers + route protection.
+
+## One-time setup (~15 minutes)
+
+### 1. Database (Supabase — free)
+1. supabase.com → **New project** (region: Mumbai/Singapore). Save the database password.

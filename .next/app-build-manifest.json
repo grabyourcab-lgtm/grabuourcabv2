@@ -1,9 +1,9 @@
 {
   "pages": {
-    "/page": [
+    "/taxi-service-delhi/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
+      "static/chunks/app/taxi-service-delhi/page.js"
     ],
     "/layout": [
       "static/chunks/webpack.js",
@@ -11,10 +11,50 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
+    "/taxi-service-greater-noida/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/taxi-service-greater-noida/page.js"
+    ],
+    "/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/page.js"
+    ],
+    "/jewar-airport-cab-service/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/jewar-airport-cab-service/page.js"
+    ],
+    "/taxi-service-ghaziabad/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/taxi-service-ghaziabad/page.js"
+    ],
+    "/car-rent-faridabad/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/car-rent-faridabad/page.js"
+    ],
+    "/taxi-service-meerut/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/taxi-service-meerut/page.js"
+    ],
+    "/car-rental-goa/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/car-rental-goa/page.js"
+    ],
     "/contact/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/contact/page.js"
+    ],
+    "/self-drive-car-rental-delhi/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/self-drive-car-rental-delhi/page.js"
     ]
   }
 }

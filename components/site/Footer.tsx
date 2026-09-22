@@ -1,5 +1,3 @@
-
-
 "use client"
 import Link from "next/link";
 import Icon from "./Icon";
@@ -41,8 +39,8 @@ export default function Footer() {
           </div>
           <div className="foot-col"><h4>Get in touch</h4>
             <ul className="foot-contact">
-              <li><Icon name="phone" /><a href="tel:+917522817555">+91-75228 17555</a></li>
-              <li><Icon name="phone" /><a href="tel:+917522817555">+91-910861 7014</a></li>
+              <li><Icon name="phone" /><a href="tel:+917522817555">+91-75228 17555 (Delhi)</a></li>
+              <li><Icon name="phone" /><a href="tel:+917522817555">+91-910861 7014 (Meerut)</a></li>
               <li><Icon name="phone" /><a href="tel:+919953599735">+91-99535 99735 (Jewar)</a></li>
               <li><Icon name="chat" /><a href={waLink("Hello Grab Your Cab!")} target="_blank" rel="noopener">WhatsApp us</a></li>
               <li><Icon name="pin" /><span>SF-133, Galaxy Diamond Plaza, Gaur City-1, Sector-4, Greater Noida West – 201308</span></li>

@@ -726,7 +726,7 @@ export default function SelfDriveCarRentalGurgaonPage() {
             <div className="garage-map">
               
                <a className="maps-link"
-                href="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d11783.605329844395!2d77.07465289560535!3d28.591170980090418!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sRz-1110%2FA%20gali%20no%2010%20sadh%20nagar%20palam%20colony%20new%20delhi%20-110045!5e0!3m2!1sen!2sin!4v1786448913035!5m2!1sen!2sin"
+                href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3507.7525912775372!2d77.077012!3d28.4568736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d19edb3ec23a7%3A0x880220dc3c825aaf!2sGrab%20Your%20Cab!5e0!3m2!1sen!2sin!4v1790068837619!5m2!1sen!2sin"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -734,7 +734,7 @@ export default function SelfDriveCarRentalGurgaonPage() {
               </a>
               <iframe
                 title="Grab Your Cab self drive car rental office location"
-                src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d11783.605329844395!2d77.07465289560535!3d28.591170980090418!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sRz-1110%2FA%20gali%20no%2010%20sadh%20nagar%20palam%20colony%20new%20delhi%20-110045!5e0!3m2!1sen!2sin!4v1786448913035!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3507.7525912775372!2d77.077012!3d28.4568736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d19edb3ec23a7%3A0x880220dc3c825aaf!2sGrab%20Your%20Cab!5e0!3m2!1sen!2sin!4v1790068837619!5m2!1sen!2sin"
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
               />
@@ -750,7 +750,7 @@ export default function SelfDriveCarRentalGurgaonPage() {
                 </span>
                 <div>
                   <h3>Our Location</h3>
-                  <p>Rz-1110/A gali no 10 sadh nagar palam colony new delhi -110045</p>
+                  <p>PWO Apartments, C-4 206, Block D, PWO Appartments, Sector 43, Gurugram, Haryana 122009</p>
                 </div>
               </div>
 
@@ -763,7 +763,7 @@ export default function SelfDriveCarRentalGurgaonPage() {
                 <div>
                   <h3>Phone Number</h3>
                   <p>
-                    <a href="tel:+917522817555">+91-7522817555</a>
+                    <a href="tel:+917522817555">+91-8368737081</a>
                   </p>
                 </div>
               </div>

@@ -771,7 +771,7 @@ export default function TaxiServiceGhaziabadPage() {
             <div className="garage-map">
               <a
                 className="maps-link"
-                href="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d11783.605329844395!2d77.07465289560535!3d28.591170980090418!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sRz-1110%2FA%20gali%20no%2010%20sadh%20nagar%20palam%20colony%20new%20delhi%20-110045!5e0!3m2!1sen!2sin!4v1786448913035!5m2!1sen!2sin"
+                href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.7735900371795!2d77.43171099999999!3d28.606568300000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cee51a1056b87%3A0xbdbbad9c274da0c9!2z8J2QhvCdkKvwnZCa8J2QmyDwnZCY8J2QqPCdkK7wnZCrIPCdkILwnZCa8J2QmyAtIPCdkJPwnZCa8J2QsfCdkKIgJiDwnZCC8J2QmvCdkKsg8J2QkfCdkJ7wnZCn8J2QrfCdkJrwnZClIPCdkJLwnZCe8J2Qq_CdkK_wnZCi8J2QnPCdkJ4g8J2QovCdkKcg8J2QhvCdkKHwnZCa8J2Qs_CdkKLwnZCa8J2Qm_CdkJrwnZCd!5e0!3m2!1sen!2sin!4v1790074001963!5m2!1sen!2sin"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -779,7 +779,7 @@ export default function TaxiServiceGhaziabadPage() {
               </a>
               <iframe
                 title="Grab Your Cab taxi service office location"
-                src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d11783.605329844395!2d77.07465289560535!3d28.591170980090418!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sRz-1110%2FA%20gali%20no%2010%20sadh%20nagar%20palam%20colony%20new%20delhi%20-110045!5e0!3m2!1sen!2sin!4v1786448913035!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.7735900371795!2d77.43171099999999!3d28.606568300000003!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cee51a1056b87%3A0xbdbbad9c274da0c9!2z8J2QhvCdkKvwnZCa8J2QmyDwnZCY8J2QqPCdkK7wnZCrIPCdkILwnZCa8J2QmyAtIPCdkJPwnZCa8J2QsfCdkKIgJiDwnZCC8J2QmvCdkKsg8J2QkfCdkJ7wnZCn8J2QrfCdkJrwnZClIPCdkJLwnZCe8J2Qq_CdkK_wnZCi8J2QnPCdkJ4g8J2QovCdkKcg8J2QhvCdkKHwnZCa8J2Qs_CdkKLwnZCa8J2Qm_CdkJrwnZCd!5e0!3m2!1sen!2sin!4v1790074001963!5m2!1sen!2sin"
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
               />
@@ -796,7 +796,7 @@ export default function TaxiServiceGhaziabadPage() {
                 </span>
                 <div>
                   <h3>Our Location</h3>
-                  <p>Rz-1110/A gali no 10 sadh nagar palam colony new delhi -110045</p>
+                  <p>1, Jc4J+Jm Ghaziabad Delhi, Ghaziabad, Uttar Pradesh 201016</p>
                 </div>
               </div>
 

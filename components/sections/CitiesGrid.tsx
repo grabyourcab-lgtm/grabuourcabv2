@@ -8,14 +8,14 @@ type CityCard = {
   img: string;
 };
 const CITY_CARDS: CityCard[] = [
-  { name: "Gurugram", slug: "gurugram", img: "/cities/gurugram.jpg" },
-  { name: "Noida", slug: "noida", img: "/cities/noida.webp" },
-  { name: "Greater Noida West", slug: "greater-noida-west", img: "/cities/g-noida.jpg" },
-  { name: "Ghaziabad", slug: "ghaziabad", img: "/cities/ghaziabad.jpg" },
-  { name: "Noida International Airport, Jewar", slug: "noida-international-jewar", img: "/cities/noida-int.jpg" },
-  { name: "Goa", slug: "goa", img: "/cities/goa.png" },
-  { name: "Meerut", slug: "meerut", img: "/cities/meerut.jpg" },
-  { name: "Delhi", slug: "delhi", img: "/cities/delhi.webp" },
+  { name: "Gurugram", slug: "cab-service-gurgaon", img: "/cities/gurugram.jpg" },
+  { name: "Noida", slug: "cab-service-noida", img: "/cities/noida.webp" },
+  { name: "Greater Noida West", slug: "taxi-service-greater-noida", img: "/cities/g-noida.jpg" },
+  { name: "Ghaziabad", slug: "taxi-service-ghaziabad", img: "/cities/ghaziabad.jpg" },
+  { name: "Noida International Airport, Jewar", slug: "jewar-airport-cab-service", img: "/cities/noida-int.jpg" },
+  { name: "Goa", slug: "car-rental-goa", img: "/cities/goa.png" },
+  { name: "Meerut", slug: "taxi-service-meerut", img: "https://vushii.com/uploads/552011138_Ghantaghar.jpg" },
+  { name: "Delhi", slug: "taxi-service-delhi", img: "/cities/delhi.webp" },
 ];
 
 const sectionStyle: CSSProperties = {

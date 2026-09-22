@@ -5,9 +5,9 @@ import Link from "next/link";
 import TaxiSearch from "../taxi/page";
 
 export const metadata: Metadata = {
-  title: "Best Taxi Service in Greater Noida | Book a Cab Today",
+  title: "Taxi Service in Greater Noida & Noida Extension | Cab Service & Self Drive Car Rental",
   description:
-    "Book a cab service in Greater Noida for local and outstation travel. Choose suitable cars for airport transfers, family trips, business travel and one-way journeys.",
+    "Book taxi service in Greater Noida and Noida Extension with cab service, self drive car rental, Tempo Travellers, luxury car rental, luxury bus rental, airport transfers and outstation travel services.",
 };
 
 const pageCss = `
@@ -74,9 +74,11 @@ img{max-width:100%;display:block}
 /* SEO content blocks */
 .seo-wrap{max-width:840px}
 .seo-block{margin-bottom:30px}
+.seo-block:last-child{margin-bottom:0}
 .seo-block h2{font-size:clamp(19px,2.6vw,25px);font-weight:700;margin-bottom:12px;position:relative;padding-bottom:10px}
 .seo-block h2::after{content:"";position:absolute;left:0;bottom:0;width:54px;height:3px;background:var(--red)}
 .seo-block p{color:var(--text);font-size:14.5px;margin-bottom:12px;line-height:1.75}
+.seo-block p:last-child{margin-bottom:0}
 .seo-block ul{margin:0 0 12px 20px}
 .seo-block ul li{color:var(--text);font-size:14.5px;line-height:1.8}
 
@@ -182,108 +184,130 @@ img{max-width:100%;display:block}
 `;
 
 const advantages = [
-  "Simple taxi booking",
-  "Professional drivers who know their routes",
-  "Clean and comfortable cabs",
-  "Flexible options for pickup and drop-off of passengers",
-  "Vehicle categories available",
-  "Travel from city to city, within city",
-  "One-way and round trip services",
-  "Families, groups or individuals - suitable solutions for all when it comes to hiring a taxi.",
+  "Taxi & Cab Services",
+  "Self Drive Car Rental",
+  "Car Rental",
+  "Tempo Traveller on Rent",
+  "Force Urbana on Rent",
+  "Luxury Car Rental",
+  "Luxury Bus & Volvo Bus Rental",
+  "Airport Transfers",
+  "One Way & Outstation Cabs",
+  "Corporate & Event Transportation",
+  "Pet Friendly Cab Services",
+  "Safe Transportation Options for Women",
 ];
 
 const taxiServices = [
   {
-    title: "Local Taxi Service in Greater Noida",
-    text: "You can use a local cab for daily commute, office work, shopping, appointments, meetings or local travels. You can schedule a pickup from any location and use the cab to travel within Greater Noida and the other nearby Places.",
+    title: "Cab Service in Greater Noida",
+    text: "Our cab service in Greater Noida is suitable for daily travel, office commute, airport transfers, business meetings, shopping trips and outstation journeys. Customers can enquire about local, outstation or one way cab services according to their travel requirements.",
     image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR87MVlflVDxpgvAbHSxL3GH-BnttdQa8InRS_yfyZaeJ2jvGLBKhYuQQk&s=10",
   },
   {
-    title: "Airport Taxi Service in Greater Noida",
-    text: "Whether you are heading to the airport or coming from the airport, you need timely and reliable transport. Book a taxi from Greater Noida to Delhi Airport for your trip to the airport or get an airport transfer when you are returning to the city.",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHh73zv7c4iGj0HQYZvV4IBIO6Hm5HBYOeyYAHBCZgOg7m1i-pzey9rX63&s=10",
+    title: "Self Drive Car Rental in Greater Noida",
+    text: "Grab Your Cab offers self drive car rental in Greater Noida for customers who prefer the flexibility, privacy and convenience of driving themselves. Self-drive cars are available both in automatic and manual transmission for local travel, business trips, family outings and weekend getaways.",
+    image: "https://rajputanacabs.b-cdn.net/wp-content/uploads/2026/05/kia-carens-taxi-rajputana-cabs.webp",
   },
   {
-    title: "Outstation Taxi from Greater Noida",
-    text: "You can get an outstation taxi for intercity travel as a good alternative to driving on your own. After the journey you may have to travel to Delhi, Agra, Jaipur, Haridwar, Dehradun, Mathura and Vrindavan etc, depending on popular destinations so stay tuned for travel plans.",
-    image: "https://www.lordkrishnatravels.com/wp-content/uploads/2025/03/slider-2.jpg",
+    title: "Tempo Traveller on Rent in Greater Noida",
+    text: "Planning a family trip, corporate outing, wedding or group tour? Grab Your Cab provides Tempo Traveller on rent in Greater Noida for comfortable group transportation and outstation travel, with 9, 12, 16, 20 and 26 seater options available.",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHe5mtgLiUZsdyousYcrSeU7Ohu0XCvXH-Fj7Ak-YBnfqsYCZ5dQLzB7M&s=10",
   },
   {
-    title: "One-Way Taxi Service in Greater Noida",
-    text: "Hire taxi for one way journey suitable for to reach your destination. You don't have to use it for a return taxi in the middle of the city.",
-    image: "https://mithilatravels.com/wp-content/uploads/2026/02/Cab-service-in-noida-e1770898999606.jpg",
+    title: "Force Urbania Tempo Traveller on Rent",
+    text: "Looking for a premium group travel vehicle? Grab Your Cab provides Force Urbania Tempo Traveller on rent in Greater Noida, Noida Extension, Yamuna Expressway, Pari Chowk, Knowledge Park, Alpha, Beta and Gamma sectors for corporate events, airport transfers, weddings, family trips, group tours and outstation travel.",
+    image: "https://media.zigcdn.com/media/model/2026/Apr/front-right-quarter-view-892111143_930x620.jpg",
   },
   {
-    title: "Round-Trip Taxi Service in Greater Noida",
-    text: "Round-trip reservations are especially convenient for family excursions sightseeing-business trips or any well-planned travel where your transportation needs to cover both ends of your journey.",
-    image: "https://suritours.in/nimg/car-rental-service-noida.jpg",
+    title: "Luxury Car Rental in Greater Noida",
+    text: "Grab Your Cab provides luxury car rental in Greater Noida for weddings, VIP travel, executive transportation, airport transfers, celebrity events and special occasions. Customers can enquire about Toyota Fortuner, Mercedes, BMW, Audi, Defender, Toyota Vellfire and other premium vehicles.",
+    image: "https://luxuryrentacar.in/uploads/mercedes-maybach-s680-rental-delhi.jpg",
   },
   {
-    title: "Corporate Taxi Service in Greater Noida",
-    text: "Individuals and organizations now have the opportunity to travel to and deliver their professional, organizational and institutional needs with ease: for example, for business meetings conferences visits to the office employees attending work, and for any other work-related travel.",
-    image: "https://www.grabyourcab.com/images/taxi-service.jpg",
+    title: "Luxury Bus Rental in Greater Noida",
+    text: "Our luxury bus rental services in Greater Noida are suitable for corporate events, conferences, employee transportation, weddings, educational tours and large group travel requirements.",
+    image: "https://www.carrentaldelhi.biz/images/categories-photoes/volvo-9600-big@2x.jpg",
   },
 ];
 
 const popularRoutes = [
-  "Greater Noida to Delhi",
-  "Greater Noida to Noida",
-  "Greater Noida to Ghaziabad",
-  "Greater Noida to Delhi Airport",
-  "Greater Noida to Agra",
-  "Greater Noida to Jaipur",
-  "Greater Noida to Haridwar",
-  "Greater Noida to Dehradun",
-  "Greater Noida to Mathura",
-  "Greater Noida to Vrindavan",
+  "Pari Chowk",
+  "Knowledge Park",
+  "Alpha Sector",
+  "Beta Sector",
+  "Gamma Sector",
+  "Delta Sector",
+  "Omega Sector",
+  "Jaypee Greens",
+  "Surajpur",
+  "Ecotech",
+  "Yamuna Expressway",
+  "Noida Extension",
 ];
 
 const bookingSteps = [
-  { title: "Choose Pickup", text: "Choose your place of pickup in Greater Noida." },
-  { title: "Enter Travel Details", text: "Type in your city and the date of travel." },
-  { title: "Select Car Type", text: "Choose the type of car or taxi you prefer." },
-  { title: "Review Booking", text: "Review your trip and booking details." },
-  { title: "Get Confirmation", text: "Send you booking confirmation and get you ready for pickup." },
+  { title: "Share Pickup Location", text: "Tell us your pickup location in Greater Noida, Noida Extension or nearby areas." },
+  { title: "Share Destination", text: "Provide your destination or drop-off point for the trip." },
+  { title: "Select Travel Date", text: "Choose your date and time of travel for the booking." },
+  { title: "Choose Vehicle", text: "Pick a taxi, self-drive car, Tempo Traveller or luxury vehicle as per your need." },
+  { title: "Confirm Booking", text: "Share rental or travel duration and passenger details to confirm suitable available options." },
 ];
 
-const fareFactors = [
-  "Distance travelled",
-  "Type of vehicle",
-  "Length of the trip",
-  "Trip type: One Way or Round Trip",
-  "Location for pick-up and drop off",
-  "Toll and parking fees",
-  "Travel date and demand for services",
+const weddingCars = [
+  "Toyota Fortuner",
+  "Mercedes-Benz",
+  "BMW",
+  "Audi",
+  "Land Rover Defender",
+  "Toyota Vellfire",
+  "Jaguar",
 ];
 
 const faqs = [
   {
-    q: "How can I book a taxi in Greater Noida?",
-    a: "You can book a taxi by providing your pickup location, destination, travel date, passenger details, and preferred vehicle type, then confirming the booking.",
+    q: "Do you provide taxi service in Greater Noida?",
+    a: "Yes. Grab Your Cab provides taxi and cab services in Greater Noida 24 hours for local, airport, corporate and outstation travel requirements.",
   },
   {
-    q: "How much does a taxi cost in Greater Noida?",
-    a: "Taxi fares depend on distance, vehicle type, trip duration, route, and applicable toll or parking charges. Confirm the fare for your specific journey before booking.",
+    q: "Can I rent a self drive car in Greater Noida?",
+    a: "Yes. Self drive car rental options are available subject to vehicle availability, rental eligibility and applicable terms.",
   },
   {
-    q: "Can I book a taxi from Greater Noida to Delhi Airport?",
-    a: "Yes, you can arrange a taxi from Greater Noida to Delhi Airport for airport drop-offs, subject to service availability and booking confirmation.",
+    q: "Can I book a Tempo Traveller on rent in Greater Noida?",
+    a: "Yes. Tempo Traveller rental is available for group tours, family trips, corporate events, weddings and outstation travel, subject to availability.",
   },
   {
-    q: "Can I book an outstation taxi from Greater Noida?",
-    a: "Yes, outstation taxi options can be used for planned intercity journeys, including one-way and round-trip travel, depending on destination and availability.",
+    q: "Can I rent a luxury car in Greater Noida?",
+    a: "Yes. Customers can enquire about luxury cars such as Mercedes, BMW, Audi, Defender and other premium vehicles for different travel and event requirements.",
   },
   {
-    q: "Do you provide one-way taxi service from Greater Noida?",
-    a: "One-way taxi service can be suitable for travellers who need transportation to a destination without requiring the same taxi for the return journey.",
+    q: "Do you provide luxury bus rental in Greater Noida?",
+    a: "Yes. Customers can enquire about luxury buses and Volvo buses for corporate events, group tours, weddings, conferences and outstation travel.",
   },
   {
-    q: "Which cars are available for taxi booking in Greater Noida?",
-    a: "Vehicle options may include Maruti, Kia, Mahindra and Luxury cars depending on availability and the number of passengers, luggage, and comfort requirements.",
+    q: "Do you provide airport taxi service from Greater Noida?",
+    a: "Yes. Airport taxi services are arranged for Delhi Airport and Noida International Airport (Jewar Airport), subject to service availability from all parts of Greater Noida.",
   },
   {
-    q: "Can I book a taxi online in Greater Noida?",
-    a: "Yes, you can provide your journey details and booking requirements to arrange a taxi, subject to vehicle and service availability.",
+    q: "Do you provide corporate transportation in Greater Noida?",
+    a: "Yes. We provide corporate cab services, employee transportation, executive travel, airport transfers and group transportation solutions for businesses.",
+  },
+  {
+    q: "How can I book a cab or rental car in Greater Noida?",
+    a: "Share your pickup location, destination, travel date, vehicle requirement and rental or travel duration with Grab Your Cab to enquire about suitable available options.",
+  },
+  {
+    q: "Do you provide cab service in Noida Extension?",
+    a: "Yes. Grab Your Cab provides cab services in Noida Extension (Greater Noida West) for local travel, airport transfers, business travel and outstation journeys.",
+  },
+  {
+    q: "Do you provide self drive car rental in Noida Extension?",
+    a: "Yes. Self drive car rental options are available for customers in Noida Extension, subject to vehicle availability, rental terms and eligibility requirements.",
+  },
+  {
+    q: "Do you provide Force Urbana on rent in Noida Extension?",
+    a: "Yes. Customers can enquire about Force Urbana on rent in Greater Noida, Noida Extension, Pari Chowk, Knowledge Park, Yamuna Expressway, Alpha, Beta and Gamma for group travel, corporate events, weddings and outstation journeys.",
   },
 ];
 
@@ -303,14 +327,13 @@ export default function TaxiServiceGreaterNoidaPage() {
                 <span>/</span>
                 <b>Taxi Service in Greater Noida</b>
               </div>
-              <span className="eyebrow">Greater Noida · Local &amp; Outstation</span>
-              <h1>Book Taxi Service in Greater Noida for Easy Travel</h1>
+              <span className="eyebrow">Greater Noida · Noida Extension · Yamuna Expressway</span>
+              <h1>Taxi Service in Greater Noida &amp; Noida Extension</h1>
               <p className="lead">
-                Grab Your Cab offers a comfortable cab ride in Greater Noida for local travel,
-                airport transfers, corporate rides, railway station transfers and outstation
-                rides. Whether you are planning a short trip across town or have an intercity
-                trip planned, you can choose from a range of vehicles suitable for your travel
-                needs and arrange for pickup and drop-off.
+                Looking for a reliable taxi service in Greater Noida? Grab Your Cab provides
+                outstation taxi services, airport transfers, one-way cabs, local taxis and
+                corporate transportation across Greater Noida for individuals, families, business
+                travelers and groups.
               </p>
               <div className="hero-ctas">
                 <a href="https://wa.me/917522817555" className="btn btn-wa">
@@ -322,12 +345,11 @@ export default function TaxiServiceGreaterNoidaPage() {
               </div>
               <div className="loc-pills">
                 <span>Greater Noida</span>
-                <span>Noida</span>
-                <span>Delhi</span>
-                <span>Ghaziabad</span>
+                <span>Noida Extension</span>
+                <span>Yamuna Expressway</span>
+                <span>Pari Chowk</span>
               </div>
             </div>
-          
           </div>
         </div>
       </section>
@@ -338,11 +360,13 @@ export default function TaxiServiceGreaterNoidaPage() {
       <section className="sec">
         <div className="container">
           <div className="seo-wrap">
-            <div className="seo-block"> 
+            <div className="seo-block">
               <p>
-                There are choices to cater for solo travellers, families, business travellers and
-                groups trips, this service aims to give you hassle-free travelling in and around
-                Greater Noida and nearby places.
+                Grab Your Cab brings multiple transportation options together under one
+                platform, making it easier to arrange different travel requirements through a
+                single transportation partner. We provide taxi and cab services, self-drive cars,
+                car rentals, Tempo Travellers, Force Urbana, luxury cars and luxury buses across
+                Greater Noida, Noida Extension and nearby areas.
               </p>
             </div>
           </div>
@@ -353,12 +377,13 @@ export default function TaxiServiceGreaterNoidaPage() {
       <section className="sec grey">
         <div className="container">
           <div className="sec-head">
-            <span className="eyebrow">Our Advantages</span>
+            <span className="eyebrow">Multiple Travel Options Under One Roof</span>
             <h2>Why Choose Our Taxi Service in Greater Noida?</h2>
             <p>
-              The right cab service can relieve those hassles of day-to-day and out-of-town
-              travels. Grab Your Cab is all about easy booking, comfortable ride, and flexible
-              journey.
+              Whether you need a local taxi, airport transfer, one-way cab, self-drive car,
+              luxury vehicle, group transportation or corporate event travel, you can enquire
+              about a suitable vehicle based on your journey, passenger count and travel
+              requirements.
             </p>
           </div>
           <div className="check-grid">
@@ -372,8 +397,9 @@ export default function TaxiServiceGreaterNoidaPage() {
           <div className="seo-wrap" style={{ marginTop: 26 }}>
             <div className="seo-block" style={{ marginBottom: 0 }}>
               <p>
-                If you are travelling for work, to an appointment, to the airport or planning an
-                outstation trip, we have a taxi that's right for your journey.
+                From taxi and cab bookings to self-drive cars, Tempo Travellers, Force Urbana,
+                luxury cars and luxury buses, Grab Your Cab helps arrange the right vehicle for
+                your journey across Greater Noida, Noida Extension and nearby areas.
               </p>
             </div>
           </div>
@@ -404,40 +430,567 @@ export default function TaxiServiceGreaterNoidaPage() {
         </div>
       </section>
 
-      {/* ---------- CAB OPTIONS ---------- */}
+      {/* ---------- TAXI SERVICE IN GREATER NOIDA ---------- */}
       <section className="sec grey">
         <div className="container">
           <div className="seo-wrap">
             <div className="seo-block">
-              <h2>Cab Options Available in Greater Noida</h2>
+              <h2>Taxi Service in Greater Noida</h2>
               <p>
-                Different trips call for different kinds of vehicles. Grab Your Cab can suggest
-                the best car options according to your passengers, luggage, comfort and distance
-                of travel.
-              </p>
-              <p>
-                Options can include Maruti, Kia, Mahindra and Luxury cars are subject to
-                availability. Compact cars are a good option for lone travellers and small
-                groups, while the extra passenger and luggage space offered by a bigger car can
-                be a godsend for families.
+                Looking for a reliable taxi service in Greater Noida? Grab Your Cab provides
+                outstation taxi services, airport transfers, one-way cabs, local taxis and
+                corporate transportation across Greater Noida for individuals, families,
+                business travelers and groups.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* ---------- POPULAR ROUTES ---------- */}
+      {/* ---------- CAB SERVICE IN GREATER NOIDA ---------- */}
       <section className="sec">
         <div className="container">
-          <div className="sec-head">
-            <span className="eyebrow">Where We Go</span>
-            <h2>Popular Routes from Greater Noida</h2>
-            <p>
-              From Greater Noida taxi bookings are available to travel to the following cities
-              and more:
-            </p>
+          <div className="seo-wrap">
+            <div className="seo-block">
+              <h2>Cab Service in Greater Noida</h2>
+              <p>
+                Our cab service in Greater Noida is suitable for daily travel, office commute,
+                airport transfers, business meetings, shopping trips and outstation journeys.
+                Customers can enquire about local, outstation or one way cab services according
+                to their travel requirements.
+              </p>
+            </div>
           </div>
-          <div className="route-grid">
+        </div>
+      </section>
+
+      {/* ---------- SELF DRIVE CAR RENTAL IN GREATER NOIDA ---------- */}
+      <section className="sec grey">
+        <div className="container">
+          <div className="seo-wrap">
+            <div className="seo-block">
+              <h2>Self Drive Car Rental in Greater Noida</h2>
+              <p>
+                Grab Your Cab offers self drive car rental in Greater Noida for customers who
+                prefer the flexibility, privacy and convenience of driving themselves.
+                Self-drive cars are available both in automatic and manual transmission for
+                local travel, business trips, family outings and weekend getaways.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ---------- CAR RENTAL IN GREATER NOIDA ---------- */}
+      <section className="sec">
+        <div className="container">
+          <div className="seo-wrap">
+            <div className="seo-block">
+              <h2>Car Rental in Greater Noida</h2>
+              <p>
+                Whether you need a car for a few hours, a full day or multiple days, our car
+                rental services in Greater Noida offer comfortable and reliable transportation
+                solutions for personal, business and leisure travel.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ---------- TEMPO TRAVELLER ON RENT IN GREATER NOIDA ---------- */}
+      <section className="sec grey">
+        <div className="container">
+          <div className="seo-wrap">
+            <div className="seo-block">
+              <h2>Tempo Traveller on Rent in Greater Noida</h2>
+              <p>
+                Planning a family trip, corporate outing, wedding or group tour? Grab Your Cab
+                provides Tempo Traveller on rent in Greater Noida for comfortable group
+                transportation and outstation travel. You can choose from varieties of seating
+                options, 9 seater tempo traveller, 12 seater tempo traveller, 16 seater tempo
+                traveller, 20 seater tempo traveller and 26 seater tempo traveller.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ---------- FORCE URBANA TEMPO TRAVELLER ON RENT ---------- */}
+      <section className="sec">
+        <div className="container">
+          <div className="seo-wrap">
+            <div className="seo-block">
+              <h2>Force Urbana Tempo Traveller on Rent in Greater Noida &amp; Noida Extension</h2>
+              <p>
+                Looking for a premium group travel vehicle? Grab Your Cab provides Force Urbana
+                Tempo Traveller on rent in Greater Noida, Noida Extension, Yamuna Expressway,
+                Pari Chowk, Knowledge Park, Alpha, Beta and Gamma sectors for corporate events,
+                airport transfers, weddings, family trips, group tours and outstation travel.
+                With modern interiors, comfortable seating and ample luggage space, Force Urbana
+                tempo traveller offers a more premium travel experience for small and large
+                groups.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ---------- LUXURY BUS RENTAL IN GREATER NOIDA ---------- */}
+      <section className="sec grey">
+        <div className="container">
+          <div className="seo-wrap">
+            <div className="seo-block">
+              <h2>Luxury Bus Rental in Greater Noida</h2>
+              <p>
+                Our luxury bus rental services in Greater Noida are suitable for corporate
+                events, conferences, employee transportation, weddings, educational tours and
+                large group travel requirements.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ---------- LUXURY CAR RENTAL IN GREATER NOIDA ---------- */}
+      <section className="sec">
+        <div className="container">
+          <div className="seo-wrap">
+            <div className="seo-block">
+              <h2>Luxury Car Rental in Greater Noida</h2>
+              <p>
+                Grab Your Cab provides luxury car rental in Greater Noida for weddings, VIP
+                travel, executive transportation, airport transfers, celebrity events and
+                special occasions. Customers can enquire about Toyota Fortuner, Mercedes, BMW,
+                Audi, Defender, Toyota Vellfire and other premium vehicles.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ---------- TAXI SERVICE IN NOIDA EXTENSION ---------- */}
+      <section className="sec grey">
+        <div className="container">
+          <div className="seo-wrap">
+            <div className="seo-block">
+              <h2>Taxi Service in Noida Extension</h2>
+              <p>
+                Grab Your Cab provides taxi service in Noida Extension (Greater Noida West) for
+                local travel, airport transfers, outstation trips, office commute and one way
+                cab requirements. Residents of Gaur City, Bisrakh, Techzone, Ek Murti and nearby
+                areas can enquire about taxi services according to their travel needs.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ---------- CAB SERVICE IN NOIDA EXTENSION ---------- */}
+      <section className="sec">
+        <div className="container">
+          <div className="seo-wrap">
+            <div className="seo-block">
+              <h2>Cab Service in Noida Extension</h2>
+              <p>
+                Looking for a cab service in Noida Extension? Whether you need a local cab,
+                airport taxi or outstation vehicle, Grab Your Cab provides 5 and 7 seater cabs
+                for families, professionals, students and business travelers.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ---------- SELF DRIVE CAR RENTAL IN NOIDA EXTENSION ---------- */}
+      <section className="sec grey">
+        <div className="container">
+          <div className="seo-wrap">
+            <div className="seo-block">
+              <h2>Self Drive Car Rental in Noida Extension</h2>
+              <p>
+                Customers looking for self drive car rental in Noida Extension can enquire about
+                hatchbacks, sedans and SUVs for personal travel, business trips, weekend drives
+                and outstation journeys. We have both manual and automatic transmission with all
+                fuel type.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ---------- CAR RENTAL IN NOIDA EXTENSION ---------- */}
+      <section className="sec">
+        <div className="container">
+          <div className="seo-wrap">
+            <div className="seo-block">
+              <h2>Car Rental in Noida Extension</h2>
+              <p>
+                Our car rental services in Noida Extension provide flexible transportation
+                options for local travel, airport transfers, family functions, business meetings
+                and special occasions.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ---------- TEMPO TRAVELLER ON RENT IN NOIDA EXTENSION ---------- */}
+      <section className="sec grey">
+        <div className="container">
+          <div className="seo-wrap">
+            <div className="seo-block">
+              <h2>Tempo Traveller on Rent in Noida Extension</h2>
+              <p>
+                Tempo Traveller on rent in Noida Extension is suitable for group tours, weddings,
+                religious trips, corporate outings and family travel. Multiple seating options
+                may be available depending on the group size. You can also enquire about luxury
+                tempo travellers, 1 x 1 Maharaja Tempo Travellers and Force Urbana Tempo
+                Travellers available with all seating capacity.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ---------- LUXURY BUS RENTAL IN NOIDA EXTENSION ---------- */}
+      <section className="sec">
+        <div className="container">
+          <div className="seo-wrap">
+            <div className="seo-block">
+              <h2>Luxury Bus Rental in Noida Extension</h2>
+              <p>
+                Grab Your Cab provides luxury bus rental in Noida Extension for corporate events,
+                educational tours, weddings, conferences and group transportation requirements.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ---------- LUXURY CAR RENTAL IN NOIDA EXTENSION ---------- */}
+      <section className="sec grey">
+        <div className="container">
+          <div className="seo-wrap">
+            <div className="seo-block">
+              <h2>Luxury Car Rental in Noida Extension</h2>
+              <p>
+                Looking for a luxury car rental in Noida Extension? Customers can enquire Toyota
+                Fortuner, Audi, BMW, Mercedes, Toyota Vellfire, Range Rover, Defender and other
+                premium vehicles for weddings, VIP guests, executive travel, airport transfers
+                and special events.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ---------- TAXI & CAB SERVICE ON YAMUNA EXPRESSWAY ---------- */}
+      <section className="sec">
+        <div className="container">
+          <div className="seo-wrap">
+            <div className="seo-block">
+              <h2>Taxi &amp; Cab Service on Yamuna Expressway</h2>
+              <p>
+                Grab Your Cab provides taxi and cab services on Yamuna Expressway for local
+                travel, airport transfers, business travel, outstation journeys and
+                transportation to and from Noida International Airport (Jewar Airport).
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ---------- SELF DRIVE CAR RENTAL ON YAMUNA EXPRESSWAY ---------- */}
+      <section className="sec grey">
+        <div className="container">
+          <div className="seo-wrap">
+            <div className="seo-block">
+              <h2>Self Drive Car Rental on Yamuna Expressway</h2>
+              <p>
+                Self drive car rental in Yamuna Expressway is available 24 hours with lots of
+                options from hatchback to SUVs for family trips, business travel, weekend
+                getaways and long-distance journeys.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ---------- TEMPO TRAVELLER ON RENT ON YAMUNA EXPRESSWAY ---------- */}
+      <section className="sec">
+        <div className="container">
+          <div className="seo-wrap">
+            <div className="seo-block">
+              <h2>Tempo Traveller on Rent on Yamuna Expressway</h2>
+              <p>
+                Tempo Traveller rental on Yamuna Expressway is suitable for group tours, family
+                functions, educational trips, religious travel and corporate group
+                transportation.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ---------- LUXURY CAR RENTAL ON YAMUNA EXPRESSWAY ---------- */}
+      <section className="sec grey">
+        <div className="container">
+          <div className="seo-wrap">
+            <div className="seo-block">
+              <h2>Luxury Car Rental on Yamuna Expressway</h2>
+              <p>
+                Grab Your Cab provides luxury car rental on Yamuna Expressway for weddings,
+                airport transfers, VIP travel, executive transportation and special occasions.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ---------- TAXI & CAB SERVICE AT PARI CHOWK ---------- */}
+      <section className="sec">
+        <div className="container">
+          <div className="seo-wrap">
+            <div className="seo-block">
+              <h2>Taxi &amp; Cab Service at Pari Chowk</h2>
+              <p>
+                Pari Chowk is one of the most important landmarks in Greater Noida. Grab Your
+                Cab provides taxi and cab services at Pari Chowk for local travel, airport
+                transfers, office commute, educational travel and outstation journeys.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ---------- SELF DRIVE CAR RENTAL AT PARI CHOWK ---------- */}
+      <section className="sec grey">
+        <div className="container">
+          <div className="seo-wrap">
+            <div className="seo-block">
+              <h2>Self Drive Car Rental at Pari Chowk</h2>
+              <p>
+                Customers looking for self drive car rental near Pari Chowk can enquire about
+                suitable vehicle options for personal travel, business requirements and weekend
+                trips.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ---------- TEMPO TRAVELLER ON RENT AT PARI CHOWK ---------- */}
+      <section className="sec">
+        <div className="container">
+          <div className="seo-wrap">
+            <div className="seo-block">
+              <h2>Tempo Traveller on Rent at Pari Chowk</h2>
+              <p>
+                Tempo Traveller on rent at Pari Chowk is available for weddings, family tours,
+                corporate events, educational trips and group transportation requirements.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ---------- TAXI & CAB SERVICE IN ALPHA, BETA & GAMMA SECTORS ---------- */}
+      <section className="sec grey">
+        <div className="container">
+          <div className="seo-wrap">
+            <div className="seo-block">
+              <h2>Taxi &amp; Cab Service in Alpha, Beta &amp; Gamma Sectors</h2>
+              <p>
+                Grab Your Cab provides taxi and cab services across Alpha, Beta and Gamma
+                sectors of Greater Noida for local travel, airport transfers, daily commute,
+                family journeys and business transportation.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ---------- SELF DRIVE CAR RENTAL IN ALPHA, BETA & GAMMA SECTORS ---------- */}
+      <section className="sec">
+        <div className="container">
+          <div className="seo-wrap">
+            <div className="seo-block">
+              <h2>Self Drive Car Rental in Alpha, Beta &amp; Gamma Sectors</h2>
+              <p>
+                Residents of Alpha, Beta and Gamma sectors can get self drive car rental at
+                affordable rates for personal travel, office commute, family outings and
+                outstation journeys.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ---------- TEMPO TRAVELLER ON RENT IN ALPHA, BETA & GAMMA SECTORS ---------- */}
+      <section className="sec grey">
+        <div className="container">
+          <div className="seo-wrap">
+            <div className="seo-block">
+              <h2>Tempo Traveller on Rent in Alpha, Beta &amp; Gamma Sectors</h2>
+              <p>
+                Planning a group trip from Alpha, Beta or Gamma? Grab Your Cab provides Tempo
+                Traveller rental for weddings, family functions, educational tours, corporate
+                outings and group travel.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ---------- TAXI & CAB SERVICE IN KNOWLEDGE PARK ---------- */}
+      <section className="sec">
+        <div className="container">
+          <div className="seo-wrap">
+            <div className="seo-block">
+              <h2>Taxi &amp; Cab Service in Knowledge Park</h2>
+              <p>
+                Grab Your Cab provides taxi and cab services in Knowledge Park for students,
+                faculty members, corporate visitors, airport travelers and daily commuters.
+                Knowledge Park remains one of the busiest educational and commercial hubs of
+                Greater Noida.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ---------- SELF DRIVE CAR RENTAL IN KNOWLEDGE PARK ---------- */}
+      <section className="sec grey">
+        <div className="container">
+          <div className="seo-wrap">
+            <div className="seo-block">
+              <h2>Self Drive Car Rental in Knowledge Park</h2>
+              <p>
+                Looking for self drive car rental in Knowledge Park? Customers can enquire about
+                vehicles for local travel, business trips, educational visits and personal
+                transportation needs.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ---------- TEMPO TRAVELLER ON RENT IN KNOWLEDGE PARK ---------- */}
+      <section className="sec">
+        <div className="container">
+          <div className="seo-wrap">
+            <div className="seo-block">
+              <h2>Tempo Traveller on Rent in Knowledge Park</h2>
+              <p>
+                Tempo Traveller rental in Knowledge Park is suitable for college groups,
+                educational tours, conferences, corporate events and large group travel
+                requirements.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ---------- LUXURY CAR RENTAL IN KNOWLEDGE PARK ---------- */}
+      <section className="sec grey">
+        <div className="container">
+          <div className="seo-wrap">
+            <div className="seo-block">
+              <h2>Luxury Car Rental in Knowledge Park</h2>
+              <p>
+                Customers can also enquire about luxury car rental in Knowledge Park for VIP
+                guests, business meetings, airport transfers, corporate events and special
+                occasions.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ---------- WEDDING CAR ON RENT ---------- */}
+      <section className="sec">
+        <div className="container">
+          <div className="seo-wrap">
+            <div className="seo-block">
+              <h2>Wedding Car on Rent in Greater Noida, Noida Extension &amp; Yamuna Expressway</h2>
+              <p>
+                Make your special day memorable with wedding car rental services in Greater
+                Noida, Noida Extension and Yamuna Expressway. Customers can enquire about luxury
+                wedding cars including Mercedes, BMW, Audi, Jaguar, Defender, Toyota Vellfire and
+                other premium vehicles for weddings and celebrations.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ---------- PET FRIENDLY CAB SERVICE ---------- */}
+      <section className="sec grey">
+        <div className="container">
+          <div className="seo-wrap">
+            <div className="seo-block">
+              <h2>Pet Friendly Cab Service</h2>
+              <p>
+                Pets are an important part of the family, and travelling with them should be
+                convenient. Grab Your Cab provides pet friendly cab services for passengers
+                travelling with dogs, cats and other companion animals, helping make journeys
+                more comfortable for both pets and their owners.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ---------- SAFE CAB SERVICE FOR WOMEN ---------- */}
+      <section className="sec">
+        <div className="container">
+          <div className="seo-wrap">
+            <div className="seo-block">
+              <h2>Safe Cab Service for Women</h2>
+              <p>
+                Women passenger safety remains a key priority. Grab Your Cab offers
+                transportation solutions with verified drivers, GPS-enabled trip tracking,
+                driver and vehicle details shared before pickup, and emergency assistance
+                support to help provide a safer and more comfortable travel experience.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ---------- CORPORATE & EVENT TRANSPORTATION ---------- */}
+      <section className="sec grey">
+        <div className="container">
+          <div className="seo-wrap">
+            <div className="seo-block">
+              <h2>Corporate &amp; Event Transportation in Greater Noida</h2>
+              <p>
+                Greater Noida hosts business meetings, conferences, dealer meets, exhibitions,
+                training programs, weddings and large events that often require different types
+                of vehicles. Grab Your Cab can assist with airport pickups, local cabs, executive
+                luxury cars, Tempo Travellers, Force Urbana and luxury buses through a
+                coordinated transportation solution.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ---------- AREAS WE SERVE ---------- */}
+      <section className="sec">
+        <div className="container">
+          <div className="seo-wrap">
+            <div className="seo-block">
+              <h2>Areas We Serve in Greater Noida</h2>
+              <p>
+                We provide transportation services across Greater Noida and nearby areas,
+                including Pari Chowk, Knowledge Park, Alpha, Beta, Gamma, Delta, Omega, Jaypee
+                Greens, Surajpur, Ecotech and areas around the Yamuna Expressway, subject to
+                service availability.
+              </p>
+            </div>
+          </div>
+          <div className="route-grid" style={{ marginTop: 26 }}>
             {popularRoutes.map((route) => (
               <div className="item" key={route}>
                 <span className="dot" />
@@ -445,34 +998,27 @@ export default function TaxiServiceGreaterNoidaPage() {
               </div>
             ))}
           </div>
-          <div className="seo-wrap" style={{ marginTop: 26 }}>
-            <div className="seo-block" style={{ marginBottom: 0 }}>
-              <p>
-                You can choose the suitable car and trip type for the total distance and the
-                number of passengers, luggage as well as days.
-              </p>
-            </div>
-          </div>
         </div>
       </section>
 
-      {/* ---------- LOCAL AND OUTSTATION TAXI ---------- */}
+      {/* ---------- MULTIPLE TRAVEL OPTIONS ---------- */}
       <section className="sec grey">
         <div className="container">
           <div className="seo-wrap">
             <div className="seo-block">
-              <h2>Local and Outstation Taxi for Different Travel Needs</h2>
+              <h2>Multiple Travel Options Under One Roof</h2>
               <p>
-                A taxi can be booked as per your travel need. Local Taxi services are also
-                available for daily travel, shopping, meetings, local visits etc., in Outstation
-                Taxi services are available for Airport transfers and City Transfers.
+                Grab Your Cab brings multiple transportation options together under one
+                platform, making it easier to arrange different travel requirements through a
+                single transportation partner. We provide taxi and cab services, self-drive
+                cars, car rentals, Tempo Travellers, Force Urbana, luxury cars and luxury buses
+                across Greater Noida, Noida Extension and nearby areas.
               </p>
               <p>
-                A one-way taxi is ideal for journeys with a single destination, and a round trip
-                taxi is useful for sightseeing and traveling back. When you are planning
-                long-distance travel between cities an outstation cab you will be at the mercy of
-                the road and whatever the weather and road conditions might be and you would not
-                need to drive all the way yourself.
+                Whether you need a local taxi, airport transfer, one-way cab, self-drive car,
+                luxury vehicle, group transportation or corporate event travel, you can enquire
+                about a suitable vehicle based on your journey, passenger count and travel
+                requirements.
               </p>
             </div>
           </div>
@@ -485,7 +1031,7 @@ export default function TaxiServiceGreaterNoidaPage() {
           <div className="sec-head">
             <span className="eyebrow">Simple Process</span>
             <h2>How to Book a Taxi in Greater Noida?</h2>
-            <p>You can get a cab with these simple steps:</p>
+            <p>You can get a cab or rental vehicle with these simple steps:</p>
           </div>
           <div className="steps">
             {bookingSteps.map((step, i) => (
@@ -497,14 +1043,14 @@ export default function TaxiServiceGreaterNoidaPage() {
             ))}
           </div>
           <p style={{ textAlign: "center", marginTop: 20, color: "var(--muted)", fontSize: "14.5px" }}>
-            Accurate information on pickup, destination, date, and passengers allows for a better
-            trip coordination.
+            Share your pickup location, destination, travel date, vehicle requirement and rental
+            or travel duration to enquire about suitable available options.
           </p>
 
           <div className="banner alt" style={{ marginTop: 40 }}>
             <div className="in">
               <h2>Ready to Book Your Taxi in Greater Noida?</h2>
-              <p>Choose your car, confirm your booking and get ready for pickup.</p>
+              <p>Choose your vehicle, confirm your booking and get ready for pickup.</p>
               <div className="hbtns">
                 <a href="https://wa.me/917522817555" className="btn btn-wa">
                   Book on WhatsApp
@@ -518,89 +1064,19 @@ export default function TaxiServiceGreaterNoidaPage() {
         </div>
       </section>
 
-      {/* ---------- FAMILIES, BUSINESSES AND GROUPS ---------- */}
+      {/* ---------- WEDDING CAR & PREMIUM VEHICLE OPTIONS ---------- */}
       <section className="sec grey">
-        <div className="container">
-          <div className="seo-wrap">
-            <div className="seo-block">
-              <h2>Taxi Service for Families, Businesses and Groups</h2>
-              <p>
-                A taxi in Greater Noida is not limited to stay certain class of travellers.
-                Families book taxis for airport transfers, local trips and also for outstation
-                trips. Business travellers can book for meetings, corporate visits and
-                appointments.
-              </p>
-              <p>
-                For vacationers, a cab can make sightseeing and travel between cities simpler and
-                less complicated. Groups may choose larger vehicles if seats and luggage space
-                are at a premium.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ---------- AIRPORT & OUTSTATION ---------- */}
-      <section className="sec">
-        <div className="container">
-          <div className="seo-wrap">
-            <div className="seo-block">
-              <h2>Greater Noida Airport and Outstation Taxi Service</h2>
-              <p>
-                Travelling by airline nearly always entails baggage, schedules, and maybe
-                specific pickup or drop-off requirements. An advance book taxi from Greater Noida
-                to Delhi Airport can offer hassle free ride to single, group and business
-                travellers. Be accurate while you book your city cab to the Airport, mention the
-                pickup address and flight related travel details and tell us how many passengers
-                are flying with you and how much luggage you carrying so we can plan your ride.
-              </p>
-              <p>
-                Be it your weekend trip, family holidays, business trip or intercity transfer, an
-                outstation cab can come to your rescue. You can go for either a one way trip or
-                round trip based on your needs.
-              </p>
-              <p>
-                One can plan to travel to destinations like Agra, Jaipur, Haridwar, Dehradun,
-                Mathura or Vrindavan from Greater Noida. Trip availability, vehicle options, and
-                applicable charges should be reconfirmed at the time of booking.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ---------- WHY BOOK A TAXI ---------- */}
-      <section className="sec grey">
-        <div className="container">
-          <div className="seo-wrap">
-            <div className="seo-block">
-              <h2>Why Book a Taxi Instead of Driving Yourself?</h2>
-              <p>
-                A taxi booking can minimize the stress of driving, routing, finding a parking
-                slot, and even the strain of travel over long distances. This is especially
-                helpful when you take an unknown path, or you want to prevent yourself getting
-                too tired of driving.
-              </p>
-              <p>
-                With taxi transport you also have the convenience of door to door service for
-                your trips to the airport, railway station, family vacations and even longer
-                inter-city travels.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ---------- TAXI FARE ---------- */}
-      <section className="sec">
         <div className="container">
           <div className="sec-head">
-            <span className="eyebrow">Read Before You Book</span>
-            <h2>Taxi Fare in Greater Noida</h2>
-            <p>The taxi fare is subject to change based on the following conditions:</p>
+            <span className="eyebrow">Weddings &amp; Special Occasions</span>
+            <h2>Wedding Car &amp; Premium Vehicle Options</h2>
+            <p>
+              Make your special day memorable with wedding car rental services in Greater Noida,
+              Noida Extension and Yamuna Expressway. Customers can enquire about:
+            </p>
           </div>
           <div className="check-grid">
-            {fareFactors.map((point) => (
+            {weddingCars.map((point) => (
               <div className="item" key={point}>
                 <span className="dot" />
                 <p>{point}</p>
@@ -610,8 +1086,8 @@ export default function TaxiServiceGreaterNoidaPage() {
           <div className="seo-wrap" style={{ marginTop: 26 }}>
             <div className="seo-block" style={{ marginBottom: 0 }}>
               <p>
-                To get an accurate fare, verify the charges that apply to your trip before making
-                a booking.
+                Premium vehicle availability should be reconfirmed at the time of booking for
+                weddings, VIP guests, executive travel and special events.
               </p>
             </div>
           </div>
@@ -619,18 +1095,17 @@ export default function TaxiServiceGreaterNoidaPage() {
       </section>
 
       {/* ---------- BOOK NOW BANNER ---------- */}
-      <section className="sec grey">
+      <section className="sec">
         <div className="container">
           <div className="banner">
             <div className="in">
-              <h2>Book a Taxi in Greater Noida with Grab Your Cab</h2>
+              <h2>Book a Taxi or Rental Vehicle in Greater Noida with Grab Your Cab</h2>
               <p>
-                If it is a local cab, airport transfer, single ride, double ride, or outstation
-                taxi you have a need for, Grab Your Cab makes travel easy with its varied travel
-                options to fit the bill. Select your preferred vehicle and enter your travel
-                information to get a quote, then book the ride and relax while we take you to
-                your destination. Reserve your taxi in Greater Noida with Grab Your Cab and plan
-                your next journey with easy cab travels.
+                Whether you need a local taxi, airport transfer, self-drive car, Tempo Traveller,
+                Force Urbania, luxury car or luxury bus, Grab Your Cab makes travel easy with its
+                varied options to fit the bill. Share your pickup location, destination, travel
+                date, vehicle requirement and rental or travel duration to enquire about suitable
+                available options, then book and relax while we take you to your destination.
               </p>
               <div className="hbtns">
                 <a href="https://wa.me/917522817555" className="btn btn-wa">
@@ -646,7 +1121,7 @@ export default function TaxiServiceGreaterNoidaPage() {
       </section>
 
       {/* ---------- FAQ ---------- */}
-      <section className="sec">
+      <section className="sec grey">
         <div className="container">
           <div className="sec-head">
             <span className="eyebrow">Got Questions?</span>
@@ -667,7 +1142,7 @@ export default function TaxiServiceGreaterNoidaPage() {
       </section>
 
       {/* ---------- OUR OFFICE / LOCATION ---------- */}
-      <section className="sec grey">
+      <section className="sec">
         <div className="container">
           <div className="garage-head">
             <h2>Our Taxi Service Office</h2>
@@ -677,7 +1152,7 @@ export default function TaxiServiceGreaterNoidaPage() {
             <div className="garage-map">
               <a
                 className="maps-link"
-                href="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d11783.605329844395!2d77.07465289560535!3d28.591170980090418!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sRz-1110%2FA%20gali%20no%2010%20sadh%20nagar%20palam%20colony%20new%20delhi%20-110045!5e0!3m2!1sen!2sin!4v1786448913035!5m2!1sen!2sin"
+                href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.7573328683106!2d77.4321837!3d28.607055900000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cef1fd62163fd%3A0x48be6f8138d907b0!2sGrab%20Your%20Cab!5e0!3m2!1sen!2sin!4v1790071528245!5m2!1sen!2sin"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -685,7 +1160,7 @@ export default function TaxiServiceGreaterNoidaPage() {
               </a>
               <iframe
                 title="Grab Your Cab taxi service office location"
-                src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d11783.605329844395!2d77.07465289560535!3d28.591170980090418!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sRz-1110%2FA%20gali%20no%2010%20sadh%20nagar%20palam%20colony%20new%20delhi%20-110045!5e0!3m2!1sen!2sin!4v1786448913035!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.7573328683106!2d77.4321837!3d28.607055900000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cef1fd62163fd%3A0x48be6f8138d907b0!2sGrab%20Your%20Cab!5e0!3m2!1sen!2sin!4v1790071528245!5m2!1sen!2sin"
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
               />
@@ -701,7 +1176,7 @@ export default function TaxiServiceGreaterNoidaPage() {
                 </span>
                 <div>
                   <h3>Our Location</h3>
-                  <p>Rz-1110/A gali no 10 sadh nagar palam colony new delhi -110045</p>
+                  <p>first floor, Galaxy Diamond Plaza, FB-133, Noida-Greater Noida Link Rd, Haibatpur, Sector 4, Greater Noida, Uttar Pradesh 201318</p>
                 </div>
               </div>
 

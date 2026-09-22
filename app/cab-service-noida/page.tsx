@@ -615,7 +615,7 @@ export default function CabServiceNoidaPage() {
             <div className="garage-map">
               <a
                 className="maps-link"
-                href="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d11783.605329844395!2d77.07465289560535!3d28.591170980090418!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sRz-1110%2FA%20gali%20no%2010%20sadh%20nagar%20palam%20colony%20new%20delhi%20-110045!5e0!3m2!1sen!2sin!4v1786448913035!5m2!1sen!2sin"
+                href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.594270369845!2d77.3803626!3d28.6119462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cef49fdd938e9%3A0x6762693a8f4af6e9!2sGrab%20Your%20Cab!5e0!3m2!1sen!2sin!4v1790069882106!5m2!1sen!2sin"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -623,7 +623,7 @@ export default function CabServiceNoidaPage() {
               </a>
               <iframe
                 title="Grab Your Cab office location"
-                src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d11783.605329844395!2d77.07465289560535!3d28.591170980090418!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sRz-1110%2FA%20gali%20no%2010%20sadh%20nagar%20palam%20colony%20new%20delhi%20-110045!5e0!3m2!1sen!2sin!4v1786448913035!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.594270369845!2d77.3803626!3d28.6119462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cef49fdd938e9%3A0x6762693a8f4af6e9!2sGrab%20Your%20Cab!5e0!3m2!1sen!2sin!4v1790069882106!5m2!1sen!2sin"
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
               />
@@ -639,7 +639,9 @@ export default function CabServiceNoidaPage() {
                 </span>
                 <div>
                   <h3>Our Location</h3>
-                  <p>Rz-1110/A gali no 10 sadh nagar palam colony new delhi -110045</p>
+                  <p>
+                    A-152, Sector 63 Rd, A Block, Sector 63, Noida, Uttar Pradesh 201309
+                    </p>
                 </div>
               </div>
 
