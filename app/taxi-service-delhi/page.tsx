@@ -253,37 +253,73 @@ export default function TaxiServiceDelhiPage() {
       <style dangerouslySetInnerHTML={{ __html: pageCss }} />
     <Header/>
       {/* ---------- HERO ---------- */}
-      <section className="page-hero">
-        <div className="container">
-          <div className="crumbs">
-            <Link href="/">Home</Link>
-            <span>/</span>
-            <b>Taxi Service in Delhi</b>
-          </div>
-          <span className="eyebrow">Delhi NCR · 24/7 Cabs</span>
-          <h1>Taxi Service in Delhi – Book Now from Grab Your Cab</h1>
-          <p className="lead">
-            Local trips, airport transfers, business travel or an outstation run — Grab Your Cab
-            offers verified drivers, well-maintained cars and transparent fares across Delhi NCR,
-            24/7.
-          </p>
-          <div className="hero-ctas">
-            <a href="https://wa.me/917522817555" className="btn btn-wa">
-              Book on WhatsApp
-            </a>
-            <a href="tel:+917522817555" className="btn btn-ghost">
-              Call to Book
-            </a>
-          </div>
-          <div className="loc-pills">
-            <span>Delhi</span>
-            <span>Noida</span>
-            <span>Gurugram</span>
-            <span>Ghaziabad</span>
-            <span>Faridabad</span>
-          </div>
-        </div>
-      </section>
+      <section
+  className="page-hero"
+  style={{
+    backgroundImage: "url('/banners/delhibanner.jpeg')",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+    position: "relative",
+    width: "100%",
+    minHeight: "100%",
+  }}
+>
+  {/* Optional dark overlay for text readability */}
+  <div
+    style={{
+      position: "absolute",
+      inset: 0,
+      background: "rgba(0, 0, 0, 0.45)",
+      zIndex: 0,
+    }}
+  ></div>
+
+  <div
+    className="container"
+    style={{
+      position: "relative",
+      zIndex: 1,
+      height: "100%",
+      display: "flex",
+      flexDirection: "column",
+      justifyContent: "center",
+    }}
+  >
+    <div className="crumbs">
+      <Link href="/">Home</Link>
+      <span>/</span>
+      <b>Taxi Service in Delhi</b>
+    </div>
+    {/* <span className="eyebrow">Delhi NCR · 24/7 Cabs</span> */}
+    <h1>Taxi Service in Delhi – Book Now from Grab Your Cab</h1>
+    {/* <p className="lead">
+      Local trips, airport transfers, business travel or an outstation run — Grab Your Cab
+      offers verified drivers, well-maintained cars and transparent fares across Delhi NCR,
+      24/7.
+    </p> */}
+    <div className="hero-ctas">
+      <a href="https://wa.me/917522817555" className="btn btn-wa">
+        Book on WhatsApp
+      </a>
+      <a href="tel:+917522817555" 
+      style={{
+        backgroundColor:"white",
+        color:"black"
+      }}
+      className="btn btn-ghost">
+        Call to Book
+      </a>
+    </div>
+    {/* <div className="loc-pills">
+      <span>Delhi</span>
+      <span>Noida</span>
+      <span>Gurugram</span>
+      <span>Ghaziabad</span>
+      <span>Faridabad</span>
+    </div> */}
+  </div>
+</section>
 
       <TaxiSearch/>
 

@@ -148,7 +148,7 @@ export default function Header() {
               </div>
             </div>
 
-            <Link href="/about-us">Blogs</Link>
+            <Link href="/">Blogs</Link>
             <Link href="/about-us">About US</Link>
             <Link href="/contact">Contact Us</Link>
           </nav>

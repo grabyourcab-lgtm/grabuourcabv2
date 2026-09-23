@@ -298,34 +298,67 @@ export default function SelfDriveCarRentalDelhiPage() {
       <Header />
 
       {/* ---------- HERO ---------- */}
-      <section className="page-hero">
-        <div className="container">
-          <div className="crumbs">
-            <Link href="/">Home</Link>
-            <span>/</span>
-            <b>Self Drive Car Rental in Delhi</b>
-          </div>
-          <span className="eyebrow">Delhi NCR · Hourly, Daily &amp; Weekly</span>
-          <h1>Self Drive Car Rental in Delhi – Flexible Cars for Local &amp; Outstation Travel</h1>
-          <p className="lead">
-           Get around Delhi at your own pace with Grab Your Cab’s self-drive car rental service. Whether you are looking for a car for a few hours, a day, a weekend road trip, or an outstation journey, a self-drive car gives you complete flexibility to decide your own route, stops, and schedule. Grab Your Cab provides hourly, daily, and weekly self-drive car rental options, giving customers access to a wide range of cars, from mini hatchbacks and sedans to SUVs and luxury vehicles.
-          </p>
-          <div className="hero-ctas">
-            <a href="https://wa.me/917522817555" className="btn btn-wa">
-              Book on WhatsApp
-            </a>
-            <a href="tel:+917522817555" className="btn btn-ghost">
-              Call to Book
-            </a>
-          </div>
-          <div className="loc-pills">
-            <span>Delhi</span>
-            <span>Noida</span>
-            <span>Gurugram</span>
-            <span>Ghaziabad</span>
-          </div>
-        </div>
-      </section>
+     <section
+  className="page-hero"
+  style={{
+    backgroundImage: "url('/banners/selfdelhi.jpeg')",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+    position: "relative",
+    width: "100%",
+  }}
+>
+  {/* Optional dark overlay for text readability */}
+  <div
+    style={{
+      position: "absolute",
+      inset: 0,
+      background: "rgba(0, 0, 0, 0.45)",
+      zIndex: 0,
+    }}
+  ></div>
+
+  <div
+    className="container"
+    style={{
+      position: "relative",
+      zIndex: 1,
+      height: "100%",
+      display: "flex",
+      flexDirection: "column",
+      justifyContent: "center",
+    }}
+  >
+    <div className="crumbs">
+      <Link href="/">Home</Link>
+      <span>/</span>
+      <b>Self Drive Car Rental in Delhi</b>
+    </div>
+    {/* <span className="eyebrow">Delhi NCR · Hourly, Daily &amp; Weekly</span> */}
+    <h1>Self Drive Car Rental in Delhi – Flexible Cars for Local &amp; Outstation Travel</h1>
+    {/* <p className="lead">
+      Get around Delhi at your own pace with Grab Your Cab's self-drive car rental service. Whether you are looking for a car for a few hours, a day, a weekend road trip, or an outstation journey, a self-drive car gives you complete flexibility to decide your own route, stops, and schedule. Grab Your Cab provides hourly, daily, and weekly self-drive car rental options, giving customers access to a wide range of cars, from mini hatchbacks and sedans to SUVs and luxury vehicles.
+    </p> */}
+    <div className="hero-ctas">
+      <a href="https://wa.me/917522817555" className="btn btn-wa">
+        Book on WhatsApp
+      </a>
+      <a href="tel:+917522817555" style={{
+        backgroundColor:"white",
+        color:"black"
+      }} className="btn btn-ghost">
+        Call to Book
+      </a>
+    </div>
+    {/* <div className="loc-pills">
+      <span>Delhi</span>
+      <span>Noida</span>
+      <span>Gurugram</span>
+      <span>Ghaziabad</span>
+    </div> */}
+  </div>
+</section>
 
       <TaxiSearch/>
 
