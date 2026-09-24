@@ -743,7 +743,7 @@ export default function CorporateCabServicesPage() {
       </section>
 
       {/* ---------- OUR OFFICE / LOCATION ---------- */}
-      <section className="sec">
+      {/* <section className="sec">
         <div className="container">
           <div className="garage-head">
             <h2>Our Corporate Cab Services Office in Delhi</h2>
@@ -797,7 +797,7 @@ export default function CorporateCabServicesPage() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       <Footer />
     </>
   );

@@ -1020,7 +1020,7 @@ export default function LuxuryCarRentalPage() {
       </section>
 
       {/* ---------- OFFICE / LOCATION ---------- */}
-      <section className="sec grey">
+      {/* <section className="sec grey">
         <div className="container">
           <div className="garage-head">
             <h2>Our Cab Service Office</h2>
@@ -1074,7 +1074,7 @@ export default function LuxuryCarRentalPage() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       <Footer />
     </>
   );

@@ -552,7 +552,7 @@ export default function TempoTravellerOnRentPage() {
       </section>
 
       {/* ---------- OUR OFFICE / LOCATION ---------- */}
-      <section className="sec grey">
+      {/* <section className="sec grey">
         <div className="container">
           <div className="garage-head">
             <h2>Our Tempo Traveller Rental Office</h2>
@@ -606,7 +606,7 @@ export default function TempoTravellerOnRentPage() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       <Footer />
     </>
   );

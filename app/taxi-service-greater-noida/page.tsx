@@ -1152,7 +1152,7 @@ export default function TaxiServiceGreaterNoidaPage() {
             <div className="garage-map">
               <a
                 className="maps-link"
-                href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.7573328683106!2d77.4321837!3d28.607055900000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cef1fd62163fd%3A0x48be6f8138d907b0!2sGrab%20Your%20Cab!5e0!3m2!1sen!2sin!4v1790071528245!5m2!1sen!2sin"
+                href="https://www.google.com/maps/place/Grab+Your+Cab/@28.6070559,77.4321837,17z/data=!3m1!4b1!4m6!3m5!1s0x390cef1fd62163fd:0x48be6f8138d907b0!8m2!3d28.6070559!4d77.4321837!16s%2Fg%2F11tnh9nfql!18m1!1e1?entry=ttu&g_ep=EgoyMDI2MDkyMS4wIKXMDSoASAFQAw%3D%3D"
                 target="_blank"
                 rel="noopener noreferrer"
               >

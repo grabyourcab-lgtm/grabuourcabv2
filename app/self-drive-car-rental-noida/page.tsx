@@ -277,21 +277,32 @@ export default function SelfDriveCarRentalNoidaPage() {
       <Header />
 
       {/* ---------- HERO ---------- */}
-      <section className="page-hero">
+      <section className="page-hero"
+       style={{
+    backgroundImage: "url('/banners/noida_self.jpeg')",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
+    backgroundRepeat: "no-repeat",
+    position: "relative",
+    width: "100%",
+    minHeight: "100%",
+  }}
+      >
+        
         <div className="container">
           <div className="crumbs">
             <Link href="/">Home</Link>
             <span>/</span>
             <b>Self Drive Car Rental in Noida</b>
           </div>
-          <span className="eyebrow">Flexible · Self Drive · Noida</span>
+          {/* <span className="eyebrow">Flexible · Self Drive · Noida</span> */}
           <h1>Affordable Self Drive Car Rental in Noida</h1>
-          <p className="lead">
+          {/* <p className="lead">
             Grab Your Cab provides self drive car rental in Noida for those customers who want to experience the pleasure of driving on the go but don't like to depend on someone for driving. Local travel, business meetings, weekend trip, or outstation journeys, self-drive rental gives you more freedom when it comes to deciding the route and schedule.
-          </p>
-          <p className="lead">
+          </p> */}
+          {/* <p className="lead">
             With the rental periods are flexible and the vehicle types are diverse, travelers are able to rent a car that suits their needs because of the diversity. Prior to your reservation you have to check following things about vehicle availability rental period documentation kilometer limits security deposit and terms applicable.
-          </p>
+          </p> */}
           <div className="hero-ctas">
             <a href="https://wa.me/917522817555" className="btn btn-wa">
               Book on WhatsApp
@@ -300,12 +311,12 @@ export default function SelfDriveCarRentalNoidaPage() {
               Call to Book
             </a>
           </div>
-          <div className="loc-pills">
+          {/* <div className="loc-pills">
             <span>Sector 18</span>
             <span>Sector 62</span>
             <span>Sector 137</span>
             <span>Noida Extension</span>
-          </div>
+          </div> */}
         </div>
       </section>
 
@@ -654,7 +665,7 @@ export default function SelfDriveCarRentalNoidaPage() {
             <div className="garage-map">
               <a
                 className="maps-link"
-                href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3502.594270369845!2d77.3803626!3d28.6119462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cef49fdd938e9%3A0x6762693a8f4af6e9!2sGrab%20Your%20Cab!5e0!3m2!1sen!2sin!4v1790070043310!5m2!1sen!2sin"
+                href="https://www.google.com/maps/place/Grab+Your+Cab/data=!4m2!3m1!1s0x390cef49fdd938e9:0x6762693a8f4af6e9!18m1!1e1?utm_source=mstt_1&entry=gps&coh=192189&g_ep=CAESBzI2LjM3LjUYACCenQoqxwEsMTAwODM3NTI4LDk0MjY3NzI3LDk0MjkyMTk1LDk0Mjk5NTMyLDEwMDc5NjQ5OCwxMDA3OTc3NjEsMTAwNzk2NTM1LDk0MjgwNTc2LDEwMDgxMTk1OSw5NDIwNzM5NCw5NDIwNzUwNiw5NDIwODUwNiw5NDIxODY1Myw5NDIyOTgzOSw5NDI3NTE2OCw5NDI3OTYxOSwxMDA4MzU3MDQsMTAwODI1MDIxLDEwMDgyMDIzNywxMDA4MjI0OTQsMTAwODI3OTc1QgJJTg%3D%3D&skid=b1868fdb-0e74-460f-acb7-1687a7fdd77b"
                 target="_blank"
                 rel="noopener noreferrer"
               >

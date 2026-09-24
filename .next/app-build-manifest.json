@@ -11,30 +11,60 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/about-us/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/about-us/page.js"
-    ],
     "/taxi-service-delhi/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/taxi-service-delhi/page.js"
+    ],
+    "/self-drive-car-rental-noida/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/self-drive-car-rental-noida/page.js"
+    ],
+    "/self-drive-car-rental-gurgaon/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/self-drive-car-rental-gurgaon/page.js"
+    ],
+    "/cab-service-gurgaon/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/cab-service-gurgaon/page.js"
+    ],
+    "/cab-service-noida/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/cab-service-noida/page.js"
     ],
     "/taxi-service-greater-noida/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/taxi-service-greater-noida/page.js"
     ],
+    "/jewar-airport-cab-service/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/jewar-airport-cab-service/page.js"
+    ],
+    "/taxi-service-ghaziabad/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/taxi-service-ghaziabad/page.js"
+    ],
+    "/taxi-service-meerut/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/taxi-service-meerut/page.js"
+    ],
+    "/car-rental-goa/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/car-rental-goa/page.js"
+    ],
     "/tempo-traveller-rent/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/tempo-traveller-rent/page.js"
-    ],
-    "/self-drive-car-rental-delhi/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/self-drive-car-rental-delhi/page.js"
     ],
     "/luxury-car-rental/page": [
       "static/chunks/webpack.js",

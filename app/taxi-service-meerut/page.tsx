@@ -656,7 +656,7 @@ export default function TaxiServiceInMeerutPage() {
             <div className="garage-map">
               <a
                 className="maps-link"
-                href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3489.456712527372!2d77.754262!3d29.003466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390c7b49831b1519%3A0xbf8024aaeda0d7c8!2sGrab%20Your%20Cab%20Self%20Drive%20Cars%20and%20Taxi%20Service%20in%20Meerut!5e0!3m2!1sen!2sin!4v1790071776541!5m2!1sen!2sin"
+                href="https://www.google.com/maps/place/First+floor,+Grab+Your+Cab+Self+Drive+Cars+and+Taxi+Service+in+Meerut,+Geetanjali+Tower,+C-489,+C-Pocket,+Radha+Garden,+Ganga+Nagar,+Meerut,+Uttar+Pradesh+250001/data=!4m2!3m1!1s0x390c7b49831b1519:0xbf8024aaeda0d7c8!18m1!1e1?utm_source=mstt_1&entry=gps&coh=192189&g_ep=CAESBzI2LjM3LjUYACDXggMqxwEsMTAwODM3NTI4LDk0MjY3NzI3LDk0MjkyMTk1LDk0Mjk5NTMyLDEwMDc5NjQ5OCwxMDA3OTc3NjEsMTAwNzk2NTM1LDk0MjgwNTc2LDEwMDgxMTk1OSw5NDIwNzM5NCw5NDIwNzUwNiw5NDIwODUwNiw5NDIxODY1Myw5NDIyOTgzOSw5NDI3NTE2OCw5NDI3OTYxOSwxMDA4MzU3MDQsMTAwODI1MDIxLDEwMDgyMDIzNywxMDA4MjI0OTQsMTAwODI3OTc1QgJJTg%3D%3D&skid=efbac9d0-56e0-4fe2-8dbc-908774916c3e"
                 target="_blank"
                 rel="noopener noreferrer"
               >

@@ -726,7 +726,7 @@ export default function SelfDriveCarRentalGurgaonPage() {
             <div className="garage-map">
               
                <a className="maps-link"
-                href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3507.7525912775372!2d77.077012!3d28.4568736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d19edb3ec23a7%3A0x880220dc3c825aaf!2sGrab%20Your%20Cab!5e0!3m2!1sen!2sin!4v1790068837619!5m2!1sen!2sin"
+                href="https://www.google.com/maps/place/Grab+Your+Cab,+PWO+Apartments,+C-4+206,+Block+D,+PWO+Appartments,+Sector+43,+Gurugram,+Haryana+122009/data=!4m2!3m1!1s0x390d19edb3ec23a7:0x880220dc3c825aaf!18m1!1e1?utm_source=mstt_1&entry=gps&coh=192189&g_ep=CAESBzI2LjM3LjUYACDXggMqxwEsMTAwODM3NTI4LDk0MjY3NzI3LDk0MjkyMTk1LDk0Mjk5NTMyLDEwMDc5NjQ5OCwxMDA3OTc3NjEsMTAwNzk2NTM1LDk0MjgwNTc2LDEwMDgxMTk1OSw5NDIwNzM5NCw5NDIwNzUwNiw5NDIwODUwNiw5NDIxODY1Myw5NDIyOTgzOSw5NDI3NTE2OCw5NDI3OTYxOSwxMDA4MzU3MDQsMTAwODI1MDIxLDEwMDgyMDIzNywxMDA4MjI0OTQsMTAwODI3OTc1QgJJTg%3D%3D&skid=5e33cfff-fa45-4167-8ee3-27994ff1cd1d"
                 target="_blank"
                 rel="noopener noreferrer"
               >
