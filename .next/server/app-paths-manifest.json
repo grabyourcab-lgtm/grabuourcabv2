@@ -1,7 +1,3 @@
 {
-  "/_not-found/page": "app/_not-found/page.js",
-  "/page": "app/page.js",
-  "/self-drive-car-rental-delhi/page": "app/self-drive-car-rental-delhi/page.js",
-  "/taxi-service-delhi/page": "app/taxi-service-delhi/page.js",
-  "/cab-service-gurgaon/page": "app/cab-service-gurgaon/page.js"
+  "/page": "app/page.js"
 }

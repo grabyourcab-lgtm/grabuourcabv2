@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 
 const SLIDES = [
   {
-    img: "/slider-hero/new_banner.jpeg",
+    img: "/slider-hero/hero_large.png",
     mobileImg: "/slider-hero/mobile1.jpeg",
     tag: "10 Years · 24/7",
     title: "Doorstep to the skies we take you everywhere.",
