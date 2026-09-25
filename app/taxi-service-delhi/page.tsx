@@ -292,11 +292,7 @@ export default function TaxiServiceDelhiPage() {
       <b>Taxi Service in Delhi</b>
     </div>
     {/* <span className="eyebrow">Delhi NCR · 24/7 Cabs</span> */}
-    <h1 style={{
-      fontSize:20,
-      fontWeight:500,
-      
-    }}>Taxi Service in Delhi – Book Now from Grab Your Cab</h1>
+    <h1 >Taxi Service in Delhi – Book Now from Grab Your Cab</h1>
     {/* <p className="lead">
       Local trips, airport transfers, business travel or an outstation run — Grab Your Cab
       offers verified drivers, well-maintained cars and transparent fares across Delhi NCR,

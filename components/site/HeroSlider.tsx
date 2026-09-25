@@ -42,8 +42,13 @@ export default function HeroSlider() {
     transform: "translateY(-120px)",
   }}>
                 <small>{s.tag}</small>
-                <h2>{s.title}</h2>
-                <p>{s.sub}</p>
+                <h1 style={{
+                  fontSize:30,
+                  color:"white"
+                }}>{s.title}</h1>
+                <p style={{
+                  fontSize:20
+                }}>{s.sub}</p>
               </div>
             </div>
           </div>
