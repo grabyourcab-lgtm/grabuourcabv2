@@ -1,8 +1,7 @@
 {
-  "/taxi-service-meerut/page": "app/taxi-service-meerut/page.js",
-  "/car-rental-goa/page": "app/car-rental-goa/page.js",
-  "/luxury-car-rental/page": "app/luxury-car-rental/page.js",
-  "/corporate-cab-services/page": "app/corporate-cab-services/page.js",
-  "/tempo-traveller-rent/page": "app/tempo-traveller-rent/page.js",
-  "/page": "app/page.js"
+  "/_not-found/page": "app/_not-found/page.js",
+  "/page": "app/page.js",
+  "/self-drive-car-rental-delhi/page": "app/self-drive-car-rental-delhi/page.js",
+  "/taxi-service-delhi/page": "app/taxi-service-delhi/page.js",
+  "/cab-service-gurgaon/page": "app/cab-service-gurgaon/page.js"
 }

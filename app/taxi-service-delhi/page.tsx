@@ -292,7 +292,11 @@ export default function TaxiServiceDelhiPage() {
       <b>Taxi Service in Delhi</b>
     </div>
     {/* <span className="eyebrow">Delhi NCR · 24/7 Cabs</span> */}
-    <h1>Taxi Service in Delhi – Book Now from Grab Your Cab</h1>
+    <h1 style={{
+      fontSize:20,
+      fontWeight:500,
+      
+    }}>Taxi Service in Delhi – Book Now from Grab Your Cab</h1>
     {/* <p className="lead">
       Local trips, airport transfers, business travel or an outstation run — Grab Your Cab
       offers verified drivers, well-maintained cars and transparent fares across Delhi NCR,
@@ -302,14 +306,25 @@ export default function TaxiServiceDelhiPage() {
       <a href="https://wa.me/917522817555" className="btn btn-wa">
         Book on WhatsApp
       </a>
-      <a href="tel:+917522817555" 
+      {/* <a href="tel:+917522817555" 
       style={{
         backgroundColor:"white",
         color:"black"
       }}
       className="btn btn-ghost">
         Call to Book
-      </a>
+      </a> */}
+      <a
+  href="tel:+917522817555"
+  style={{
+    backgroundColor: "white",
+    color: "black",
+    transition: "all 0.3s ease",
+  }}
+  className="btn btn-ghost hover:!bg-black hover:!text-white"
+>
+  Call to Book
+</a>
     </div>
     {/* <div className="loc-pills">
       <span>Delhi</span>

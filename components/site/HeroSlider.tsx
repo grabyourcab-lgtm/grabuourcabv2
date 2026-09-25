@@ -38,7 +38,9 @@ export default function HeroSlider() {
               <img src={s.img} alt={s.title} />
             </picture>
             <div className="cap">
-              <div className="in">
+              <div className="in"  style={{
+    transform: "translateY(-120px)",
+  }}>
                 <small>{s.tag}</small>
                 <h2>{s.title}</h2>
                 <p>{s.sub}</p>
