@@ -6,8 +6,8 @@ const SLIDES = [
     img: "/slider-hero/hero_large.png",
     mobileImg: "/slider-hero/mobile1.jpeg",
     tag: "10 Years · 24/7",
-    title: "Doorstep to the skies we take you everywhere.",
-    sub: "Self drive car, taxi, tempo traveller, Luxury bus, special Taxi service",
+    title: "Doorstep to the skies we take you everywhere",
+    sub: "Self Drive Car, Taxi & Cab Service, Tempo Traveller, Luxury Bus, Special Taxi Service",
   },
   // {
   //   img: "/images/luxury-cars.jpg",
