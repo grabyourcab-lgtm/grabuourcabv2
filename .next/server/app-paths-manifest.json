@@ -1,8 +1,7 @@
 {
-  "/car-rental-goa/page": "app/car-rental-goa/page.js",
-  "/taxi-service-greater-noida/page": "app/taxi-service-greater-noida/page.js",
-  "/cab-service-noida/page": "app/cab-service-noida/page.js",
+  "/page": "app/page.js",
   "/jewar-airport-cab-service/page": "app/jewar-airport-cab-service/page.js",
-  "/tempo-traveller-rent/page": "app/tempo-traveller-rent/page.js",
-  "/page": "app/page.js"
+  "/car-rental-goa/page": "app/car-rental-goa/page.js",
+  "/cab-service-noida/page": "app/cab-service-noida/page.js",
+  "/self-drive-car-rental-noida/page": "app/self-drive-car-rental-noida/page.js"
 }

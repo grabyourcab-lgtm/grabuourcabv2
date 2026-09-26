@@ -307,7 +307,9 @@ export default function SelfDriveCarRentalNoidaPage() {
             <b>Self Drive Car Rental in Noida</b>
           </div>
           {/* <span className="eyebrow">Flexible · Self Drive · Noida</span> */}
-          <h1>Affordable Self Drive <br/> Car Rental in Noida</h1>
+          <h1 style={{
+            fontSize:30
+          }}>Affordable Self Drive <br/> Car Rental in Noida</h1>
           {/* <p className="lead">
             Grab Your Cab provides self drive car rental in Noida for those customers who want to experience the pleasure of driving on the go but don't like to depend on someone for driving. Local travel, business meetings, weekend trip, or outstation journeys, self-drive rental gives you more freedom when it comes to deciding the route and schedule.
           </p> */}

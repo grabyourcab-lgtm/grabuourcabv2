@@ -343,7 +343,9 @@ export default function NoidaInternationalAirportTaxiPage() {
             <b>Noida International Airport Taxi</b>
           </div>
           {/* <span className="eyebrow">Noida International Airport · Jewar</span> */}
-          <h1>Noida International Airport,  Jewar Cab <br/> Service  for Easy Airport Transfers</h1>
+          <h1 style={{
+            fontSize:30
+          }}>Noida International Airport, <br/> Jewar Cab  Service  for <br/>  Easy Airport Transfers</h1>
           {/* <p className="lead">
             Grab Your Cab offers a reliable and timely Noida International Airport taxi service
             for the passengers who are looking to catch a flight from Noida International Airport
@@ -353,7 +355,9 @@ export default function NoidaInternationalAirportTaxiPage() {
             need for all your travel need. One may also book a one way wab or local or outstation
             cab from airport.
           </p> */}
-          <div className="hero-ctas">
+          <div style={{
+            fontSize:10
+          }} className="hero-ctas">
             <a href="https://wa.me/917522817555" className="btn btn-wa">
               Book on WhatsApp
             </a>
