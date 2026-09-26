@@ -318,8 +318,27 @@ export default function TaxiServiceGreaterNoidaPage() {
       <Header />
 
       {/* ---------- HERO ---------- */}
-      <section className="page-hero">
-        <div className="container">
+      <section className="page-hero" style={{
+          backgroundImage:"url('/pages_banners/greater_noida.png')",
+          backgroundRepeat:"no-repeat",
+        backgroundSize:"cover",
+         backgroundPosition: "center",
+    position: "relative",
+    width: "100%",
+        }}>
+          <div
+    style={{
+      position: "absolute",
+      inset: 0,
+      background: "rgba(0, 0, 0, 0.45)",
+      zIndex: 0,
+      pointerEvents: "none",
+    }}
+  ></div>
+        <div className="container" style={{
+    position: "relative",
+    zIndex: 1,
+  }}>
           <div className="hero-grid">
             <div>
               <div className="crumbs">
@@ -327,14 +346,14 @@ export default function TaxiServiceGreaterNoidaPage() {
                 <span>/</span>
                 <b>Taxi Service in Greater Noida</b>
               </div>
-              <span className="eyebrow">Greater Noida · Noida Extension · Yamuna Expressway</span>
+              {/* <span className="eyebrow">Greater Noida · Noida Extension · Yamuna Expressway</span> */}
               <h1>Taxi Service in Greater Noida &amp; Noida Extension</h1>
-              <p className="lead">
+              {/* <p className="lead">
                 Looking for a reliable taxi service in Greater Noida? Grab Your Cab provides
                 outstation taxi services, airport transfers, one-way cabs, local taxis and
                 corporate transportation across Greater Noida for individuals, families, business
                 travelers and groups.
-              </p>
+              </p> */}
               <div className="hero-ctas">
                 <a href="https://wa.me/917522817555" className="btn btn-wa">
                   Book on WhatsApp
@@ -343,12 +362,12 @@ export default function TaxiServiceGreaterNoidaPage() {
                   Call to Book
                 </a>
               </div>
-              <div className="loc-pills">
+              {/* <div className="loc-pills">
                 <span>Greater Noida</span>
                 <span>Noida Extension</span>
                 <span>Yamuna Expressway</span>
                 <span>Pari Chowk</span>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

@@ -279,7 +279,7 @@ export default function SelfDriveCarRentalNoidaPage() {
       {/* ---------- HERO ---------- */}
       <section className="page-hero"
        style={{
-    backgroundImage: "url('/banners/noida_self.jpeg')",
+    backgroundImage: "url('/pages_banners/noida_self_drive.png')",
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
@@ -287,16 +287,27 @@ export default function SelfDriveCarRentalNoidaPage() {
     width: "100%",
     minHeight: "100%",
   }}
-      >
+      > <div
+    style={{
+      position: "absolute",
+      inset: 0,
+      background: "rgba(0, 0, 0, 0.45)",
+      zIndex: 0,
+      pointerEvents: "none",
+    }}
+  ></div>
         
-        <div className="container">
+        <div className="container" style={{
+    position: "relative",
+    zIndex: 1,
+  }}>
           <div className="crumbs">
             <Link href="/">Home</Link>
             <span>/</span>
             <b>Self Drive Car Rental in Noida</b>
           </div>
           {/* <span className="eyebrow">Flexible · Self Drive · Noida</span> */}
-          <h1>Affordable Self Drive Car Rental in Noida</h1>
+          <h1>Affordable Self Drive <br/> Car Rental in Noida</h1>
           {/* <p className="lead">
             Grab Your Cab provides self drive car rental in Noida for those customers who want to experience the pleasure of driving on the go but don't like to depend on someone for driving. Local travel, business meetings, weekend trip, or outstation journeys, self-drive rental gives you more freedom when it comes to deciding the route and schedule.
           </p> */}

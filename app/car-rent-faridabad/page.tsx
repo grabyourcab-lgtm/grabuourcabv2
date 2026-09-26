@@ -289,18 +289,40 @@ export default function CarOnRentInFaridabadPage() {
       <Header />
 
       {/* ---------- HERO ---------- */}
-      <section className="page-hero">
-        <div className="container">
+      <section className="page-hero"
+        style={{
+          backgroundImage:"url('/pages_banners/faridabad.png')",
+          backgroundRepeat:"no-repeat",
+        backgroundSize:"cover",
+         backgroundPosition: "center",
+    position: "relative",
+    width: "100%",
+        }}
+      >
+            {/* Optional dark overlay for text readability */}
+  <div
+    style={{
+      position: "absolute",
+      inset: 0,
+      background: "rgba(0, 0, 0, 0.45)",
+      zIndex: 0,
+      pointerEvents: "none",
+    }}
+  ></div>
+        <div className="container" style={{
+    position: "relative",
+    zIndex: 1,
+  }}>
           <div className="crumbs">
             <Link href="/">Home</Link>
             <span>/</span>
             <b>Car on Rent in Faridabad</b>
           </div>
-          <span className="eyebrow">Faridabad · Self Drive &amp; Rental Cars</span>
-          <h1>Car on Rent in Faridabad - Self Drive &amp; Rental Cars</h1>
-          <p className="lead">
+          {/* <span className="eyebrow">Faridabad · Self Drive &amp; Rental Cars</span> */}
+          <h1>Car on Rent in Faridabad <br/> Self Drive &amp; Rental Cars</h1>
+          {/* <p className="lead">
             Grab Your Cab offers easy car on rent in Faridabad for local travel, outstation visit, Airport transfer from Faridabad to Noida International Airport, Jewar or Indira Gandhi International Airport, New Delhi, One way Cab, Luxury Car rental for Wedding or special occasion, Tempo Travelers for group tour or luxury bus for Corporate or Pilgrimage tours.
-          </p>
+          </p> */}
           <div className="hero-ctas">
             <a href="https://wa.me/9175228 17555" className="btn btn-wa">
               Book on WhatsApp
@@ -309,12 +331,12 @@ export default function CarOnRentInFaridabadPage() {
               Call to Book
             </a>
           </div>
-          <div className="loc-pills">
+          {/* <div className="loc-pills">
             <span>Faridabad</span>
             <span>Delhi NCR</span>
             <span>Noida Airport</span>
             <span>Delhi Airport</span>
-          </div>
+          </div> */}
         </div>
       </section>
 

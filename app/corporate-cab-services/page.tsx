@@ -381,16 +381,35 @@ export default function CorporateCabServicesPage() {
       <Header />
 
       {/* ---------- HERO ---------- */}
-      <section className="page-hero">
-        <div className="container">
+      <section className="page-hero" style={{
+          backgroundImage:"url('/pages_banners/corporate_cab.png')",
+          backgroundRepeat:"no-repeat",
+        backgroundSize:"cover",
+         backgroundPosition: "center",
+    position: "relative",
+    width: "100%",
+        }}>
+          <div
+    style={{
+      position: "absolute",
+      inset: 0,
+      background: "rgba(0, 0, 0, 0.45)",
+      zIndex: 0,
+      pointerEvents: "none",
+    }}
+  ></div>
+        <div className="container" style={{
+    position: "relative",
+    zIndex: 1,
+  }} >
           <div className="crumbs">
             <Link href="/">Home</Link>
             <span>/</span>
             <b>Corporate Cab Services</b>
           </div>
           <span className="eyebrow">Delhi NCR · Corporate Transportation</span>
-          <h1>Corporate Cab Services &amp; Corporate Car Rental in Delhi NCR</h1>
-          <p className="lead">
+          <h1>Corporate Cab Services &amp; Corporate <br/> Car Rental in Delhi NCR</h1>
+          {/* <p className="lead">
             The need of Businesses today is much more than just a taxi provider.
             Business entityt need a reliable transportation partner capable of
             managing employee travel, executive transportation, airport transfers,
@@ -400,7 +419,7 @@ export default function CorporateCabServicesPage() {
             manufacturing units, educational institutions, hospitals, event
             companies and business travelers across Delhi NCR and major cities in
             India.
-          </p>
+          </p> */}
           <div className="hero-ctas">
             <a href="https://wa.me/917522817555" className="btn btn-wa">
               Book on WhatsApp
@@ -409,12 +428,12 @@ export default function CorporateCabServicesPage() {
               Call to Book
             </a>
           </div>
-          <div className="loc-pills">
+          {/* <div className="loc-pills">
             <span>Delhi</span>
             <span>Noida</span>
             <span>Gurugram</span>
             <span>Ghaziabad</span>
-          </div>
+          </div> */}
         </div>
       </section>
 

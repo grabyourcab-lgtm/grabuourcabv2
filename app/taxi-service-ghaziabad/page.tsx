@@ -310,8 +310,27 @@ export default function TaxiServiceGhaziabadPage() {
       <Header />
 
       {/* ---------- HERO ---------- */}
-      <section className="page-hero">
-        <div className="container">
+      <section className="page-hero"  style={{
+          backgroundImage:"url('/pages_banners/gaziabad.png')",
+          backgroundRepeat:"no-repeat",
+        backgroundSize:"cover",
+         backgroundPosition: "center",
+    position: "relative",
+    width: "100%",
+        }}>
+           <div
+    style={{
+      position: "absolute",
+      inset: 0,
+      background: "rgba(0, 0, 0, 0.45)",
+      zIndex: 0,
+      pointerEvents: "none",
+    }}
+  ></div>
+        <div className="container" style={{
+    position: "relative",
+    zIndex: 1,
+  }}>
           <div className="hero-grid">
             <div>
               <div className="crumbs">
@@ -320,7 +339,7 @@ export default function TaxiServiceGhaziabadPage() {
                 <b>Taxi Service in Ghaziabad</b>
               </div>
               <h1>Taxi Service in Ghaziabad | Cab Service &amp; Self Drive Car Rental</h1>
-              <p className="lead">
+              {/* <p className="lead">
                 Are you searching for a reliable taxi service in Ghaziabad, cab service, or
                 self-drive car rental? Grab Your Cab offers a wide range of travel and
                 transportation services in Ghaziabad for local travel, airport transfers,
@@ -328,7 +347,7 @@ export default function TaxiServiceGhaziabadPage() {
                 requirements. Whether you need a chauffeur-driven taxi, a cab for one-way travel,
                 a self-drive car, or a Tempo Traveller or a luxury bus for group transportation,
                 you can opt a service according to all your travel needs.
-              </p>
+              </p> */}
               <div className="hero-ctas">
                 <a href="https://wa.me/917522817555" className="btn btn-wa">
                   Book on WhatsApp
@@ -337,13 +356,13 @@ export default function TaxiServiceGhaziabadPage() {
                   Call to Book
                 </a>
               </div>
-              <div className="loc-pills">
+              {/* <div className="loc-pills">
                 <span>Ghaziabad</span>
                 <span>Noida</span>
                 <span>Delhi</span>
                 <span>Greater Noida</span>
                 <span>Jewar Airport</span>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

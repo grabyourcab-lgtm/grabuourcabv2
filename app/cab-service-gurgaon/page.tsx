@@ -303,19 +303,38 @@ export default function CabServiceGurgaonPage() {
       <Header />
 
       {/* ---------- HERO ---------- */}
-      <section className="page-hero">
-        <div className="container">
+      <section className="page-hero"  style={{
+          backgroundImage:"url('/pages_banners/gurgaon.jpeg')",
+          backgroundRepeat:"no-repeat",
+        backgroundSize:"cover",
+         backgroundPosition: "center",
+    position: "relative",
+    width: "100%",
+        }}>
+           <div
+    style={{
+      position: "absolute",
+      inset: 0,
+      background: "rgba(0, 0, 0, 0.45)",
+      zIndex: 0,
+      pointerEvents: "none",
+    }}
+  ></div>
+        <div className="container" style={{
+    position: "relative",
+    zIndex: 1,
+  }}>
           <div className="crumbs">
             <Link href="/">Home</Link>
             <span>/</span>
             <b>Cab Service in Gurgaon</b>
           </div>
-          <span className="eyebrow">Local · Airport · Outstation</span>
-          <h1>Cab Service in Gurgaon for Local &amp; Outstation Travel</h1>
-          <p className="lead">
+          {/* <span className="eyebrow">Local · Airport · Outstation</span> */}
+          <h1>Cab Service in Gurgaon for Local &amp; <br/> Outstation Travel</h1>
+          {/* <p className="lead">
             Dependable local transportation in Gurgaon is made much more convenient with a cab service that offers easy booking, the right kind of vehicles, professional chauffeurs, and a wide array of travel solutions. Grab Your Cab provides local trips, airport transfers, business travel, and outstation cab services from Gurgaon. Whether you're looking for a trip within Gurugram or a drive to another city, you can choose from a range of services based on the distance of travel, time, and your requirements.
 
-          </p>
+          </p> */}
           <div className="hero-ctas">
             <a href="https://wa.me/917522817555" className="btn btn-wa">
               Book on WhatsApp
@@ -324,14 +343,14 @@ export default function CabServiceGurgaonPage() {
               Call to Book
             </a>
           </div>
-          <div className="loc-pills">
+          {/* <div className="loc-pills">
             <span>DLF Cyber City</span>
             <span>MG Road</span>
             <span>Golf Course Road</span>
             <span>Sohna Road</span>
             <span>Udyog Vihar</span>
             <span>Manesar</span>
-          </div>
+          </div> */}
         </div>
       </section>
 

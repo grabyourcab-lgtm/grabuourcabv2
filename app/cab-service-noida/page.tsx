@@ -295,19 +295,38 @@ export default function CabServiceNoidaPage() {
       <Header />
 
       {/* ---------- HERO ---------- */}
-      <section className="page-hero">
-        <div className="container">
+      <section className="page-hero"  style={{
+          backgroundImage:"url('/pages_banners/noida_taxi.png')",
+          backgroundRepeat:"no-repeat",
+        backgroundSize:"cover",
+         backgroundPosition: "center",
+    position: "relative",
+    width: "100%",
+        }}>
+           <div
+    style={{
+      position: "absolute",
+      inset: 0,
+      background: "rgba(0, 0, 0, 0.45)",
+      zIndex: 0,
+      pointerEvents: "none",
+    }}
+  ></div>
+        <div className="container" style={{
+    position: "relative",
+    zIndex: 1,
+  }}>
           <div className="crumbs">
             <Link href="/">Home</Link>
             <span>/</span>
             <b>Cab Service in Noida</b>
           </div>
-          <span className="eyebrow">Local · Airport · Outstation</span>
-          <h1>Cab Service in Noida for Local, Airport &amp; Outstation Travel</h1>
-          <p className="lead">
+          {/* <span className="eyebrow">Local · Airport · Outstation</span> */}
+          <h1>Cab Service in Noida for Local, <br/> Airport &amp; Outstation Travel</h1>
+          {/* <p className="lead">
             Grab Your Cab is your one stop cab / taxi that offers you the best cab service in
             noida for local travel, airport transfers,business trips, one way cab and outstation journeys. Customer can book on their following Travels such as point to point, one way trip, round trip etc. Convenient pick up and drop off, professional drivers, multiple vehicle options, the premier service for individuals, families, business travellers and groups travelling in noida and around.
-          </p>
+          </p> */}
           <div className="hero-ctas">
             <a href="https://wa.me/917522817555" className="btn btn-wa">
               Book on WhatsApp
@@ -316,14 +335,14 @@ export default function CabServiceNoidaPage() {
               Call to Book
             </a>
           </div>
-          <div className="loc-pills">
+          {/* <div className="loc-pills">
             <span>Sector 18</span>
             <span>Sector 62</span>
             <span>Sector 51</span>
             <span>Sector 76</span>
             <span>Sector 137</span>
             <span>Sector 142</span>
-          </div>
+          </div> */}
         </div>
       </section>
 

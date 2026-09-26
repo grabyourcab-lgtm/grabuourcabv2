@@ -308,23 +308,42 @@ export default function SelfDriveCarRentalGurgaonPage() {
       <Header />
 
       {/* ---------- HERO ---------- */}
-      <section className="page-hero">
-        <div className="container">
+      <section className="page-hero"  style={{
+          backgroundImage:"url('/pages_banners/gurgaon-self.png')",
+          backgroundRepeat:"no-repeat",
+        backgroundSize:"cover",
+         backgroundPosition: "center",
+    position: "relative",
+    width: "100%",
+        }}>
+           <div
+    style={{
+      position: "absolute",
+      inset: 0,
+      background: "rgba(0, 0, 0, 0.45)",
+      zIndex: 0,
+      pointerEvents: "none",
+    }}
+  ></div>
+        <div className="container" style={{
+    position: "relative",
+    zIndex: 1,
+  }}>
           <div className="crumbs">
             <Link href="/">Home</Link>
             <span>/</span>
             <b>Self Drive Car Rental Gurgaon</b>
           </div>
-          <span className="eyebrow">Gurgaon · Delhi NCR</span>
-          <h1>Self Drive Car Rental Gurgaon - Hire a Car and Drive Yourself</h1>
-          <p className="lead">
+          {/* <span className="eyebrow">Gurgaon · Delhi NCR</span> */}
+          <h1>Self Drive Car Rental Gurgaon <br/> Hire a Car and Drive Yourself</h1>
+          {/* <p className="lead">
             A self drive car rental in Gurgaon is a better choice for you if you are tired of
             dependability on a driver or fixed schedules while travelling. Be it local shopping,
             on business meetings, for a couple of day excursions or outstation journey, renting a
             car and driving it yourself can add more convenience and privacy to your trips. Grab
             Your Cab offers the best self drive cars rental in India and we are confident that
             you will find the best deals as well as the widest range of options.
-          </p>
+          </p> */}
           <div className="hero-ctas">
             <a href="https://wa.me/917522817555" className="btn btn-wa">
               Book on WhatsApp
@@ -333,7 +352,7 @@ export default function SelfDriveCarRentalGurgaonPage() {
               Call to Book
             </a>
           </div>
-          <div className="loc-pills">
+          {/* <div className="loc-pills">
             <span>Golf Course Road</span>
             <span>Sohna Road</span>
             <span>MG Road</span>
@@ -342,7 +361,7 @@ export default function SelfDriveCarRentalGurgaonPage() {
             <span>Udyog Vihar</span>
             <span>Manesar</span>
             <span>Dwarka Expressway</span>
-          </div>
+          </div> */}
         </div>
       </section>
 

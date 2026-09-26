@@ -277,18 +277,40 @@ export default function TaxiServiceInMeerutPage() {
       <Header />
 
       {/* ---------- HERO ---------- */}
-      <section className="page-hero">
-        <div className="container">
+      <section className="page-hero"
+      style={{
+        backgroundImage:"url('/pages_banners/meerut.png')",
+        backgroundRepeat:"no-repeat",
+        backgroundSize:"cover",
+         backgroundPosition: "center",
+    position: "relative",
+    width: "100%",
+      }}
+      >
+        {/* Optional dark overlay for text readability */}
+  <div
+    style={{
+      position: "absolute",
+      inset: 0,
+      background: "rgba(0, 0, 0, 0.45)",
+      zIndex: 0,
+      pointerEvents: "none",
+    }}
+  ></div>
+        <div className="container"   style={{
+    position: "relative",
+    zIndex: 1,
+  }}>
           <div className="crumbs">
             <Link href="/">Home</Link>
             <span>/</span>
             <b>Taxi Service in Meerut</b>
           </div>
-          <span className="eyebrow">Meerut · Local, Airport &amp; Outstation</span>
+          {/* <span className="eyebrow">Meerut · Local, Airport &amp; Outstation</span> */}
           <h1>Taxi Service in Meerut for Comfortable Local &amp; Outstation Rides</h1>
-          <p className="lead">
+          {/* <p className="lead">
             Grab Your Cab is now at your service to provide comfortable and reliable taxi service in Meerut for local travel, airport transfer, railway station pick up, business travel, family travel or outstation travel. Fares are available for Point to Point Rides, One Way cab and round Trips for the convenience of the riders.
-          </p>
+          </p> */}
           <div className="hero-ctas">
             <a href="https://wa.me/917522817555" className="btn btn-wa">
               Book on WhatsApp
@@ -297,13 +319,13 @@ export default function TaxiServiceInMeerutPage() {
               Call to Book
             </a>
           </div>
-          <div className="loc-pills">
+          {/* <div className="loc-pills">
             <span>Meerut Cantt</span>
             <span>Modipuram</span>
             <span>Shastri Nagar</span>
             <span>Pallavpuram</span>
             <span>Partapur</span>
-          </div>
+          </div> */}
         </div>
       </section>
 

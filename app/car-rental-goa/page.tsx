@@ -352,18 +352,40 @@ export default function CarRentalInGoaPage() {
       <Header />
 
       {/* ---------- HERO ---------- */}
-      <section className="page-hero">
-        <div className="container">
+      <section className="page-hero"
+      style={{
+        backgroundImage:"url('/pages_banners/goa.png')",
+        backgroundSize:"cover",
+        backgroundRepeat:"no-repeat",
+         backgroundPosition: "center",
+    position: "relative",
+    width: "100%",
+      }}
+      >
+         {/* Optional dark overlay for text readability */}
+  <div
+    style={{
+      position: "absolute",
+      inset: 0,
+      background: "rgba(0, 0, 0, 0.45)",
+      zIndex: 0,
+      pointerEvents: "none",
+    }}
+  ></div>
+        <div className="container" style={{
+    position: "relative",
+    zIndex: 1,
+  }}>
           <div className="crumbs">
             <Link href="/">Home</Link>
             <span>/</span>
             <b>Car Rental in Goa</b>
           </div>
-          <span className="eyebrow">Goa · Self Drive &amp; Car Hire Services</span>
-          <h1>Car Rental in Goa - Self Drive Cars &amp; Car Hire Services</h1>
-          <p className="lead">
+          {/* <span className="eyebrow">Goa · Self Drive &amp; Car Hire Services</span> */}
+          <h1>Car Rental in Goa - Self Drive Cars &amp; <br/> Car Hire Services</h1>
+          {/* <p className="lead">
             Planning a trip to Goa is made simple once you have easy means of transport to take you between the beaches, markets, heritage sites, hotels and must-see locations. Grab Your Cab offers taxi in Goa for travellers with private transport needs for leisure trip, airport transfer, business travel, weekend trip and outstation travel.
-          </p>
+          </p> */}
           <div className="hero-ctas">
             <a href="https://wa.me/917522817555" className="btn btn-wa">
               Book on WhatsApp
@@ -372,13 +394,13 @@ export default function CarRentalInGoaPage() {
               Call to Book
             </a>
           </div>
-          <div className="loc-pills">
+          {/* <div className="loc-pills">
             <span>North Goa</span>
             <span>South Goa</span>
             <span>Panaji</span>
             <span>Mopa Airport</span>
             <span>Dabolim Airport</span>
-          </div>
+          </div> */}
         </div>
       </section>
 
@@ -418,50 +440,7 @@ export default function CarRentalInGoaPage() {
         </div>
       </section>
 
-      {/* ---------- CAR RENTAL SERVICES ---------- */}
-      {/* <section className="sec">
-        <div className="container">
-          <div className="sec-head">
-            <span className="eyebrow">Our Services</span>
-            <h2>Car Rental Services Available in Goa</h2>
-          </div>
-          <div className="svc-grid">
-            <div className="svc-card">
-              <h3>Goa car rentals at Airport</h3>
-              <p>
-                Experience the best of your beach holiday with a Local Car Hire in Goa package from Grab Your Cab. Our self-drive cars are available 24 hours at both Goa Airport (Dabolim) and Mopa Airport, making it easy to pick up your car whenever you arrive. Local rentals are ideal for day visits to beaches, shopping places, restaurants, historical monuments, and much more in and around Goa. The flexibility of having your own car makes it easier to visit several places in a day and explore at your own pace.
-              </p>
-            </div>
-            <div className="svc-card">
-              <h3>Self Drive Car Rental Goa</h3>
-              <p>
-                Featured agents offer self drive car rental in Goa, allowing customers to drive their own rental vehicle. It is especially convenient for tourists who like to explore and go sightseeing independently while arranging their daily schedule on their own.
-              </p>
-              <p style={{ marginTop: 10 }}>
-                Before picking up a self-drive vehicle, customers should meet all the relevant age, driving licence, identification, deposit, and rental agreement requirements.
-              </p>
-            </div>
-            <div className="svc-card">
-              <h3>Car Rental with Driver in Goa</h3>
-              <p>
-                For those who don't want to drive themselves, they might as well rent a car with a driver in Goa. Passengers can sit back and relax while the job is handled by the professional driver.
-              </p>
-            </div>
-            <div className="svc-card">
-              <h3>Goa Airport Car Rental</h3>
-              <p>
-                For the travellers arriving at Manohar International Airport (Mopa) or Goa International Airport (Dabolim) airport transportation can be offered, with our assistance and subject to availability of services. Pre-booking help in coordinating easy pickup at the airport and UK's best holiday.
-              </p>
-            </div>
-            <div className="svc-card">
-              <h3>Outstation Car Rental from Goa</h3>
-              <p>
-                Self drive outstation car rental in Goa is a convenient option for travellers who want the freedom to plan their own journey. You can take a rental car for nearby destinations or longer outstation trips, depending on the rental terms. Choose between a one-way or round trip and enjoy a comfortable journey at your own pace.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section> */}
+    
      <section className="sec">
   <div className="container">
     <div

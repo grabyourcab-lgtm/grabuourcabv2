@@ -700,7 +700,10 @@ footer.site{margin-top:30px;background:var(--slate);color:#cfd6dd}
   .cd-pic{min-height:220px;padding:16px}
   .cd-pic img{max-height:210px}
   .page-hero{padding:32px 0}
-  .hero-ctas .btn{flex:1;padding:12px 8px;font-size:13px}
+  /* .hero-ctas .btn{flex:1;padding:12px 8px;font-size:13px} Original One */
+    /* .hero-ctas .btn{flex:1;padding:3px 2px;font-size:3px} */
+    .hero-ctas .btn{flex:1;padding:9px 10px;font-size:12px}
+    
   .loc-grid{grid-template-columns:1fr 1fr;gap:10px}
   .office-grid{grid-template-columns:1fr;gap:10px}
   .foot-grid{grid-template-columns:1fr;gap:24px;padding:30px 0}
