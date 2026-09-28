@@ -1,3 +1,6 @@
 {
-  "/cab-service-gurgaon/page": "app/cab-service-gurgaon/page.js"
+  "/luxury-car-rental/page": "app/luxury-car-rental/page.js",
+  "/tempo-traveller-rent/page": "app/tempo-traveller-rent/page.js",
+  "/corporate-cab-services/page": "app/corporate-cab-services/page.js",
+  "/car-rental-goa/page": "app/car-rental-goa/page.js"
 }

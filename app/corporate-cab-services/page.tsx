@@ -407,8 +407,8 @@ export default function CorporateCabServicesPage() {
             <span>/</span>
             <b>Corporate Cab Services</b>
           </div>
-          <span className="eyebrow">Delhi NCR · Corporate Transportation</span>
-          <h1>Corporate Cab Services &amp; Corporate <br/> Car Rental in Delhi NCR</h1>
+          {/* <span className="eyebrow">Delhi NCR · Corporate Transportation</span> */}
+          <h1>Corporate Cab Services &amp; <br/>Corporate  Car Rental in Delhi NCR</h1>
           {/* <p className="lead">
             The need of Businesses today is much more than just a taxi provider.
             Business entityt need a reliable transportation partner capable of
