@@ -256,7 +256,7 @@ export default function TaxiServiceDelhiPage() {
       <section
   className="page-hero"
   style={{
-    backgroundImage: "url('/pages_banners/delhi-cab.png')",
+    backgroundImage: "url('/pages_banners/delhi_cb.png')",
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
@@ -292,7 +292,7 @@ export default function TaxiServiceDelhiPage() {
       <b>Taxi Service in Delhi</b>
     </div>
     {/* <span className="eyebrow">Delhi NCR · 24/7 Cabs</span> */}
-    <h1 >Taxi Service in Delhi </h1>
+    <h1 >Taxi Service in Delhi - </h1>
     <h1> Book Now from Grab Your Cab</h1>
     {/* <p className="lead">
       Local trips, airport transfers, business travel or an outstation run — Grab Your Cab

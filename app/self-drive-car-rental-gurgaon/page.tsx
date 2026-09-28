@@ -335,7 +335,7 @@ export default function SelfDriveCarRentalGurgaonPage() {
             <b>Self Drive Car Rental Gurgaon</b>
           </div>
           {/* <span className="eyebrow">Gurgaon · Delhi NCR</span> */}
-          <h1>Self Drive Car Rental Gurgaon <br/> Hire a Car and Drive Yourself</h1>
+          <h1>Self Drive Car Rental Gurgaon -<br/> Hire a Car and Drive Yourself</h1>
           {/* <p className="lead">
             A self drive car rental in Gurgaon is a better choice for you if you are tired of
             dependability on a driver or fixed schedules while travelling. Be it local shopping,
