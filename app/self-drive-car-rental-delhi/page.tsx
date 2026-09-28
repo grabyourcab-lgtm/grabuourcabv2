@@ -341,7 +341,7 @@ export default function SelfDriveCarRentalDelhiPage() {
       width:"600px"
     }}>
 
-    <h1>Self Drive Car Rental in Delhi  Flexible Cars for Local &amp; Outstation Travel</h1>
+    <h1>Self Drive Car Rental in Delhi <br/>  Flexible Cars for Local <br/> &amp; Outstation Travel</h1>
     </div>
     {/* <h1>Self Drive Car Rental in Delhi – Flexible Cars for Local &amp; Outstation Travel</h1> */}
   
@@ -352,10 +352,7 @@ export default function SelfDriveCarRentalDelhiPage() {
       <a href="https://wa.me/917522817555" className="btn btn-wa">
         Book on WhatsApp
       </a>
-      <a href="tel:+917522817555" style={{
-        backgroundColor:"white",
-        color:"black"
-      }} className="btn btn-ghost">
+      <a href="tel:+917522817555"  className="btn btn-ghost">
         Call to Book
       </a>
     </div>

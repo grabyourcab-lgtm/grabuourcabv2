@@ -256,7 +256,7 @@ export default function TaxiServiceDelhiPage() {
       <section
   className="page-hero"
   style={{
-    backgroundImage: "url('/banners/delhibanner.jpeg')",
+    backgroundImage: "url('/pages_banners/delhi-cab.png')",
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
@@ -313,12 +313,7 @@ export default function TaxiServiceDelhiPage() {
       </a> */}
       <a
   href="tel:+917522817555"
-  style={{
-    backgroundColor: "white",
-    color: "black",
-    transition: "all 0.3s ease",
-  }}
-  className="btn btn-ghost hover:!bg-black hover:!text-white"
+        className="btn btn-ghost"
 >
   Call to Book
 </a>

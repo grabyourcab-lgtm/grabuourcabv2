@@ -338,7 +338,7 @@ export default function TaxiServiceGhaziabadPage() {
                 <span>/</span>
                 <b>Taxi Service in Ghaziabad</b>
               </div>
-              <h1>Taxi Service in Ghaziabad | Cab Service &amp; Self Drive Car Rental</h1>
+              <h1>Taxi Service in Ghaziabad  |<br/> Cab Service &amp; Self Drive Car Rental</h1>
               {/* <p className="lead">
                 Are you searching for a reliable taxi service in Ghaziabad, cab service, or
                 self-drive car rental? Grab Your Cab offers a wide range of travel and

@@ -307,7 +307,7 @@ export default function TaxiServiceInMeerutPage() {
             <b>Taxi Service in Meerut</b>
           </div>
           {/* <span className="eyebrow">Meerut · Local, Airport &amp; Outstation</span> */}
-          <h1>Taxi Service in Meerut for Comfortable Local &amp; Outstation Rides</h1>
+          <h1>Taxi Service in Meerut <br/> for  Comfortable Local <br/> &amp; Outstation Rides</h1>
           {/* <p className="lead">
             Grab Your Cab is now at your service to provide comfortable and reliable taxi service in Meerut for local travel, airport transfer, railway station pick up, business travel, family travel or outstation travel. Fares are available for Point to Point Rides, One Way cab and round Trips for the convenience of the riders.
           </p> */}

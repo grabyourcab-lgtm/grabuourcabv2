@@ -347,7 +347,7 @@ export default function TaxiServiceGreaterNoidaPage() {
                 <b>Taxi Service in Greater Noida</b>
               </div>
               {/* <span className="eyebrow">Greater Noida · Noida Extension · Yamuna Expressway</span> */}
-              <h1>Taxi Service in Greater Noida &amp; Noida Extension</h1>
+              <h1>Taxi Service in Greater <br/> Noida &amp; Noida Extension</h1>
               {/* <p className="lead">
                 Looking for a reliable taxi service in Greater Noida? Grab Your Cab provides
                 outstation taxi services, airport transfers, one-way cabs, local taxis and
