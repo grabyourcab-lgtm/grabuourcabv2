@@ -1,12 +1,3 @@
 {
-  "/_not-found/page": "app/_not-found/page.js",
-  "/self-drive-car-rental-delhi/page": "app/self-drive-car-rental-delhi/page.js",
-  "/taxi-service-meerut/page": "app/taxi-service-meerut/page.js",
-  "/cab-service-noida/page": "app/cab-service-noida/page.js",
-  "/self-drive-car-rental-noida/page": "app/self-drive-car-rental-noida/page.js",
-  "/taxi-service-greater-noida/page": "app/taxi-service-greater-noida/page.js",
-  "/jewar-airport-cab-service/page": "app/jewar-airport-cab-service/page.js",
-  "/taxi-service-ghaziabad/page": "app/taxi-service-ghaziabad/page.js",
-  "/car-rent-faridabad/page": "app/car-rent-faridabad/page.js",
-  "/car-rental-goa/page": "app/car-rental-goa/page.js"
+  "/cab-service-gurgaon/page": "app/cab-service-gurgaon/page.js"
 }
