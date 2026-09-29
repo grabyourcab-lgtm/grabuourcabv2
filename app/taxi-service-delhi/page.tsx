@@ -257,6 +257,7 @@ export default function TaxiServiceDelhiPage() {
   className="page-hero"
   style={{
     backgroundImage: "url('/pages_banners/delhi_cb.png')",
+   
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",

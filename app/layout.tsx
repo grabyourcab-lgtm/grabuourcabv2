@@ -4,6 +4,9 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Grab Your Cab | Cab & Car Rental in Delhi NCR, Goa & Jewar Airport",
   description: "Book taxis, self-drive cars, luxury cars, tempo travellers & buses across Delhi NCR, Goa and Noida International Airport (Jewar). 24/7 booking on WhatsApp.",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
