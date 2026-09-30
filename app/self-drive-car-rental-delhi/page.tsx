@@ -301,8 +301,8 @@ export default function SelfDriveCarRentalDelhiPage() {
      <section
   className="page-hero"
   style={{
-    backgroundImage: "url('/pages_banners/delhi_self.png')",
-    //  backgroundImage: "url('/pages_banners/testing.webp')",
+    // backgroundImage: "url('/pages_banners/delhi_self.png')",
+     backgroundImage: "url('/banners/self-delhi.webp')",
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
