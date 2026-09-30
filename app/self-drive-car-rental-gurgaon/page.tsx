@@ -310,7 +310,7 @@ export default function SelfDriveCarRentalGurgaonPage() {
       {/* ---------- HERO ---------- */}
       <section className="page-hero" 
   style={{
-    backgroundImage: "url('/pages_banners/gurgaon.jpeg')",
+    backgroundImage: "url('/pages_banners/gurgaon_self_drive_car.png')",
     backgroundRepeat: "no-repeat",
     backgroundSize: "100% 100%",
     backgroundPosition: "center",

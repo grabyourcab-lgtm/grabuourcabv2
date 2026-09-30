@@ -304,7 +304,7 @@ export default function CabServiceGurgaonPage() {
 
       {/* ---------- HERO ---------- */}
       <section className="page-hero"  style={{
-          backgroundImage:"url('/pages_banners/gurgaon.jpeg')",
+          backgroundImage:"url('/pages_banners/gurgaon_taxi_service.png')",
           backgroundRepeat:"no-repeat",
         backgroundSize:"cover",
          backgroundPosition: "center",
