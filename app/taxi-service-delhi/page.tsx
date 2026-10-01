@@ -263,7 +263,7 @@ export default function TaxiServiceDelhiPage() {
     backgroundRepeat: "no-repeat",
     position: "relative",
     width: "100%",
-    minHeight: "100%",
+    height:"70vh"
   }}
 >
   {/* Optional dark overlay for text readability */}
@@ -295,11 +295,11 @@ export default function TaxiServiceDelhiPage() {
     {/* <span className="eyebrow">Delhi NCR · 24/7 Cabs</span> */}
     <h1 >Taxi Service in Delhi - </h1>
     <h1> Book Now from Grab Your Cab</h1>
-    {/* <p className="lead">
-      Local trips, airport transfers, business travel or an outstation run — Grab Your Cab
-      offers verified drivers, well-maintained cars and transparent fares across Delhi NCR,
+    <p className="lead">
+      Local trips, airport transfers, business travel <br/> or an outstation run — Grab Your Cab
+      offers <br/>verified drivers, well-maintained cars and <br/> transparent fares across Delhi NCR,
       24/7.
-    </p> */}
+    </p>
     <div className="hero-ctas">
       <a href="https://wa.me/917522817555" className="btn btn-wa">
         Book on WhatsApp
