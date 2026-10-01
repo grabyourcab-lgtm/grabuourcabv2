@@ -1,9 +1,9 @@
 {
   "pages": {
-    "/self-drive-car-rental-gurgaon/page": [
+    "/self-drive-car-rental-noida/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/self-drive-car-rental-gurgaon/page.js"
+      "static/chunks/app/self-drive-car-rental-noida/page.js"
     ],
     "/layout": [
       "static/chunks/webpack.js",

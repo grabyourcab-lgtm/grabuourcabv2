@@ -2,7 +2,7 @@ import Footer from "@/components/site/Footer";
 import Header from "@/components/site/Header";
 import type { Metadata } from "next";
 import Link from "next/link";
-
+import TaxiSearch from "../taxi/page";
 export const metadata: Metadata = {
   title: "Self Drive Car Rental in Noida | Flexible Car Hire",
   description:
@@ -279,15 +279,19 @@ export default function SelfDriveCarRentalNoidaPage() {
       {/* ---------- HERO ---------- */}
       <section className="page-hero"
        style={{
-    backgroundImage: "url('/pages_banners/noida_self_drive.png')",
+    // backgroundImage: "url('/pages_banners/noida_self_drive.png')",
+      backgroundImage: "url('/pages_banners/noida-bc.jpeg')",
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
     position: "relative",
     width: "100%",
-    minHeight: "100%",
+    // minHeight: "100%",
+    height:"70vh"
   }}
-      > <div
+      > 
+      
+      {/* <div
     style={{
       position: "absolute",
       inset: 0,
@@ -295,21 +299,25 @@ export default function SelfDriveCarRentalNoidaPage() {
       zIndex: 0,
       pointerEvents: "none",
     }}
-  ></div>
+  ></div> */}
         
         <div className="container" style={{
     position: "relative",
     zIndex: 1,
   }}>
           <div className="crumbs">
-            <Link href="/">Home</Link>
+            <Link style={{
+              color:"black"
+            }} href="/">Home</Link>
             <span>/</span>
-            <b>Self Drive Car Rental in Noida</b>
+            <b style={{
+              color:"black"
+            }}>Self Drive Car Rental in Noida</b>
           </div>
           {/* <span className="eyebrow">Flexible · Self Drive · Noida</span> */}
           <h1 style={{
-            fontSize:30
-          }}>Affordable Self Drive <br/> Car Rental in Noida</h1>
+            color:"black"
+          }} >Affordable Self Drive <br/> Car Rental in Noida</h1>
           {/* <p className="lead">
             Grab Your Cab provides self drive car rental in Noida for those customers who want to experience the pleasure of driving on the go but don't like to depend on someone for driving. Local travel, business meetings, weekend trip, or outstation journeys, self-drive rental gives you more freedom when it comes to deciding the route and schedule.
           </p> */}
@@ -332,13 +340,14 @@ export default function SelfDriveCarRentalNoidaPage() {
           </div> */}
         </div>
       </section>
-
+            
+                  <TaxiSearch />
       {/* ---------- H2: SELF DRIVE CAR RENTAL IN NOIDA FOR FLEXIBLE TRAVEL - EXACT MATCH ---------- */}
       <section className="sec">
         <div className="container">
           <div className="seo-wrap">
             <div className="seo-block">
-              <h2>Self Drive Car Rental in Noida for Flexible Travel</h2>
+              <h2 >Self Drive Car Rental in Noida for Flexible Travel</h2>
               <p>
                 Self-drive car rental means you take the car on your own and drive it. Unlike traditional cab services, here you are the driver and so the owner of the vehicle, and you get to decide on the route, how many stops and when you travel.
               </p>
