@@ -301,14 +301,14 @@ export default function SelfDriveCarRentalDelhiPage() {
      <section
   className="page-hero"
   style={{
-    backgroundImage: "url('/pages_banners/delhi_self.png')",
+    backgroundImage: "url('/pages_banners/delhi-bc.jpeg')",
     //  backgroundImage: "url('/banners/self-delhi.webp')",
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
     position: "relative",
     width: "100%",
-    height:"90vh"
+    height:"100vh"
   }}
 >
   {/* Optional dark overlay for text readability */}
