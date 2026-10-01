@@ -16,11 +16,6 @@
       "static/chunks/main-app.js",
       "static/chunks/app/cab-service-gurgaon/page.js"
     ],
-    "/self-drive-car-rental-delhi/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/self-drive-car-rental-delhi/page.js"
-    ],
     "/self-drive-car-rental-gurgaon/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
