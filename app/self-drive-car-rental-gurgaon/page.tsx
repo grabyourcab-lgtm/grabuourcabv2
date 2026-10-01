@@ -311,14 +311,14 @@ export default function SelfDriveCarRentalGurgaonPage() {
       <section className="page-hero" 
   style={{
     // backgroundImage: "url('/pages_banners/gurgaon_self_drive_car.png')",
-    backgroundImage: "url('/pages_banners/gurgaon-self-drive.jpeg')",
+    backgroundImage: "url('/pages_banners/g1.png')",
     backgroundRepeat: "no-repeat",
     backgroundSize: "100% 100%",
     backgroundPosition: "center",
     position: "relative",
     width: "100%",
-    minHeight:"100%"
-    // height:"80vh"
+    // minHeight:"100%"
+    height:"60vh"
   }}
         
         >

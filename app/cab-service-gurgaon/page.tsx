@@ -305,13 +305,14 @@ export default function CabServiceGurgaonPage() {
       {/* ---------- HERO ---------- */}
       <section className="page-hero"  style={{
           // backgroundImage:"url('/pages_banners/gurgaon_taxi_service.png')",
-           backgroundImage:"url('/pages_banners/cab-gurgaon.jpeg')",
+           backgroundImage:"url('/pages_banners/g2.png')",
           backgroundRepeat:"no-repeat",
         backgroundSize:"cover",
          backgroundPosition: "center",
     position: "relative",
     width: "100%",
-    height:"70vh"
+    // minHeight:"100%"
+    height:"60vh"
         }}>
            {/* <div
     style={{
@@ -341,12 +342,12 @@ export default function CabServiceGurgaonPage() {
           <h1 style={{
               color:"black"
             }}>Cab Service in Gurgaon <br/>for Local &amp;  Outstation Travel</h1>
-          <p style={{
+          {/* <p style={{
             color:"black"
           }} className="lead">
             Dependable local transportation in Gurgaon is made much more convenient with a cab service that offers easy booking, the right kind of vehicles, professional chauffeurs, and a wide array of travel solutions. Grab Your Cab provides local trips, airport transfers, business travel, and outstation cab services from Gurgaon. Whether you're looking for a trip within Gurugram or a drive to another city, you can choose from a range of services based on the distance of travel, time, and your requirements.
 
-          </p>
+          </p> */}
           <div className="hero-ctas">
             <a href="https://wa.me/917522817555" className="btn btn-wa">
               Book on WhatsApp
