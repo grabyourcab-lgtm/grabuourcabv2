@@ -296,14 +296,15 @@ export default function CabServiceNoidaPage() {
 
       {/* ---------- HERO ---------- */}
       <section className="page-hero"  style={{
-          backgroundImage:"url('/pages_banners/noida_taxi.png')",
+          // backgroundImage:"url('/pages_banners/noida_taxi.png')",
+            backgroundImage:"url('/pages_banners/noida_old.jpeg')",
           backgroundRepeat:"no-repeat",
         backgroundSize:"cover",
          backgroundPosition: "center",
     position: "relative",
     width: "100%",
         }}>
-           <div
+           {/* <div
     style={{
       position: "absolute",
       inset: 0,
@@ -311,22 +312,30 @@ export default function CabServiceNoidaPage() {
       zIndex: 0,
       pointerEvents: "none",
     }}
-  ></div>
+  ></div> */}
         <div className="container" style={{
     position: "relative",
     zIndex: 1,
   }}>
           <div className="crumbs">
-            <Link href="/">Home</Link>
+            <Link style={{
+              color:"black"
+            }} href="/">Home</Link>
             <span>/</span>
-            <b>Cab Service in Noida</b>
+            <b style={{
+              color:"black"
+            }}>Cab Service in Noida</b>
           </div>
           {/* <span className="eyebrow">Local · Airport · Outstation</span> */}
-          <h1>Cab Service in Noida for Local, <br/> Airport &amp; Outstation Travel</h1>
-          {/* <p className="lead">
+          <h1 style={{
+              color:"black"
+            }}>Cab Service in Noida for Local, <br/> Airport &amp; Outstation Travel</h1>
+          <p style={{
+              color:"black"
+            }} className="lead">
             Grab Your Cab is your one stop cab / taxi that offers you the best cab service in
             noida for local travel, airport transfers,business trips, one way cab and outstation journeys. Customer can book on their following Travels such as point to point, one way trip, round trip etc. Convenient pick up and drop off, professional drivers, multiple vehicle options, the premier service for individuals, families, business travellers and groups travelling in noida and around.
-          </p> */}
+          </p>
           <div className="hero-ctas">
             <a href="https://wa.me/917522817555" className="btn btn-wa">
               Book on WhatsApp
