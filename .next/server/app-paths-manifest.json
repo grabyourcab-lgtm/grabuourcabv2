@@ -1,5 +1,4 @@
 {
-  "/page": "app/page.js",
-  "/taxi-service-delhi/page": "app/taxi-service-delhi/page.js",
-  "/self-drive-car-rental-delhi/page": "app/self-drive-car-rental-delhi/page.js"
+  "/self-drive-car-rental-delhi/page": "app/self-drive-car-rental-delhi/page.js",
+  "/taxi-service-delhi/page": "app/taxi-service-delhi/page.js"
 }

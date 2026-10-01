@@ -267,14 +267,14 @@ export default function TaxiServiceDelhiPage() {
   }}
 >
   {/* Optional dark overlay for text readability */}
-  <div
+  {/* <div
     style={{
       position: "absolute",
       inset: 0,
       background: "rgba(0, 0, 0, 0.45)",
       zIndex: 0,
     }}
-  ></div>
+  ></div> */}
 
   <div
     className="container"
@@ -288,14 +288,24 @@ export default function TaxiServiceDelhiPage() {
     }}
   >
     <div className="crumbs">
-      <Link href="/">Home</Link>
+      <Link style={{
+        color:"black"
+      }} href="/">Home</Link>
       <span>/</span>
-      <b>Taxi Service in Delhi</b>
+      <b style={{
+        color:"black"
+      }}>Taxi Service in Delhi</b>
     </div>
     {/* <span className="eyebrow">Delhi NCR · 24/7 Cabs</span> */}
-    <h1 >Taxi Service in Delhi - </h1>
-    <h1> Book Now from Grab Your Cab</h1>
-    <p className="lead">
+    <h1 style={{
+        color:"black"
+      }} >Taxi Service in Delhi - </h1>
+    <h1 style={{
+        color:"black"
+      }}> Book Now from Grab Your Cab</h1>
+    <p style={{
+        color:"black"
+      }} className="lead">
       Local trips, airport transfers, business travel <br/> or an outstation run — Grab Your Cab
       offers <br/>verified drivers, well-maintained cars and <br/> transparent fares across Delhi NCR,
       24/7.
