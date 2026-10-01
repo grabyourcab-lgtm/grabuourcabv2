@@ -1,9 +1,9 @@
 {
   "pages": {
-    "/self-drive-car-rental-noida/page": [
+    "/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/self-drive-car-rental-noida/page.js"
+      "static/chunks/app/page.js"
     ],
     "/layout": [
       "static/chunks/webpack.js",
@@ -11,10 +11,20 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/_not-found/page": [
+    "/self-drive-car-rental-delhi/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/_not-found/page.js"
+      "static/chunks/app/self-drive-car-rental-delhi/page.js"
+    ],
+    "/self-drive-car-rental-gurgaon/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/self-drive-car-rental-gurgaon/page.js"
+    ],
+    "/taxi-service-delhi/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/taxi-service-delhi/page.js"
     ]
   }
 }

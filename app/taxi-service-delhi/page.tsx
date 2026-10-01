@@ -256,14 +256,15 @@ export default function TaxiServiceDelhiPage() {
       <section
   className="page-hero"
   style={{
-    backgroundImage: "url('/pages_banners/delhi_cb.png')",
+    backgroundImage: "url('/pages_banners/taxi-service.png')",
   //  backgroundImage: "url('/banners/delhi-taxi.png')",
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
     position: "relative",
     width: "100%",
-    height:"70vh"
+    minHeight:"100%"
+    // height:"50vh"
   }}
 >
   {/* Optional dark overlay for text readability */}
@@ -303,13 +304,13 @@ export default function TaxiServiceDelhiPage() {
     <h1 style={{
         color:"black"
       }}> Book Now from Grab Your Cab</h1>
-    <p style={{
+    {/* <p style={{
         color:"black"
       }} className="lead">
       Local trips, airport transfers, business travel <br/> or an outstation run — Grab Your Cab
       offers <br/>verified drivers, well-maintained cars and <br/> transparent fares across Delhi NCR,
       24/7.
-    </p>
+    </p> */}
     <div className="hero-ctas">
       <a href="https://wa.me/917522817555" className="btn btn-wa">
         Book on WhatsApp
