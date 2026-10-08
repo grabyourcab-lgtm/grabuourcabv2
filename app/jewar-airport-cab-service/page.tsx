@@ -323,6 +323,7 @@ export default function NoidaInternationalAirportTaxiPage() {
          backgroundPosition: "center",
     position: "relative",
     width: "100%",
+    height:"65vh"
         }}>
            {/* <div
     style={{
