@@ -319,14 +319,15 @@ export default function TaxiServiceGreaterNoidaPage() {
 
       {/* ---------- HERO ---------- */}
       <section className="page-hero" style={{
-          backgroundImage:"url('/pages_banners/greater_noida.png')",
+          backgroundImage:"url('/banners/gn-page.png')",
           backgroundRepeat:"no-repeat",
         backgroundSize:"cover",
          backgroundPosition: "center",
     position: "relative",
     width: "100%",
+    height:"60vh"
         }}>
-          <div
+          {/* <div
     style={{
       position: "absolute",
       inset: 0,
@@ -334,7 +335,7 @@ export default function TaxiServiceGreaterNoidaPage() {
       zIndex: 0,
       pointerEvents: "none",
     }}
-  ></div>
+  ></div> */}
         <div className="container" style={{
     position: "relative",
     zIndex: 1,
@@ -342,12 +343,18 @@ export default function TaxiServiceGreaterNoidaPage() {
           <div className="hero-grid">
             <div>
               <div className="crumbs">
-                <Link href="/">Home</Link>
+                <Link href="/"  style={{
+                color:"black"
+              }}>Home</Link>
                 <span>/</span>
-                <b>Taxi Service in Greater Noida</b>
+                <b  style={{
+                color:"black"
+              }}>Taxi Service in Greater Noida</b>
               </div>
               {/* <span className="eyebrow">Greater Noida · Noida Extension · Yamuna Expressway</span> */}
-              <h1>Taxi Service in Greater <br/> Noida &amp; Noida Extension</h1>
+              <h1  style={{
+                color:"black"
+              }}>Taxi Service in Greater <br/> Noida &amp; Noida Extension</h1>
               {/* <p className="lead">
                 Looking for a reliable taxi service in Greater Noida? Grab Your Cab provides
                 outstation taxi services, airport transfers, one-way cabs, local taxis and

@@ -354,16 +354,17 @@ export default function CarRentalInGoaPage() {
       {/* ---------- HERO ---------- */}
       <section className="page-hero"
       style={{
-        backgroundImage:"url('/pages_banners/goa.png')",
+        backgroundImage:"url('/banners/goa-page.png')",
         backgroundSize:"cover",
         backgroundRepeat:"no-repeat",
          backgroundPosition: "center",
     position: "relative",
     width: "100%",
+    height:"67vh"
       }}
       >
          {/* Optional dark overlay for text readability */}
-  <div
+  {/* <div
     style={{
       position: "absolute",
       inset: 0,
@@ -371,18 +372,24 @@ export default function CarRentalInGoaPage() {
       zIndex: 0,
       pointerEvents: "none",
     }}
-  ></div>
+  ></div> */}
         <div className="container" style={{
     position: "relative",
     zIndex: 1,
   }}>
           <div className="crumbs">
-            <Link href="/">Home</Link>
+            <Link href="/"  style={{
+                color:"black"
+              }}>Home</Link>
             <span>/</span>
-            <b>Car Rental in Goa</b>
+            <b  style={{
+                color:"black"
+              }}>Car Rental in Goa</b>
           </div>
           {/* <span className="eyebrow">Goa · Self Drive &amp; Car Hire Services</span> */}
-          <h1>Car Rental in Goa - <br/> Self Drive  Cars &amp; <br/> Car Hire Services</h1>
+          <h1  style={{
+                color:"black"
+              }}>Car Rental in Goa - <br/> Self Drive  Cars &amp; <br/> Car Hire Services</h1>
           {/* <p className="lead">
             Planning a trip to Goa is made simple once you have easy means of transport to take you between the beaches, markets, heritage sites, hotels and must-see locations. Grab Your Cab offers taxi in Goa for travellers with private transport needs for leisure trip, airport transfer, business travel, weekend trip and outstation travel.
           </p> */}

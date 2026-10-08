@@ -317,14 +317,14 @@ export default function NoidaInternationalAirportTaxiPage() {
 
       {/* ---------- HERO ---------- */}
       <section className="page-hero"  style={{
-          backgroundImage:"url('/pages_banners/jewar.png')",
+          backgroundImage:"url('/banners/jewar-page.png')",
           backgroundRepeat:"no-repeat",
         backgroundSize:"cover",
          backgroundPosition: "center",
     position: "relative",
     width: "100%",
         }}>
-           <div
+           {/* <div
     style={{
       position: "absolute",
       inset: 0,
@@ -332,19 +332,24 @@ export default function NoidaInternationalAirportTaxiPage() {
       zIndex: 0,
       pointerEvents: "none",
     }}
-  ></div>
+  ></div> */}
         <div className="container" style={{
     position: "relative",
     zIndex: 1,
   }}>
           <div className="crumbs">
-            <Link href="/">Home</Link>
+            <Link href="/"  style={{
+                color:"black"
+              }}>Home</Link>
             <span>/</span>
-            <b>Noida International Airport Taxi</b>
+            <b  style={{
+                color:"black"
+              }}>Noida International Airport Taxi</b>
           </div>
           {/* <span className="eyebrow">Noida International Airport · Jewar</span> */}
           <h1 style={{
-            fontSize:30
+            fontSize:30,
+            color:"black"
           }}>Noida International Airport, <br/> Jewar Cab  Service  for <br/>  Easy Airport Transfers</h1>
           {/* <p className="lead">
             Grab Your Cab offers a reliable and timely Noida International Airport taxi service

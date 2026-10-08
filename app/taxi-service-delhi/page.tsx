@@ -256,15 +256,15 @@ export default function TaxiServiceDelhiPage() {
       <section
   className="page-hero"
   style={{
-    backgroundImage: "url('/pages_banners/taxi-service.png')",
+    backgroundImage: "url('/banners/taxi-service-delhi.png')",
   //  backgroundImage: "url('/banners/delhi-taxi.png')",
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
     position: "relative",
     width: "100%",
-    minHeight:"100%"
-    // height:"50vh"
+    // minHeight:"100%"
+    height:"50vh"
   }}
 >
   {/* Optional dark overlay for text readability */}

@@ -291,16 +291,17 @@ export default function CarOnRentInFaridabadPage() {
       {/* ---------- HERO ---------- */}
       <section className="page-hero"
         style={{
-          backgroundImage:"url('/pages_banners/faridabad.png')",
+          backgroundImage:"url('/banners/faridabad-page.png')",
           backgroundRepeat:"no-repeat",
         backgroundSize:"cover",
          backgroundPosition: "center",
     position: "relative",
     width: "100%",
+    height:"60vh"
         }}
       >
             {/* Optional dark overlay for text readability */}
-  <div
+  {/* <div
     style={{
       position: "absolute",
       inset: 0,
@@ -308,18 +309,24 @@ export default function CarOnRentInFaridabadPage() {
       zIndex: 0,
       pointerEvents: "none",
     }}
-  ></div>
+  ></div> */}
         <div className="container" style={{
     position: "relative",
     zIndex: 1,
   }}>
           <div className="crumbs">
-            <Link href="/">Home</Link>
+            <Link href="/"  style={{
+                color:"black"
+              }}>Home</Link>
             <span>/</span>
-            <b>Car on Rent in Faridabad</b>
+            <b  style={{
+                color:"black"
+              }}>Car on Rent in Faridabad</b>
           </div>
           {/* <span className="eyebrow">Faridabad · Self Drive &amp; Rental Cars</span> */}
-          <h1>Car on Rent in Faridabad -<br/> Self Drive &amp; Rental Cars</h1>
+          <h1 style={{
+            color:"black"
+          }}>Car on Rent in Faridabad -<br/> Self Drive &amp; Rental Cars</h1>
           {/* <p className="lead">
             Grab Your Cab offers easy car on rent in Faridabad for local travel, outstation visit, Airport transfer from Faridabad to Noida International Airport, Jewar or Indira Gandhi International Airport, New Delhi, One way Cab, Luxury Car rental for Wedding or special occasion, Tempo Travelers for group tour or luxury bus for Corporate or Pilgrimage tours.
           </p> */}

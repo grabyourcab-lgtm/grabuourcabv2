@@ -311,14 +311,16 @@ export default function TaxiServiceGhaziabadPage() {
 
       {/* ---------- HERO ---------- */}
       <section className="page-hero"  style={{
-          backgroundImage:"url('/pages_banners/gaziabad.png')",
+          backgroundImage:"url('/banners/gaziabad-page.png')",
           backgroundRepeat:"no-repeat",
         backgroundSize:"cover",
          backgroundPosition: "center",
     position: "relative",
     width: "100%",
+    // minHeight:"100%"
+    height:"60vh"
         }}>
-           <div
+           {/* <div
     style={{
       position: "absolute",
       inset: 0,
@@ -326,7 +328,7 @@ export default function TaxiServiceGhaziabadPage() {
       zIndex: 0,
       pointerEvents: "none",
     }}
-  ></div>
+  ></div> */}
         <div className="container" style={{
     position: "relative",
     zIndex: 1,
@@ -334,11 +336,17 @@ export default function TaxiServiceGhaziabadPage() {
           <div className="hero-grid">
             <div>
               <div className="crumbs">
-                <Link href="/">Home</Link>
+                <Link href="/"  style={{
+                color:"black"
+              }}>Home</Link>
                 <span>/</span>
-                <b>Taxi Service in Ghaziabad</b>
+                <b  style={{
+                color:"black"
+              }}>Taxi Service in Ghaziabad</b>
               </div>
-              <h1>Taxi Service in Ghaziabad  |<br/> Cab Service &amp; Self Drive Car Rental</h1>
+              <h1 style={{
+                color:"black"
+              }}>Taxi Service in Ghaziabad  |<br/> Cab Service &amp; Self Drive Car Rental</h1>
               {/* <p className="lead">
                 Are you searching for a reliable taxi service in Ghaziabad, cab service, or
                 self-drive car rental? Grab Your Cab offers a wide range of travel and

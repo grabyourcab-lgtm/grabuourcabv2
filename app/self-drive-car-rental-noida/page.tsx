@@ -280,14 +280,14 @@ export default function SelfDriveCarRentalNoidaPage() {
       <section className="page-hero"
        style={{
     // backgroundImage: "url('/pages_banners/noida_self_drive.png')",
-      backgroundImage: "url('/pages_banners/noida-3.jpeg')",
+      backgroundImage: "url('/banners/noida-self.png')",
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
     position: "relative",
     width: "100%",
     // minHeight: "100%",
-    height:"50vh"
+    height:"55vh"
   }}
       > 
       
