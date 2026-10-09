@@ -307,14 +307,15 @@ export default function TempoTravellerOnRentPage() {
 
       {/* ---------- HERO ---------- */}
       <section className="page-hero" style={{
-          backgroundImage:"url('/pages_banners/tempo_traveller.png')",
+          backgroundImage:"url('/banners/tempo-traveller.png')",
           backgroundRepeat:"no-repeat",
         backgroundSize:"cover",
          backgroundPosition: "center",
     position: "relative",
     width: "100%",
+    height:"60vh"
         }}>
-          <div
+          {/* <div
     style={{
       position: "absolute",
       inset: 0,
@@ -322,18 +323,24 @@ export default function TempoTravellerOnRentPage() {
       zIndex: 0,
       pointerEvents: "none",
     }}
-  ></div>
+  ></div> */}
         <div className="container" style={{
     position: "relative",
     zIndex: 1,
   }}>
           <div className="crumbs">
-            <Link href="/">Home</Link>
+            <Link style={{
+              color:"black"
+            }} href="/">Home</Link>
             <span>/</span>
-            <b>Tempo Traveller on Rent</b>
+            <b style={{
+              color:"black"
+            }}>Tempo Traveller on Rent</b>
           </div>
           {/* <span className="eyebrow">Delhi NCR · Family, Corporate &amp; Group Trips</span> */}
-          <h1>Tempo Traveller on Rent for Family, <br/> Corporate &amp; Group Trips</h1>
+          <h1 style={{
+              color:"black"
+            }}>Tempo Traveller on Rent for Family, <br/> Corporate &amp; Group Trips</h1>
           {/* <p className="lead">
             If you're planning a family trip, company outing, wedding journey, or group tour, it's convenient to have everyone travel together. Grab Your Cab offers tempo traveller for rent for local travel, airport transfers, sightseeing, events and outstation journey. Travelers can select an appropriate vehicle based on the size of their group and travel needs.
           </p> */}

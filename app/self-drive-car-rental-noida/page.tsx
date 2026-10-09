@@ -287,7 +287,7 @@ export default function SelfDriveCarRentalNoidaPage() {
     position: "relative",
     width: "100%",
     // minHeight: "100%",
-    height:"55vh"
+    height:"60vh"
   }}
       > 
       
