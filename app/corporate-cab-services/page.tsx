@@ -382,14 +382,15 @@ export default function CorporateCabServicesPage() {
 
       {/* ---------- HERO ---------- */}
       <section className="page-hero" style={{
-          backgroundImage:"url('/pages_banners/corporate_cab.png')",
+          backgroundImage:"url('/pages_banners/corporate-cab.png')",
           backgroundRepeat:"no-repeat",
         backgroundSize:"cover",
          backgroundPosition: "center",
     position: "relative",
     width: "100%",
+    height:"67vh"
         }}>
-          <div
+          {/* <div
     style={{
       position: "absolute",
       inset: 0,
@@ -397,18 +398,25 @@ export default function CorporateCabServicesPage() {
       zIndex: 0,
       pointerEvents: "none",
     }}
-  ></div>
-        <div className="container" style={{
+  ></div> */}
+        <div  className="container" style={{
     position: "relative",
     zIndex: 1,
+   
   }} >
           <div className="crumbs">
-            <Link href="/">Home</Link>
+            <Link style={{
+              color:"black"
+            }}  href="/">Home</Link>
             <span>/</span>
-            <b>Corporate Cab Services</b>
+            <b style={{
+              color:"black"
+            }}>Corporate Cab Services</b>
           </div>
           {/* <span className="eyebrow">Delhi NCR · Corporate Transportation</span> */}
-          <h1>Corporate Cab Services &amp; <br/>Corporate  Car Rental in Delhi NCR</h1>
+          <h1 style={{
+            color:"black"
+          }}>Corporate Cab Services &amp; <br/>Corporate  Car Rental in Delhi NCR</h1>
           {/* <p className="lead">
             The need of Businesses today is much more than just a taxi provider.
             Business entityt need a reliable transportation partner capable of

@@ -2,6 +2,7 @@ import Footer from "@/components/site/Footer";
 import Header from "@/components/site/Header";
 import type { Metadata } from "next";
 import Link from "next/link";
+import TaxiSearch from "../taxi/page";
 
 export const metadata: Metadata = {
   title: "Luxury Car on Rent in Delhi NCR | Self Drive, Wedding & Corporate Rental",
@@ -328,15 +329,16 @@ export default function LuxuryCarRentalPage() {
       {/* ---------- HERO ---------- */}
       <section className="page-hero" 
        style={{
-          backgroundImage:"url('/pages_banners/luxurycar.png')",
+          backgroundImage:"url('/pages_banners/luxury-rent.png')",
           backgroundRepeat:"no-repeat",
         backgroundSize:"cover",
          backgroundPosition: "center",
     position: "relative",
     width: "100%",
+    height:"68vh"
         }}
       >
-        <div
+        {/* <div
     style={{
       position: "absolute",
       inset: 0,
@@ -344,18 +346,24 @@ export default function LuxuryCarRentalPage() {
       zIndex: 0,
       pointerEvents: "none",
     }}
-  ></div>
+  ></div> */}
         <div className="container" style={{
     position: "relative",
     zIndex: 1,
   }}>
           <div className="crumbs">
-            <Link href="/">Home</Link>
+            <Link style={{
+              color:"black"
+            }} href="/">Home</Link>
             <span>/</span>
-            <b>Luxury Car Rental</b>
+            <b style={{
+              color:"black"
+            }}>Luxury Car Rental</b>
           </div>
           {/* <span className="eyebrow">Luxury · Chauffeur & Self Drive · Delhi NCR</span> */}
-          <h1>Luxury Car on Rent in Delhi NCR</h1>
+          <h1 style={{
+            color:"black"
+          }}>Luxury Car on Rent in Delhi NCR</h1>
           {/* <p className="lead">
             Looking for a luxury car on rent in Delhi NCR for a wedding, corporate tour, airport transfer, movie shoot, TV serial, web series, celebrity event, special occasion or personal trip? Grab Your Cab offers luxury car rental options across Delhi, Noida, Greater Noida, Noida Extension, Ghaziabad, Gurgaon, Faridabad, Meerut and other NCR locations.
           </p>
@@ -379,6 +387,8 @@ export default function LuxuryCarRentalPage() {
           </div> */}
         </div>
       </section>
+
+      <TaxiSearch/>
 
       {/* ---------- H2: LUXURY CAR ON RENT IN DELHI NCR - EXACT MATCH ---------- */}
       <section className="sec">
