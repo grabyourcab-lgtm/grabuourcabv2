@@ -11,25 +11,35 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/blogs/page": [
+    "/luxury-car-rental/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/blogs/page.js"
+      "static/chunks/app/luxury-car-rental/page.js"
+    ],
+    "/cab-service-noida/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/cab-service-noida/page.js"
+    ],
+    "/taxi-service-delhi/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/taxi-service-delhi/page.js"
+    ],
+    "/about-us/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/about-us/page.js"
     ],
     "/corporate-cab-services/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/corporate-cab-services/page.js"
     ],
-    "/luxury-car-rental/page": [
+    "/self-drive-car-rental-gurgaon/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/luxury-car-rental/page.js"
-    ],
-    "/tempo-traveller-rent/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/tempo-traveller-rent/page.js"
+      "static/chunks/app/self-drive-car-rental-gurgaon/page.js"
     ]
   }
 }

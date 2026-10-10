@@ -222,7 +222,7 @@ const fleetTypes = [
   },
   {
     title: "Automatic Transmission Cars",
-    image: "https://images.unsplash.com/photo-1583121274602-3e2820c69888?w=600",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKG6kO0fIRN4c7B78qYiKjUG4DXU7Z8PU5keaFOLH6hDJSXWynz3LpDi2C&s=10",
     text: "Automatic cars are especially convenient when you have to drive through heavy Gurgaon or Delhi NCR traffic. There is no need to keep changing gears, making the overall driving experience more relaxed. Grab Your cab has all varities of Automatic cars.",
   },
   {
@@ -232,32 +232,32 @@ const fleetTypes = [
   },
   {
     title: "Diesel Cars",
-    image: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=600",
+    image: "https://stimg.cardekho.com/images/carexteriorimages/630x420/Mahindra/Thar/13948/1790589447439/front-left-side-47.jpg?impolicy=resize&imwidth=360",
     text: "Diesel cars are generally preferred by people planning longer journeys. If you are travelling out of the city or covering a longer distance, a diesel vehicle can be a suitable option.",
   },
   {
     title: "CNG Cars",
-    image: "https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?w=600",
+    image: "https://stimg.cardekho.com/images/carexteriorimages/630x420/Maruti/Brezza/13709/1785846873395/front-left-side-47.jpg?impolicy=resize&imwidth=360",
     text: "For customers looking for a more economical option for local travel, CNG cars can be worth considering. They can be suitable for regular city use and planned journeys.",
   },
   {
     title: "Electric Cars",
-    image: "https://images.unsplash.com/photo-1583121274602-3e2820c69888?w=600",
+    image: "https://asset.autocarindia.com/static/models/colors/20260815_100129_0fe582d9.jpg?w=728&q=75&fm=auto",
     text: "Electric cars offer a quiet and modern driving experience. They can be a good choice for city travel, provided the journey is planned according to the vehicle's driving range and charging requirements.",
   },
   {
     title: "Hybrid Cars",
-    image: "https://images.unsplash.com/photo-1519641471654-76ce0107ad1b?w=600",
+    image: "https://www.servotech.in/blog/wp-content/uploads/2023/09/Toyota-Urban-Cruiser-Hyryder.png",
     text: "Hybrid cars offer the benefits of modern technology and improved fuel efficiency. They can be suitable for customers who want a more advanced and efficient option for their journey.",
   },
   {
     title: "Cars with Sunroof",
-    image: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=600",
+    image: "https://static-cdn.cars24.com/prod/vehicles/honda/elevate-facelift/chatgpt-image-oct-6-2026-10-52-04-pm-V7MLnNjNjmkN1EfO.png?w=300&dpr=2.625&optimize=low&format=auto&quality=50",
     text: "A sunroof can make a drive feel more enjoyable, especially during long journeys and road trips. It is a popular feature among customers who want a little extra comfort and a more premium experience.",
   },
   {
     title: "Hatchbacks, Sedans and SUVs",
-    image: "https://images.unsplash.com/photo-1541899481282-d53bffe3c35d?w=600",
+    image: "https://stimg.cardekho.com/images/carexteriorimages/630x420/Maruti/Baleno/12257/1788843598460/front-left-side-47.jpg",
     text: "The choice of car also depends on how many people are travelling and how much luggage you have. Hatchbacks are convenient for city use, sedans offer extra comfort, while SUVs provide more space and are often preferred for family trips and longer journeys.",
   },
 ];
