@@ -306,61 +306,67 @@ export default function TempoTravellerOnRentPage() {
       <Header />
 
       {/* ---------- HERO ---------- */}
-      <section className="page-hero" style={{
-          backgroundImage:"url('/banners/tempo-traveller.png')",
-          backgroundRepeat:"no-repeat",
-        backgroundSize:"cover",
-         backgroundPosition: "center",
+     
+<section
+  className="page-hero"
+  style={{
+    backgroundImage: "url('/banners/tempo-traveller.png')",
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
     position: "relative",
     width: "100%",
-    height:"60vh"
-        }}>
-          {/* <div
+    height: "60vh",
+    display: "flex",
+    alignItems: "center"
+  }}
+>
+  <div
+    className="container"
     style={{
-      position: "absolute",
-      inset: 0,
-      background: "rgba(0, 0, 0, 0.45)",
-      zIndex: 0,
-      pointerEvents: "none",
+      position: "relative",
+      zIndex: 1,
+      width: "100%"
     }}
-  ></div> */}
-        <div className="container" style={{
-    position: "relative",
-    zIndex: 1,
-  }}>
-          <div className="crumbs">
-            <Link style={{
-              color:"black"
-            }} href="/">Home</Link>
-            <span>/</span>
-            <b style={{
-              color:"black"
-            }}>Tempo Traveller on Rent</b>
-          </div>
-          {/* <span className="eyebrow">Delhi NCR · Family, Corporate &amp; Group Trips</span> */}
-          <h1 style={{
-              color:"black"
-            }}>Tempo Traveller on Rent for Family, <br/> Corporate &amp; Group Trips</h1>
-          {/* <p className="lead">
-            If you're planning a family trip, company outing, wedding journey, or group tour, it's convenient to have everyone travel together. Grab Your Cab offers tempo traveller for rent for local travel, airport transfers, sightseeing, events and outstation journey. Travelers can select an appropriate vehicle based on the size of their group and travel needs.
-          </p> */}
-          <div className="hero-ctas">
-            <a href="https://wa.me/917522817555" className="btn btn-wa">
-              Book on WhatsApp
-            </a>
-            <a href="tel:+917522817555" className="btn btn-ghost">
-              Call to Book
-            </a>
-          </div>
-          {/* <div className="loc-pills">
-            <span>Delhi NCR</span>
-            <span>Meerut</span>
-            <span>Jewar</span>
-            <span>Noida</span>
-            <span>Gurugram</span>
-          </div> */}
-        </div>
-      </section>
+  >
+    <div className="crumbs">
+      <Link
+        style={{ color: "black" }}
+        href="/"
+      >
+        Home
+      </Link>
+
+      <span>/</span>
+
+      <b style={{ color: "black" }}>
+        Tempo Traveller on Rent
+      </b>
+    </div>
+
+    <h1 style={{ color: "black" }}>
+      Tempo Traveller on Rent for Family, <br />
+      Corporate &amp; Group Trips
+    </h1>
+
+    <div className="hero-ctas">
+      <a
+        href="https://wa.me/917522817555"
+        className="btn btn-wa"
+      >
+        Book on WhatsApp
+      </a>
+
+      <a
+        href="tel:+917522817555"
+        className="btn btn-ghost"
+      >
+        Call to Book
+      </a>
+    </div>
+  </div>
+</section>
+
 
       <TaxiSearch />
 

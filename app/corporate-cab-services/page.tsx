@@ -381,69 +381,67 @@ export default function CorporateCabServicesPage() {
       <Header />
 
       {/* ---------- HERO ---------- */}
-      <section className="page-hero" style={{
-          backgroundImage:"url('/pages_banners/corporate-cab.png')",
-          backgroundRepeat:"no-repeat",
-        backgroundSize:"cover",
-         backgroundPosition: "center",
+     
+<section
+  className="page-hero"
+  style={{
+    backgroundImage: "url('/pages_banners/corporate-cab.png')",
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
     position: "relative",
     width: "100%",
-    height:"67vh"
-        }}>
-          {/* <div
+    height: "67vh",
+    display: "flex",
+    alignItems: "center"
+  }}
+>
+  <div
+    className="container"
     style={{
-      position: "absolute",
-      inset: 0,
-      background: "rgba(0, 0, 0, 0.45)",
-      zIndex: 0,
-      pointerEvents: "none",
+      position: "relative",
+      zIndex: 1,
+      width: "100%"
     }}
-  ></div> */}
-        <div  className="container" style={{
-    position: "relative",
-    zIndex: 1,
-   
-  }} >
-          <div className="crumbs">
-            <Link style={{
-              color:"black"
-            }}  href="/">Home</Link>
-            <span>/</span>
-            <b style={{
-              color:"black"
-            }}>Corporate Cab Services</b>
-          </div>
-          {/* <span className="eyebrow">Delhi NCR · Corporate Transportation</span> */}
-          <h1 style={{
-            color:"black"
-          }}>Corporate Cab Services &amp; <br/>Corporate  Car Rental in Delhi NCR</h1>
-          {/* <p className="lead">
-            The need of Businesses today is much more than just a taxi provider.
-            Business entityt need a reliable transportation partner capable of
-            managing employee travel, executive transportation, airport transfers,
-            corporate events and business mobility requirements. Grab Your Cab
-            provides corporate cab services, corporate taxi services and corporate
-            car rental solutions for startups, SMEs, MNCs, IT companies,
-            manufacturing units, educational institutions, hospitals, event
-            companies and business travelers across Delhi NCR and major cities in
-            India.
-          </p> */}
-          <div className="hero-ctas">
-            <a href="https://wa.me/917522817555" className="btn btn-wa">
-              Book on WhatsApp
-            </a>
-            <a href="tel:+917522817555" className="btn btn-ghost">
-              Call to Book
-            </a>
-          </div>
-          {/* <div className="loc-pills">
-            <span>Delhi</span>
-            <span>Noida</span>
-            <span>Gurugram</span>
-            <span>Ghaziabad</span>
-          </div> */}
-        </div>
-      </section>
+  >
+    <div className="crumbs">
+      <Link
+        style={{ color: "black" }}
+        href="/"
+      >
+        Home
+      </Link>
+
+      <span>/</span>
+
+      <b style={{ color: "black" }}>
+        Corporate Cab Services
+      </b>
+    </div>
+
+    <h1 style={{ color: "black" }}>
+      Corporate Cab Services &amp; <br />
+      Corporate  Car Rental in Delhi NCR
+    </h1>
+
+    <div className="hero-ctas">
+      <a
+        href="https://wa.me/917522817555"
+        className="btn btn-wa"
+      >
+        Book on WhatsApp
+      </a>
+
+      <a
+        href="tel:+917522817555"
+        className="btn btn-ghost"
+      >
+        Call to Book
+      </a>
+    </div>
+  </div>
+</section>
+
 
       <TaxiSearch />
 
