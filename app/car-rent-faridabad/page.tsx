@@ -611,7 +611,7 @@ export default function CarOnRentInFaridabadPage() {
       </section>
 
       {/* ---------- OUR OFFICE / LOCATION ---------- */}
-      <section className="sec grey">
+      {/* <section className="sec grey">
         <div className="container">
           <div className="garage-head">
             <h2>Our Car Rental Office in Faridabad</h2>
@@ -665,7 +665,7 @@ export default function CarOnRentInFaridabadPage() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       <Footer />
     </>
   );

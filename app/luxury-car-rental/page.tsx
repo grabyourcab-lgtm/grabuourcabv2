@@ -327,66 +327,73 @@ export default function LuxuryCarRentalPage() {
       <Header />
 
       {/* ---------- HERO ---------- */}
-      <section className="page-hero" 
-       style={{
-          backgroundImage:"url('/pages_banners/luxury-rent.png')",
-          backgroundRepeat:"no-repeat",
-        backgroundSize:"cover",
-         backgroundPosition: "center",
+     
+<section
+  className="page-hero"
+  style={{
+    backgroundImage: "url('/pages_banners/luxury-rent.png')",
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
     position: "relative",
     width: "100%",
-    height:"68vh"
+    height: "68vh",
+    display: "flex",
+    alignItems: "center"
+  }}
+>
+  <div
+    className="container"
+    style={{
+      position: "relative",
+      zIndex: 1,
+      width: "100%"
+    }}
+  >
+    <div className="crumbs">
+      <Link
+        style={{
+          color: "black"
+        }}
+        href="/"
+      >
+        Home
+      </Link>
+
+      <span>/</span>
+
+      <b
+        style={{
+          color: "black"
         }}
       >
-        {/* <div
-    style={{
-      position: "absolute",
-      inset: 0,
-      background: "rgba(0, 0, 0, 0.45)",
-      zIndex: 0,
-      pointerEvents: "none",
-    }}
-  ></div> */}
-        <div className="container" style={{
-    position: "relative",
-    zIndex: 1,
-  }}>
-          <div className="crumbs">
-            <Link style={{
-              color:"black"
-            }} href="/">Home</Link>
-            <span>/</span>
-            <b style={{
-              color:"black"
-            }}>Luxury Car Rental</b>
-          </div>
-          {/* <span className="eyebrow">Luxury · Chauffeur & Self Drive · Delhi NCR</span> */}
-          <h1 style={{
-            color:"black"
-          }}>Luxury Car on Rent in Delhi NCR</h1>
-          {/* <p className="lead">
-            Looking for a luxury car on rent in Delhi NCR for a wedding, corporate tour, airport transfer, movie shoot, TV serial, web series, celebrity event, special occasion or personal trip? Grab Your Cab offers luxury car rental options across Delhi, Noida, Greater Noida, Noida Extension, Ghaziabad, Gurgaon, Faridabad, Meerut and other NCR locations.
-          </p>
-          <p className="lead">
-            Depending on availability and rental requirements, customers can enquire about chauffeur-driven luxury cars as well in addition to luxury self-drive car rental options. Whether you need a luxury car for a few hours, a full day, Monthly subscription, an event, shooting, airport travel, business meetings or an outstation trip, you can enquire about available vehicles according to your requirements.
-          </p> */}
-          <div className="hero-ctas">
-            <a href="https://wa.me/917522817555" className="btn btn-wa">
-              Book on WhatsApp
-            </a>
-            <a href="tel:+917522817555" className="btn btn-ghost">
-              Call to Book
-            </a>
-          </div>
-          {/* <div className="loc-pills">
-            <span>Delhi</span>
-            <span>Noida</span>
-            <span>Gurgaon</span>
-            <span>Ghaziabad</span>
-            <span>Faridabad</span>
-          </div> */}
-        </div>
-      </section>
+        Luxury Car Rental
+      </b>
+    </div>
+
+    {/* Original main heading unchanged */}
+    <h1 style={{ color: "black" }}>
+      Luxury Car on Rent in Delhi NCR
+    </h1>
+
+    <div className="hero-ctas">
+      <a
+        href="https://wa.me/917522817555"
+        className="btn btn-wa"
+      >
+        Book on WhatsApp
+      </a>
+
+      <a
+        href="tel:+917522817555"
+        className="btn btn-ghost"
+      >
+        Call to Book
+      </a>
+    </div>
+  </div>
+</section>
+
 
       <TaxiSearch/>
 

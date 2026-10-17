@@ -848,7 +848,7 @@ export default function CarRentalInGoaPage() {
       </section>
 
       {/* ---------- OUR OFFICE / LOCATION ---------- */}
-      <section className="sec">
+      {/* <section className="sec">
         <div className="container">
           <div className="garage-head">
             <h2>Our Car Rental Office in Goa</h2>
@@ -902,7 +902,7 @@ export default function CarRentalInGoaPage() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       <Footer />
     </>
   );
