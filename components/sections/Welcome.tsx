@@ -50,7 +50,7 @@ export default function WelcomeSection() {
             </div>
 
             <div style={{ marginTop: 24 }}>
-              <Link className="btn btn-ghost" href="/about">
+              <Link className="btn btn-ghost" href="/about-us">
                 About Us <Icon name="arrow" />
               </Link>
             </div>

@@ -179,8 +179,8 @@ const pageCss = `
 /* hero (title only, slim strip, centered single line) */
 .blog .page-hero{position:relative;background:var(--slate);color:#fff;display:flex;align-items:center;justify-content:center;text-align:center;overflow:hidden;isolation:isolate}
 .blog .page-hero::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(33,43,54,.45) 0%,rgba(33,43,54,.85) 100%)}
-.blog .page-hero .container{padding-top:24px;padding-bottom:24px;display:flex;justify-content:center}
-.blog .page-hero h1{color:#fff;font-size:clamp(18px,2.4vw,26px);font-weight:700;margin:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%}
+.blog .page-hero .container{padding-top:0px;padding-bottom:0px;display:flex;justify-content:center}
+.blog .page-hero h1{color:#fff;font-size:clamp(18px,2.4vw,28px);font-weight:700;margin:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%}
 
 /* hero image (content width) */
 .blog .hero-img{max-width:840px;margin:0 auto 30px;border-radius:var(--r);overflow:hidden;box-shadow:var(--shadow)}

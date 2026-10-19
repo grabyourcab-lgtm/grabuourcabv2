@@ -7,13 +7,18 @@ export function waLink(msg: string, num: string = WA) {
 }
 
 export const SERVICES = [
-  { name: "Taxi Service", slug: "taxi-service", icon: "taxi", group: "Taxi", img: "/images/taxi-service.jpg", blurb: "City & outstation cabs, on call 24/7." },
-  { name: "Self Drive Car Rental", slug: "self-drive-car-rental", icon: "key", group: "Self Drive", img: "/images/self-drive.jpg", blurb: "Take the wheel — hourly, daily, weekly." },
-  { name: "Luxury Cars on Rent", slug: "luxury-cars-on-rent", icon: "sparkle", group: "Luxury", img: "/images/luxury-cars.jpg", blurb: "Audi, Mercedes & BMW for the occasion." },
-  { name: "Tempo Travellers", slug: "tempo-travellers", icon: "van", group: "Group", img: "/images/tempo.jpg", blurb: "9 to 26 seaters for groups & tours." },
-  { name: "Luxury Bus", slug: "luxury-bus", icon: "bus", group: "Group", img: "/images/luxury-bus.jpg", blurb: "27–55 seater coaches for large groups." },
-  { name: "Special & Customized", slug: "special-customized", icon: "map", group: "Taxi", img: "/images/special.jpg", blurb: "Weddings, events & bespoke itineraries." },
-  { name: "Corporate Taxi", slug: "corporate-taxi-car-rental", icon: "building", group: "Taxi", img: "/images/corporate.jpg", blurb: "Billed employee travel & airport runs." },
+  { name: "Taxi Service in Delhi", slug: "taxi-service-delhi", icon: "taxi", group: "Taxi", img: "/images/taxi-service.jpg", blurb: "City & outstation cabs, on call 24/7." },
+  { name: "Self Drive Car Rental in Delhi", slug: "self-drive-car-rental-delhi", icon: "key", group: "Self Drive", img: "/images/self-drive.jpg", blurb: "Take the wheel — hourly, daily, weekly." },
+  { name: "Self Drive Car Rental in Gurgaon", slug: "self-drive-car-rental-gurgaon", icon: "key", group: "Self Drive", img: "/images/self-drive.jpg", blurb: "Take the wheel — hourly, daily, weekly." },
+  { name: "Self Drive Car Rental in Noida", slug: "self-drive-car-rental-noida", icon: "key", group: "Self Drive", img: "/images/self-drive.jpg", blurb: "Take the wheel — hourly, daily, weekly." },
+  // luxury-car-rental
+  { name: "Luxury Car Rental", slug: "luxury-car-rental", icon: "key", group: "Luxury", img: "/images/self-drive.jpg", blurb: "Take the wheel — hourly, daily, weekly." },
+
+  // { name: "Luxury Cars on Rent", slug: "luxury-cars-on-rent", icon: "sparkle", group: "Luxury", img: "/images/luxury-cars.jpg", blurb: "Audi, Mercedes & BMW for the occasion." },
+  { name: "Tempo Travellers Rent", slug: "tempo-traveller-rent", icon: "van", group: "Group", img: "/images/tempo.jpg", blurb: "9 to 26 seaters for groups & tours." },
+  { name: "Corporate Cab Services", slug: "corporate-cab-services", icon: "bus", group: "Group", img: "/images/luxury-bus.jpg", blurb: "27–55 seater coaches for large groups." },
+  { name: "Cab Service in Gurgaon", slug: "cab-service-gurgaon", icon: "map", group: "Taxi", img: "/images/special.jpg", blurb: "Weddings, events & bespoke itineraries." },
+  { name: "Cab Service in Noida", slug: "cab-service-noida", icon: "building", group: "Taxi", img: "/images/corporate.jpg", blurb: "Billed employee travel & airport runs." },
 ];
 export const SERVICE_TABS = ["All", "Taxi", "Self Drive", "Luxury", "Group"];
 

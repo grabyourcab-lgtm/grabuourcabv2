@@ -1,4 +1,7 @@
 {
+  "/self-drive-car-rental-delhi/page": "app/self-drive-car-rental-delhi/page.js",
+  "/corporate-cab-services/page": "app/corporate-cab-services/page.js",
+  "/[slug]/page": "app/[slug]/page.js",
   "/blogs/page": "app/blogs/page.js",
   "/blogs/self-drive-car-rental-diwali/page": "app/blogs/self-drive-car-rental-diwali/page.js"
 }

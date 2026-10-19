@@ -27,7 +27,7 @@ export default function ServicesSection() {
         </div>
         <div className="stories">
           {featured && (
-            <Link className="story-feat" href={`/${featured.slug}-delhi-ncr`}>
+            <Link className="story-feat" href={`/${featured.slug}`}>
               <div className="pic"><img src={featured.img} alt={featured.name} loading="lazy" /></div>
               <div className="sb">
                 <span className="story-tag">{featured.group}</span>
@@ -38,8 +38,9 @@ export default function ServicesSection() {
             </Link>
           )}
           <div className="story-list">
-            {rest.map((s) => (
-              <Link className="story-row" key={s.slug} href={`/${s.slug}-delhi-ncr`}>
+            {rest.slice(0,4).map((s) => (
+              // <Link className="story-row" key={s.slug} href={`/${s.slug}-delhi-ncr`}>
+               <Link className="story-row" key={s.slug} href={`/${s.slug}`}>
                 <div className="pic"><img src={s.img} alt={s.name} loading="lazy" /></div>
                 <div>
                   <span className="story-tag">{s.group}</span>
