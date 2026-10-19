@@ -5,31 +5,19 @@ export type Blog = {
   category: string;
   date: string;
   readTime: string;
+  thumbnail:string | StaticImageData;
 };
-
+import { StaticImageData } from "next/image";
+import firstBlogImg from "../images/first-blog.png"
 export const blogs: Blog[] = [
   {
-    slug: "demo-blog",
-    title: "What is Next.js? A Beginner's Guide",
-    excerpt: "Next.js ek React framework hai jo routing, SSR aur SEO ko easy bana deta hai.",
-    category: "Next.js",
-    date: "10 Oct 2026",
+    slug: "self-drive-car-rental-diwali",
+    title: "Self-Drive Car Rental for Diwali: A Complete Family Travel Guide",
+    excerpt: "Diwali is a time for family gatherings, festive shopping, visiting relatives and taking a short holiday. But travelling during the festive season can be tough with crowded public transport, traffic jams and last-minute changes to travel plans. For the families who want more freedom, diwali self drive car rental would be a viable option.",
+    category: "festival",
+    date: "19 Oct 2026",
+    thumbnail: firstBlogImg,
     readTime: "4 min read",
   },
-  {
-    slug: "mern-stack",
-    title: "MERN Stack Explained for Beginners",
-    excerpt: "MongoDB, Express, React aur Node.js se full-stack app kaise banti hai.",
-    category: "Full Stack",
-    date: "08 Oct 2026",
-    readTime: "5 min read",
-  },
-  {
-    slug: "web-development",
-    title: "Web Development Roadmap 2026",
-    excerpt: "HTML se lekar deployment tak ka simple step-by-step roadmap.",
-    category: "Web Dev",
-    date: "05 Oct 2026",
-    readTime: "6 min read",
-  },
+  
 ];

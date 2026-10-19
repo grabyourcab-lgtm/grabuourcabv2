@@ -4,6 +4,7 @@ import { useState } from "react";
 import { blogs } from "../data/blog";
 
 
+
 export default function BlogCard({ blog }: { blog: Blog }) {
   const [hover, setHover] = useState(false);
 
@@ -26,10 +27,14 @@ export default function BlogCard({ blog }: { blog: Blog }) {
       }}
     >
       {/* top banner (image ki jagah) */}
-      <div
+    <div
         style={{
           height: 150,
-          background: "linear-gradient(135deg,#33414f,#9f1c33)",
+          // background: "linear-gradient(135deg,#33414f,#9f1c33)",
+          backgroundImage: `url(${blog.thumbnail.src})`, // <-- yahan .src add kiya hai
+          backgroundSize: "cover",
+          backgroundRepeat:"no-repeat",
+          backgroundPosition: "center",
           display: "flex",
           alignItems: "flex-end",
           padding: 14,
@@ -68,7 +73,7 @@ export default function BlogCard({ blog }: { blog: Blog }) {
           {blog.title}
         </h3>
         <p style={{ color: "#666", fontSize: 14, lineHeight: 1.6, margin: 0, flex: 1 }}>
-          {blog.excerpt}
+           {blog.excerpt.slice(0, 120)+"..."}
         </p>
         <span
           style={{

@@ -1,9 +1,9 @@
 {
   "pages": {
-    "/tempo-traveller-rent/page": [
+    "/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/tempo-traveller-rent/page.js"
+      "static/chunks/app/page.js"
     ],
     "/layout": [
       "static/chunks/webpack.js",
@@ -11,10 +11,25 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/corporate-cab-services/page": [
+    "/blogs/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/corporate-cab-services/page.js"
+      "static/chunks/app/blogs/page.js"
+    ],
+    "/blogs/self-drive-car-rental-diwali/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/blogs/self-drive-car-rental-diwali/page.js"
+    ],
+    "/self-drive-car-rental-delhi/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/self-drive-car-rental-delhi/page.js"
+    ],
+    "/self-drive-car-rental-noida/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/self-drive-car-rental-noida/page.js"
     ]
   }
 }
