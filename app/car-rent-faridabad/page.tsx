@@ -6,6 +6,9 @@ import TaxiSearch from "../taxi/page";
 
 export const metadata: Metadata = {
   title: "Car on Rent in Faridabad | Self Drive Car Rental",
+  alternates: {
+    canonical: "/car-rent-faridabad",
+  },
   description:
     "Book a car on rent in Faridabad for local, airport and outstation travel. Choose rental cars, self-drive options and suitable vehicles with Grab Your Cab.",
 };
@@ -292,12 +295,15 @@ export default function CarOnRentInFaridabadPage() {
       <section className="page-hero"
         style={{
           backgroundImage:"url('/banners/faridabad-page.png')",
-          backgroundRepeat:"no-repeat",
-        backgroundSize:"cover",
-         backgroundPosition: "center",
+         backgroundRepeat: "no-repeat",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
     position: "relative",
     width: "100%",
-    height:"60vh"
+    height: "60vh",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "flex-start",
         }}
       >
             {/* Optional dark overlay for text readability */}

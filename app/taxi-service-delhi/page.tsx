@@ -10,6 +10,9 @@ import TaxiSearch from "../taxi/page";
 
 export const metadata: Metadata = {
   title: "Taxi Service in Delhi | Cab Booking & Outstation Taxi",
+  alternates: {
+    canonical: "/taxi-service-delhi",
+  },
   description:
     "Book a reliable taxi service in Delhi with Grab Your Cab. Get local, airport, one-way and outstation cabs across Delhi NCR with easy booking.",
 };
@@ -617,7 +620,7 @@ export default function TaxiServiceDelhiPage() {
       </section>
 
       {/* ---------- OUR GARAGE / LOCATION ---------- */}
-      <section className="sec">
+      {/* <section className="sec">
         <div className="container">
           <div className="garage-head">
             <h2>Our Taxi Service Office in Delhi</h2>
@@ -668,7 +671,7 @@ export default function TaxiServiceDelhiPage() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       <Footer/>
     </>
   );

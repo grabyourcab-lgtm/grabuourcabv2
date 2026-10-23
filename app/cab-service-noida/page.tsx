@@ -6,6 +6,9 @@ import TaxiSearch from "../taxi/page";
 
 export const metadata: Metadata = {
   title: "Best Cab Service in Noida | Local & Outstation Taxi",
+  alternates: {
+    canonical: "/cab-service-noida",
+  },
   description:
     "Book a cab service in Noida for local travel, airport transfers, business trips, and outstation journeys. Enjoy convenient pickup, comfortable cars, and flexible travel options.",
 };
@@ -298,13 +301,15 @@ export default function CabServiceNoidaPage() {
       <section className="page-hero"  style={{
           // backgroundImage:"url('/pages_banners/noida_taxi.png')",
             backgroundImage:"url('/banners/noida-new.png')",
-          backgroundRepeat:"no-repeat",
-        backgroundSize:"cover",
-         backgroundPosition: "center",
+         backgroundRepeat: "no-repeat",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
     position: "relative",
     width: "100%",
-    // minHeight:"100%"
-    minHeight:"55vh"
+    height: "60vh",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "flex-start",
         }}>
            {/* <div
     style={{

@@ -6,6 +6,9 @@ import TaxiSearch from "../taxi/page";
 
 export const metadata: Metadata = {
   title: "Self Drive Car Rental Gurgaon | Easy Car Hire Service",
+  alternates: {
+    canonical: "/self-drive-car-rental-gurgaon",
+  },
   description:
     "Explore self drive car rental in Gurgaon with flexible rental durations and vehicle options. Book a car without a driver for your next journey with Grab Your Cab.",
 };
@@ -313,12 +316,14 @@ export default function SelfDriveCarRentalGurgaonPage() {
     // backgroundImage: "url('/pages_banners/gurgaon_self_drive_car.png')",
     backgroundImage: "url('/pages_banners/g1.png')",
     backgroundRepeat: "no-repeat",
-    backgroundSize: "100% 100%",
+    backgroundSize: "cover",
     backgroundPosition: "center",
     position: "relative",
     width: "100%",
-    // minHeight:"100%"
-    height:"60vh"
+    height: "60vh",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "flex-start",
   }}
         
         >

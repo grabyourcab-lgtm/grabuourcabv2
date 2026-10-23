@@ -6,6 +6,9 @@ import TaxiSearch from "../taxi/page";
 
 export const metadata: Metadata = {
   title: "Corporate Cab Services & Corporate Car Rental in Delhi NCR | Grab Your Cab",
+  alternates: {
+      canonical: "/corporate-cab-services",
+    },
   description:
     "Corporate cab services, corporate taxi services, corporate car rental, employee transportation, airport transfers, executive travel, self drive cars, tempo travellers and buses across Delhi NCR and major cities in India.",
 };

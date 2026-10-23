@@ -202,8 +202,8 @@ export function parseServiceCity(slug: string) {
   }
   return null;
 }
-export function serviceHref(serviceSlug: string, citySlug = "delhi-ncr") {
-  return `/${serviceSlug}-${citySlug}`;
+export function serviceHref(serviceSlug: string, citySlug = "") {
+  return `/${serviceSlug}${citySlug}`;
 }
 export const ALL_PAGE_SLUGS = [
   ...CITY_INFO.map((c) => c.slug),

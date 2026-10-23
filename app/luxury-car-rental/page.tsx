@@ -6,6 +6,9 @@ import TaxiSearch from "../taxi/page";
 
 export const metadata: Metadata = {
   title: "Luxury Car on Rent in Delhi NCR | Self Drive, Wedding & Corporate Rental",
+  alternates: {
+      canonical: "/luxury-car-rental",
+    },
   description:
     "Book luxury cars on rent in Delhi NCR for weddings, self-drive trips, corporate travel, airport transfers, VIP guests, movie shoots and special occasions. Mercedes, BMW, Audi, Defender, Rolls Royce, Vellfire and more.",
 };

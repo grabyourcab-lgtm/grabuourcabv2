@@ -6,6 +6,9 @@ import Footer from "@/components/site/Footer";
 export const metadata = {
   title: "Blogs | Grab Your Cab",
   description: "Latest blogs and guides.",
+  alternates: {
+    canonical: "/blogs",
+  },
 };
 
 const css = `

@@ -1,4 +1,6 @@
 {
   "/page": "app/page.js",
-  "/taxi-service-greater-noida/page": "app/taxi-service-greater-noida/page.js"
+  "/blogs/page": "app/blogs/page.js",
+  "/blogs/self-drive-car-rental-diwali/page": "app/blogs/self-drive-car-rental-diwali/page.js",
+  "/sitemap.xml/[[...__metadata_id__]]/route": "app/sitemap.xml/[[...__metadata_id__]]/route.js"
 }

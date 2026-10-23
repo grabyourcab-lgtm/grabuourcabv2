@@ -6,6 +6,10 @@ import TaxiSearch from "../taxi/page";
 
 export const metadata: Metadata = {
   title: "Car Rental in Goa | Self Drive & Car Hire Services",
+  alternates: {
+    canonical: "/car-rental-goa",
+  },
+
   description:
     "Rent a car in Goa for local sightseeing, airport travel and outstation journeys. Choose from suitable vehicle options and enjoy flexible rental arrangements.",
 };
@@ -355,12 +359,15 @@ export default function CarRentalInGoaPage() {
       <section className="page-hero"
       style={{
         backgroundImage:"url('/banners/goa-page.png')",
-        backgroundSize:"cover",
-        backgroundRepeat:"no-repeat",
-         backgroundPosition: "center",
+       backgroundRepeat: "no-repeat",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
     position: "relative",
     width: "100%",
-    height:"67vh"
+    height: "60vh",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "flex-start",
       }}
       >
          {/* Optional dark overlay for text readability */}

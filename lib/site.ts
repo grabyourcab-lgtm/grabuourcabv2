@@ -23,11 +23,12 @@ export const SERVICES = [
 export const SERVICE_TABS = ["All", "Taxi", "Self Drive", "Luxury", "Group"];
 
 export const CITIES = [
-  { name: "Delhi NCR", slug: "delhi-ncr", img: "/images/city-delhi.jpg", pill: "Most Popular", cabs: "260+ cabs",
+  { name: "Delhi NCR", slug: "taxi-service-delhi", img: "/images/city-delhi.jpg", pill: "Most Popular", cabs: "260+ cabs",
     blurb: "Delhi, Noida, Gurgaon, Ghaziabad & Faridabad — cabs anywhere, any hour." },
-  { name: "Goa", slug: "goa", img: "/images/city-goa.jpg", pill: "Beaches", cabs: "120+ cabs",
+  { name: "Goa", slug: "car-rental-goa", img: "/images/city-goa.jpg", pill: "Beaches", cabs: "120+ cabs",
     blurb: "North to South Goa — beach hops, resorts & sightseeing on your schedule." },
-  { name: "Jewar Airport", slug: "noida-international-airport-jewar", img: "/images/city-jewar.jpg", pill: "Airport", cabs: "90+ cabs",
+    // noida-international-airport-jewar
+  { name: "Jewar Airport", slug: "jewar-airport-cab-service", img: "/images/city-jewar.jpg", pill: "Airport", cabs: "90+ cabs",
     blurb: "Fixed-fare transfers to & from Noida International Airport, Jewar." },
 ];
 

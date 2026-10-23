@@ -30,13 +30,13 @@ export default function Footer() {
           <div className="foot-col"><h4>Services</h4>
             {SERVICES.map((s) => <Link key={s.slug} href={serviceHref(s.slug)}>{s.name}</Link>)}
           </div>
-          <div className="foot-col"><h4>Explore</h4>
+          {/* <div className="foot-col"><h4>Explore</h4>
             <Link href="/delhi-ncr">Delhi NCR</Link>
             <Link href="/goa">Goa</Link>
             <Link href="/noida-international-airport-jewar">Jewar Airport</Link>
             <Link href="/fleet">Our Fleet</Link>
             <Link href="/#services">All Services</Link>
-          </div>
+          </div> */}
           <div className="foot-col"><h4>Get in touch</h4>
             <ul className="foot-contact">
               <li><Icon name="phone" /><a href="tel:+917522817555">+91-75228 17555 (Delhi)</a></li>

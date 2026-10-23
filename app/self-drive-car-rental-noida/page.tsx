@@ -5,6 +5,9 @@ import Link from "next/link";
 import TaxiSearch from "../taxi/page";
 export const metadata: Metadata = {
   title: "Self Drive Car Rental in Noida | Flexible Car Hire",
+  alternates: {
+    canonical: "/self-drive-car-rental-noida",
+  },
   description:
     "Book self drive cars in Noida with flexible rental durations and vehicle options. Check requirements, pricing, availability and terms before booking.",
 };
@@ -281,13 +284,15 @@ export default function SelfDriveCarRentalNoidaPage() {
        style={{
     // backgroundImage: "url('/pages_banners/noida_self_drive.png')",
       backgroundImage: "url('/banners/noida-self.png')",
+  backgroundRepeat: "no-repeat",
     backgroundSize: "cover",
     backgroundPosition: "center",
-    backgroundRepeat: "no-repeat",
     position: "relative",
     width: "100%",
-    // minHeight: "100%",
-    height:"60vh"
+    height: "60vh",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "flex-start",
   }}
       > 
       

@@ -6,6 +6,9 @@ import TaxiSearch from "../taxi/page";
 
 export const metadata: Metadata = {
   title: "Cab Service in Gurgaon | Local & Outstation Cabs",
+  alternates: {
+    canonical: "/cab-service-gurgaon",
+  },
   description:
     "Book a cab service in Gurgaon for local trips, airport transfers and outstation travel. Enjoy convenient booking, comfortable vehicles and flexible travel options.",
 };
@@ -304,16 +307,17 @@ export default function CabServiceGurgaonPage() {
 
       {/* ---------- HERO ---------- */}
       <section className="page-hero"  style={{
-          // backgroundImage:"url('/pages_banners/gurgaon_taxi_service.png')",
-           backgroundImage:"url('/banners/gurugram.png')",
-          backgroundRepeat:"no-repeat",
-        backgroundSize:"cover",
-         backgroundPosition: "center",
+    backgroundImage: "url('/banners/gurugram.png')",
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
     position: "relative",
     width: "100%",
-    // minHeight:"100%"
-    height:"60vh"
-        }}>
+    height: "60vh",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "flex-start",
+  }}>
            {/* <div
     style={{
       position: "absolute",

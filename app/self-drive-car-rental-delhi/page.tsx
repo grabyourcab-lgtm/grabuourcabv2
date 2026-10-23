@@ -6,6 +6,9 @@ import TaxiSearch from "../taxi/page";
 
 export const metadata: Metadata = {
   title: "Self Drive Car Rental in Delhi | Book Your Car Today",
+  alternates: {
+    canonical: "/self-drive-car-rental-delhi",
+  },
   description:
     "Book a self drive car rental in Delhi for convenient local and outstation travel. Explore hatchbacks, sedans, SUVs and other available vehicles with Grab Your Cab.",
 };
@@ -695,7 +698,7 @@ Car options with Grab Your Cab are available for different travel requirements. 
       </section>
 
       {/* ---------- OUR OFFICE / LOCATION ---------- */}
-      <section className="sec">
+      {/* <section className="sec">
         <div className="container">
           <div className="garage-head">
             <h2>Our Self Drive Car Rental Office in Delhi</h2>
@@ -749,7 +752,7 @@ Car options with Grab Your Cab are available for different travel requirements. 
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       <Footer />
     </>
   );

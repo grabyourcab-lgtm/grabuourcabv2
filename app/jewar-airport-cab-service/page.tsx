@@ -318,12 +318,15 @@ export default function NoidaInternationalAirportTaxiPage() {
       {/* ---------- HERO ---------- */}
       <section className="page-hero"  style={{
           backgroundImage:"url('/banners/jewar-page.png')",
-          backgroundRepeat:"no-repeat",
-        backgroundSize:"cover",
-         backgroundPosition: "center",
+         backgroundRepeat: "no-repeat",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
     position: "relative",
     width: "100%",
-    height:"65vh"
+    height: "60vh",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "flex-start",
         }}>
            {/* <div
     style={{

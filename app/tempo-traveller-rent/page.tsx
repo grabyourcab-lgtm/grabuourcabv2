@@ -6,6 +6,9 @@ import TaxiSearch from "../taxi/page";
 
 export const metadata: Metadata = {
   title: "Tempo Traveller on Rent | Book AC & Luxury Travellers",
+  alternates: {
+      canonical: "/tempo-traveller-rent",
+    },
   description:
     "Book a tempo traveller on rent with Grab Your Cab for family trips, group tours, airport transfers and outstation travel. Get flexible rental options.",
 };

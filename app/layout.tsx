@@ -11,10 +11,10 @@ export const metadata: Metadata = {
     icon: "/favicon.ico",
   },
   metadataBase: new URL("https://www.grabyourcab.com"),
-
-  alternates: {
+ alternates: {
     canonical: "/",
   },
+ 
   
 };
 

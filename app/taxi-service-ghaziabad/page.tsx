@@ -312,13 +312,15 @@ export default function TaxiServiceGhaziabadPage() {
       {/* ---------- HERO ---------- */}
       <section className="page-hero"  style={{
           backgroundImage:"url('/banners/gaziabad-page.png')",
-          backgroundRepeat:"no-repeat",
-        backgroundSize:"cover",
-         backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
     position: "relative",
     width: "100%",
-    // minHeight:"100%"
-    height:"60vh"
+    height: "60vh",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "flex-start",
         }}>
            {/* <div
     style={{

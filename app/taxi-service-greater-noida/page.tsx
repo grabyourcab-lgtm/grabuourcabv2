@@ -6,6 +6,9 @@ import TaxiSearch from "../taxi/page";
 
 export const metadata: Metadata = {
   title: "Taxi Service in Greater Noida & Noida Extension | Cab Service & Self Drive Car Rental",
+  alternates: {
+    canonical: "/taxi-service-greater-noida",
+  },
   description:
     "Book taxi service in Greater Noida and Noida Extension with cab service, self drive car rental, Tempo Travellers, luxury car rental, luxury bus rental, airport transfers and outstation travel services.",
 };
@@ -320,12 +323,15 @@ export default function TaxiServiceGreaterNoidaPage() {
       {/* ---------- HERO ---------- */}
       <section className="page-hero" style={{
           backgroundImage:"url('/banners/gn-page.png')",
-          backgroundRepeat:"no-repeat",
-        backgroundSize:"cover",
-         backgroundPosition: "center",
+         backgroundRepeat: "no-repeat",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
     position: "relative",
     width: "100%",
-    height:"60vh"
+    height: "60vh",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "flex-start",
         }}>
           {/* <div
     style={{

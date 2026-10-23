@@ -6,6 +6,9 @@ import TaxiSearch from "../taxi/page";
 
 export const metadata: Metadata = {
   title: "Taxi Service in Meerut | Book Local & Outstation Cabs",
+  alternates: {
+    canonical: "/taxi-service-meerut",
+  },
   description:
     "Book a taxi service in Meerut for local rides, airport transfers, railway station pickups and outstation trips. Choose a suitable cab for your journey.",
 };
@@ -280,12 +283,15 @@ export default function TaxiServiceInMeerutPage() {
       <section className="page-hero"
       style={{
         backgroundImage:"url('/banners/meerut-page.png')",
-        backgroundRepeat:"no-repeat",
-        backgroundSize:"cover",
-         backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
     position: "relative",
     width: "100%",
-    height:"60vh"
+    height: "60vh",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "flex-start",
       }}
       >
         {/* Optional dark overlay for text readability */}
