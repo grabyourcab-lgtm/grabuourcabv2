@@ -16,10 +16,15 @@
       "static/chunks/main-app.js",
       "static/chunks/app/not-found.js"
     ],
-    "/[slug]/page": [
+    "/self-drive-car-rental-noida/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/[slug]/page.js"
+      "static/chunks/app/self-drive-car-rental-noida/page.js"
+    ],
+    "/taxi-service-ghaziabad/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/taxi-service-ghaziabad/page.js"
     ]
   }
 }

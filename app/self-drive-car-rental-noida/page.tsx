@@ -3,6 +3,7 @@ import Header from "@/components/site/Header";
 import type { Metadata } from "next";
 import Link from "next/link";
 import TaxiSearch from "../taxi/page";
+import OtherServices from "@/components/sections/OtherServices";
 export const metadata: Metadata = {
   title: "Self Drive Car Rental in Noida | Flexible Car Hire",
   alternates: {
@@ -739,6 +740,7 @@ export default function SelfDriveCarRentalNoidaPage() {
           </div>
         </div>
       </section>
+      <OtherServices current="self-drive-car-rental-noida"/>
       <Footer />
     </>
   );

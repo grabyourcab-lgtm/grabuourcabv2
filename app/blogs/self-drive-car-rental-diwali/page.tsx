@@ -5,6 +5,7 @@ import Image from 'next/image'
 import firstBlogImg from "../images/first-blog.png"
 import Footer from '@/components/site/Footer'
 import Header from '@/components/site/Header'
+import AuthorCard from '../components/AuthorCard'
 
 /* ------------------------------------------------------------
    SEO (doc se same)
@@ -432,6 +433,14 @@ const Page = () => {
               </section>
             </article>
           </div>
+          <div style={{
+            display:'flex',
+            justifyContent:'center',
+            alignItems:'center',
+          }}>
+
+           <AuthorCard/>
+          </div>
         </div>
 
         {/* FAQ */}
@@ -479,9 +488,12 @@ const Page = () => {
                 ))}
               </div>
             </div>
+           
           </section>
         )}
+        
       </main>
+      
       <Footer />
     </>
   )

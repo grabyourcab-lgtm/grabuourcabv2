@@ -14,6 +14,7 @@ import { CITIES, TESTIMONIALS, OFFICES, PHONES, waLink } from "@/lib/site";
 import WelcomeSection from "@/components/sections/Welcome";
 import CitiesGrid from "@/components/sections/CitiesGrid";
 
+
 export const dynamic = "force-dynamic";
 
 function Stars() {
@@ -242,6 +243,8 @@ export default async function Home() {
           </div>
         </div>
       </section>
+      
+      
 
       {/* ABOUT + DELIVERS */}
       {/* <section className="sec grey">
