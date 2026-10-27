@@ -1,5 +1,4 @@
 {
   "/page": "app/page.js",
-  "/self-drive-car-rental-noida/page": "app/self-drive-car-rental-noida/page.js",
-  "/taxi-service-ghaziabad/page": "app/taxi-service-ghaziabad/page.js"
+  "/fleet/page": "app/fleet/page.js"
 }
