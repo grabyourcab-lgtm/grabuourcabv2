@@ -1,4 +1,5 @@
 {
   "/page": "app/page.js",
-  "/taxi-service-delhi/page": "app/taxi-service-delhi/page.js"
+  "/blogs/page": "app/blogs/page.js",
+  "/blogs/self-drive-car-rental-diwali/page": "app/blogs/self-drive-car-rental-diwali/page.js"
 }

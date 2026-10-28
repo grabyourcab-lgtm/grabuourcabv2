@@ -6,8 +6,8 @@ import Image from "next/image";
  */
 export default function AuthorCard({
   label = "Written by",
-  name = "Mr. Kamal Srivastava",
-  role = "Founder",
+  name = "Kamal Srivastava",
+  role = "Author",
   bio = "A seasoned professional with over 18 years in senior leadership roles across top corporate organisations in India and abroad. Extensive business travel gave him a first-hand view of what was missing from the industry — reliability, convenience, personalisation and a truly customer-centric approach. That gap became the reason Grab Your Cab exists.",
   image = "/images/founders/kamal.jpeg",
 }) {
@@ -52,7 +52,7 @@ export default function AuthorCard({
             color: "var(--red, #9f1c33)",
           }}
         >
-          {label}
+          {/* {label} */}
         </p>
         <p
           style={{

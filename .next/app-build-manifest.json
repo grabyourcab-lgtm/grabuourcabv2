@@ -16,10 +16,15 @@
       "static/chunks/main-app.js",
       "static/chunks/app/not-found.js"
     ],
-    "/taxi-service-delhi/page": [
+    "/blogs/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/taxi-service-delhi/page.js"
+      "static/chunks/app/blogs/page.js"
+    ],
+    "/blogs/self-drive-car-rental-diwali/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/blogs/self-drive-car-rental-diwali/page.js"
     ]
   }
 }
