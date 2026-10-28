@@ -494,7 +494,101 @@ export default function TaxiServiceDelhiPage() {
               </p>
             </div>
           </div>
+          <div style={{ margin: "0 0 30px" }}>
+  <h3 style={{ fontFamily: "Poppins, Inter, sans-serif", fontSize: 19, fontWeight: 700, color: "#212529", margin: "0 0 6px" }}>
+    Delhi Taxi Service Rates (8 Hours / 80 Kms)
+  </h3>
+  <p style={{ color: "#666", fontSize: 13.5, margin: "0 0 14px" }}>
+    Every vehicle below is priced for a package of 8 hours and 80 kms.
+  </p>
+
+  <div style={{ overflow: "auto", maxHeight: 560, border: "1px solid #e1e1e1", borderRadius: 6, background: "#fff" }}>
+    <table style={{ width: "100%", borderCollapse: "collapse", minWidth: 760, fontFamily: "Inter, 'Segoe UI', Roboto, Arial, sans-serif" }}>
+      <thead>
+        <tr>
+          {["S.No", "Vehicle", "Model", "Package", "Fuel", "Color", "Sunroof", "Price"].map((h) => (
+            <th
+              key={h}
+              style={{
+                background: "#33414f", color: "#fff", padding: "14px 16px",
+                textAlign: h === "Price" ? "right" : "left",
+                fontFamily: "Poppins, Inter, sans-serif", fontWeight: 600, fontSize: 13.5,
+                textTransform: "uppercase", letterSpacing: ".03em", whiteSpace: "nowrap",
+                position: "sticky", top: 0,
+              }}
+            >
+              {h}
+            </th>
+          ))}
+        </tr>
+      </thead>
+      <tbody>
+        {[
+          ["Wagon R", 2026, "CNG", "White", "No", 1800],
+          ["Swift Dezire", 2026, "CNG", "White", "No", 1800],
+          ["Hyundai Aura", 2025, "CNG", "White", "No", 1800],
+          ["Toyota Corolla Altis", 2014, "CNG", "White", "No", 2000],
+          ["Tata Nexon", 2025, "CNG", "White", "No", 2000],
+          ["Maruti Breeza", 2020, "Diesel", "White", "No", 2200],
+          ["Honda City", 2018, "Petrol", "White", "No", 2200],
+          ["Maruti Ertiga", 2026, "CNG/Petrol", "White", "No", 2500],
+          ["Kia Carrens", 2025, "Petrol", "White", "No", 3000],
+          ["Kia Clavis", 2025, "Diesel", "White", "No", 3200],
+          ["MG Hector Plus", 2020, "Petrol", "Black", "Yes", 3500],
+          ["Toyota Innova Crysta", 2026, "Diesel", "White", "No", 3500],
+          ["Tata Safari", 2022, "Diesel", "White", "No", 4000],
+          ["Mahindra Scorpio Classic", 2025, "Diesel", "Black", "No", 5000],
+          ["Mahindra Scorpio N", 2026, "Petrol", "Black", "No", 5000],
+          ["Mahindra Scorpio N", 2023, "Petrol", "White", "No", 5000],
+          ["Mahindra XUV 700", 2024, "Petrol", "White", "No", 5500],
+          ["Mahindra Thar", 2025, "Diesel", "White", "No", 5500],
+          ["Mahindra Thar", 2024, "Petrol", "White", "No", 5500],
+          ["Innova Hycross", 2025, "Hybrid", "White", "No", 5500],
+          ["Ford Endeavour", 2022, "Diesel", "White", "No", 10000],
+          ["Toyota Fortuner", 2025, "Petrol", "White", "No", 9000],
+          ["Toyota Fortuner Legender", 2023, "Diesel", "White", "No", 10000],
+          ["Audi A3", 2022, "Diesel", "White", "Yes", 13000],
+          ["Audi A4", 2022, "Diesel", "White", "Yes", 14000],
+          ["Mercedes C Class", 2023, "Petrol", "White", "Yes", 15000],
+          ["Mercedes C 220", 2020, "Petrol", "White", "Yes", 15000],
+          ["Audi A3 Convertible", 2023, "Petrol", "White", "Yes", 16000],
+          ["Mercedes GLC 200", 2023, "Petrol", "White", "Yes", 16000],
+          ["Jaguar XF", 2020, "Petrol", "White", "Yes", 16000],
+          ["BMW 5 Series", 2021, "Petrol", "White", "Yes", 18000],
+          ["Mercedes 300 Convertible", 2023, "Petrol", "White", "Yes", 20000],
+          ["Vintage Wedding Car", 1950, "Petrol", "White", "Yes", 20000],
+          ["Range Rover", 2021, "Petrol", "White", "Yes", 25000],
+          ["Mercedes G Wagon", 2024, "Petrol", "White", "Yes", 25000],
+          ["Defender", 2026, "Petrol", "White", "Yes", 40000],
+          ["Hummer", 2020, "Petrol", "White", "Yes", 150000],
+          ["Rolls Royce", 2024, "Petrol", "White", "Yes", 150000],
+        ].map((r, i) => {
+          const cell = { padding: "12px 16px", borderTop: "1px solid #e1e1e1", color: "#444", fontSize: 14, whiteSpace: "nowrap" as const };
+          return (
+            <tr key={i} style={{ background: i % 2 ? "#f5f5f5" : "#fff" }}>
+              <td style={cell}>{i + 1}</td>
+              <td style={{ ...cell, fontWeight: 700, color: "#212529", fontFamily: "Poppins, Inter, sans-serif" }}>{r[0]}</td>
+              <td style={cell}>{r[1]}</td>
+              <td style={cell}>8 hrs, 80 kms</td>
+              <td style={cell}>{r[2]}</td>
+              <td style={cell}>{r[3]}</td>
+              <td style={cell}>{r[4]}</td>
+              <td style={{ ...cell, textAlign: "right", fontWeight: 700, color: "#9f1c33" }}>
+                ₹{Number(r[5]).toLocaleString("en-IN")}
+              </td>
+            </tr>
+          );
+        })}
+      </tbody>
+    </table>
+  </div>
+
+  <p style={{ color: "#888", fontSize: 12.5, marginTop: 10 }}>
+    Prices are for the 8 hours / 80 kms package. Tolls, parking and extra hours or kms are charged separately.
+  </p>
+</div>
         </div>
+        
       </section>
 
       {/* ---------- COMPARISON TABLE ---------- */}

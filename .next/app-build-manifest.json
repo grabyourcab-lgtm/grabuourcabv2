@@ -16,10 +16,10 @@
       "static/chunks/main-app.js",
       "static/chunks/app/not-found.js"
     ],
-    "/fleet/page": [
+    "/taxi-service-delhi/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/fleet/page.js"
+      "static/chunks/app/taxi-service-delhi/page.js"
     ]
   }
 }
