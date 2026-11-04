@@ -1,6 +1,6 @@
 {
-  "/page": "app/page.js",
   "/blogs/page": "app/blogs/page.js",
-  "/blogs/best-places-to-visit-near-delhi-by-cab/page": "app/blogs/best-places-to-visit-near-delhi-by-cab/page.js",
-  "/blogs/self-drive-car-rental-diwali/page": "app/blogs/self-drive-car-rental-diwali/page.js"
+  "/blogs/self-drive-car-rental-diwali/page": "app/blogs/self-drive-car-rental-diwali/page.js",
+  "/sitemap.xml/[[...__metadata_id__]]/route": "app/sitemap.xml/[[...__metadata_id__]]/route.js",
+  "/blogs/best-places-to-visit-near-delhi-by-cab/page": "app/blogs/best-places-to-visit-near-delhi-by-cab/page.js"
 }

@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 
 const BASE_URL = "https://www.grabyourcab.com";
-const LAST_MODIFIED = new Date("2026-10-23T10:32:47+00:00");
+const LAST_MODIFIED = new Date("2026-11-23T10:32:47+00:00");
 
 const pages: { path: string; priority: number }[] = [
   { path: "/", priority: 1 },
@@ -36,6 +36,7 @@ const pages: { path: string; priority: number }[] = [
   { path: "/goa", priority: 0.8 },
   { path: "/noida-international-airport-jewar", priority: 0.8 },
   { path: "/blogs/self-drive-car-rental-diwali", priority: 0.64 },
+  { path: "/blogs/best-places-to-visit-near-delhi-by-cab", priority: 0.64 },
   { path: "/cars/nissan-magnite", priority: 0.64 },
   { path: "/cars/toyota-urban-cruiser", priority: 0.64 },
   { path: "/taxi-service-delhi-ncr", priority: 0.64 },

@@ -21,7 +21,7 @@ places to visit near Delhi by cab,
 outstation cab from Delhi.
 `,
   alternates: {
-    canonical: "/best-places-to-visit-near-delhi-by-cab",
+    canonical: "/blogs/best-places-to-visit-near-delhi-by-cab",
   },
   description:
     ' Explore 15 best places to visit near Delhi with distances, travel times, attractions and travel tips. Plan family trips and weekend getaways with Grab Your Cab.',
@@ -736,20 +736,7 @@ const Page = () => {
                 <p>{"So, the next time you feel like taking a break from city life, plan a road trip and discover something new. With Grab Your Cab, you can explore suitable taxi, car rental and group travel options for your next journey."}</p>
               </section>
             </article>
-          </div>
-          <div style={{
-            display:'flex',
-            justifyContent:'center',
-            alignItems:'center',
-          }}>
-
-          
-          </div>
-        </div>
-
-          
-        {/* ABOUT */}
-        <div className="sec">
+              <div className="sec">
           <div className="container">
             <article className="article">
               <section>
@@ -766,6 +753,12 @@ const Page = () => {
             </article>
           </div>
         </div>
+          </div>
+          
+        </div>
+
+          
+      
 
         {/* FAQ */}
         <section className="sec grey">

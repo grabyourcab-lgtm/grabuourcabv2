@@ -21,7 +21,7 @@ self drive car rental Gurgaon,
 self drive car rental Noida.
 `,
 alternates: {
-    canonical: "/self-drive-car-rental-diwali",
+    canonical: "/blogs/self-drive-car-rental-diwali",
   },
   description:
     'Plan a family Diwali trip with a self-drive car rental. Explore car options, booking tips, travel costs and road trip ideas from Delhi NCR.',
