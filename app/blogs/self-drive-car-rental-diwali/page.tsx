@@ -439,7 +439,7 @@ const Page = () => {
             alignItems:'center',
           }}>
 
-           <AuthorCard/>
+          
           </div>
         </div>
 
@@ -460,6 +460,10 @@ const Page = () => {
                 </details>
               ))}
             </div>
+          </div>
+          <div className='flex justify-center items-center'>
+
+           <AuthorCard/>
           </div>
         </section>
 

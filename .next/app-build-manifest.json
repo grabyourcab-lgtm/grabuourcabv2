@@ -21,6 +21,11 @@
       "static/chunks/main-app.js",
       "static/chunks/app/blogs/page.js"
     ],
+    "/blogs/best-places-to-visit-near-delhi-by-cab/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/blogs/best-places-to-visit-near-delhi-by-cab/page.js"
+    ],
     "/blogs/self-drive-car-rental-diwali/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",

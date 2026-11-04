@@ -3,8 +3,6 @@ import Link from "next/link";
 import { useState } from "react";
 import { blogs } from "../data/blog";
 
-
-
 export default function BlogCard({ blog }: { blog: Blog }) {
   const [hover, setHover] = useState(false);
 
