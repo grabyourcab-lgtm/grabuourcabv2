@@ -609,7 +609,9 @@ export default function TaxiServiceInMeerutPage() {
           <p style={{ textAlign: "center", marginTop: 24, color: "var(--muted)", fontSize: "14.5px", maxWidth: "840px", marginLeft: "auto", marginRight: "auto" }}>
             Instead of a standard fare, clients should share their exact route and travel details to get the valid quotation.
           </p>
+          
         </div>
+        
       </section>
 
       {/* ---------- BOOK / ADVANCE ---------- */}

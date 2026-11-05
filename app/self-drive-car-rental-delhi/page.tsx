@@ -618,9 +618,12 @@ Car options with Grab Your Cab are available for different travel requirements. 
               </p>
             </div>
           </div>
+          
         </div>
+        
       </section>
-
+      {/* {pricing table} */}
+        
       {/* ---------- RULES & POLICIES ---------- */}
       <section className="sec grey">
         <div className="container">

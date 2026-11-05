@@ -616,6 +616,7 @@ export default function CarRentalInGoaPage() {
               </p>
             </div>
           </div>
+          
         </div>
       </section>
 
