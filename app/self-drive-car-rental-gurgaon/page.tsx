@@ -3,6 +3,7 @@ import Header from "@/components/site/Header";
 import type { Metadata } from "next";
 import Link from "next/link";
 import TaxiSearch from "../taxi/page";
+import OtherServices from "@/components/sections/OtherServices";
 
 export const metadata: Metadata = {
   title: "Self Drive Car Rental Gurgaon | Easy Car Hire Service",
@@ -809,6 +810,7 @@ export default function SelfDriveCarRentalGurgaonPage() {
           </div>
         </div>
       </section>
+       <OtherServices current="self-drive-car-rental-gurgaon"/>
       <Footer />
     </>
   );

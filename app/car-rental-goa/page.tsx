@@ -3,6 +3,7 @@ import Header from "@/components/site/Header";
 import type { Metadata } from "next";
 import Link from "next/link";
 import TaxiSearch from "../taxi/page";
+import OtherServices from "@/components/sections/OtherServices";
 
 export const metadata: Metadata = {
   title: "Car Rental in Goa | Self Drive & Car Hire Services",
@@ -910,6 +911,7 @@ export default function CarRentalInGoaPage() {
           </div>
         </div>
       </section> */}
+      <OtherServices current="car-rental-goa" />
       <Footer />
     </>
   );

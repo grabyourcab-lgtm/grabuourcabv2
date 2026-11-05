@@ -3,6 +3,7 @@ import Header from "@/components/site/Header";
 import type { Metadata } from "next";
 import Link from "next/link";
 import TaxiSearch from "../taxi/page";
+import OtherServices from "@/components/sections/OtherServices";
 
 export const metadata: Metadata = {
   title: "Cab Service in Gurgaon | Local & Outstation Cabs",
@@ -779,6 +780,7 @@ PWO Apartments, C-4 206, Block D, PWO Appartments, Sector 43, Gurugram, Haryana 
           </div>
         </div>
       </section>
+      <OtherServices current="cab-service-gurgaon"/>
       <Footer />
     </>
   );

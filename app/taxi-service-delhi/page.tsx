@@ -7,6 +7,7 @@ import Link from "next/link";
 import TaxiCabsPage from "../admin/taxi/page";
 import TaxiCabForm from "@/components/TaxiCabForm";
 import TaxiSearch from "../taxi/page";
+import OtherServices from "@/components/sections/OtherServices";
 
 export const metadata: Metadata = {
   title: "Taxi Service in Delhi | Cab Booking & Outstation Taxi",
@@ -766,6 +767,7 @@ export default function TaxiServiceDelhiPage() {
           </div>
         </div>
       </section> */}
+       <OtherServices current="taxi-service-delhi"/>
       <Footer/>
     </>
   );

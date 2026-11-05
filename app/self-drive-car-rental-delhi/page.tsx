@@ -3,6 +3,7 @@ import Header from "@/components/site/Header";
 import type { Metadata } from "next";
 import Link from "next/link";
 import TaxiSearch from "../taxi/page";
+import OtherServices from "@/components/sections/OtherServices";
 
 export const metadata: Metadata = {
   title: "Self Drive Car Rental in Delhi | Book Your Car Today",
@@ -753,6 +754,7 @@ Car options with Grab Your Cab are available for different travel requirements. 
           </div>
         </div>
       </section> */}
+        <OtherServices current="self-drive-car-rental-delhi"/>
       <Footer />
     </>
   );

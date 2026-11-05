@@ -3,6 +3,7 @@ import Header from "@/components/site/Header";
 import type { Metadata } from "next";
 import Link from "next/link";
 import TaxiSearch from "../taxi/page";
+import OtherServices from "@/components/sections/OtherServices";
 
 export const metadata: Metadata = {
   title: "Car on Rent in Faridabad | Self Drive Car Rental",
@@ -672,6 +673,7 @@ export default function CarOnRentInFaridabadPage() {
           </div>
         </div>
       </section> */}
+      <OtherServices current="car-rent-faridabad"/>
       <Footer />
     </>
   );

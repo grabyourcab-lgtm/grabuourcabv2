@@ -1,9 +1,9 @@
 {
   "pages": {
-    "/[slug]/page": [
+    "/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/[slug]/page.js"
+      "static/chunks/app/page.js"
     ],
     "/layout": [
       "static/chunks/webpack.js",
@@ -16,40 +16,65 @@
       "static/chunks/main-app.js",
       "static/chunks/app/not-found.js"
     ],
-    "/page": [
+    "/self-drive-car-rental-noida/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
+      "static/chunks/app/self-drive-car-rental-noida/page.js"
     ],
-    "/blogs/page": [
+    "/taxi-service-delhi/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/blogs/page.js"
+      "static/chunks/app/taxi-service-delhi/page.js"
     ],
-    "/blogs/self-drive-car-rental-diwali/page": [
+    "/self-drive-car-rental-delhi/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/blogs/self-drive-car-rental-diwali/page.js"
+      "static/chunks/app/self-drive-car-rental-delhi/page.js"
     ],
-    "/blogs/best-places-to-visit-near-delhi-by-cab/page": [
+    "/cab-service-noida/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/blogs/best-places-to-visit-near-delhi-by-cab/page.js"
+      "static/chunks/app/cab-service-noida/page.js"
     ],
-    "/about-us/page": [
+    "/cab-service-gurgaon/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/about-us/page.js"
+      "static/chunks/app/cab-service-gurgaon/page.js"
     ],
-    "/about-us/layout": [
+    "/self-drive-car-rental-gurgaon/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/about-us/layout.js"
+      "static/chunks/app/self-drive-car-rental-gurgaon/page.js"
     ],
-    "/_not-found/page": [
+    "/taxi-service-greater-noida/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/_not-found/page.js"
+      "static/chunks/app/taxi-service-greater-noida/page.js"
+    ],
+    "/jewar-airport-cab-service/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/jewar-airport-cab-service/page.js"
+    ],
+    "/taxi-service-ghaziabad/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/taxi-service-ghaziabad/page.js"
+    ],
+    "/car-rent-faridabad/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/car-rent-faridabad/page.js"
+    ],
+    "/taxi-service-meerut/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/taxi-service-meerut/page.js"
+    ],
+    "/car-rental-goa/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/car-rental-goa/page.js"
     ]
   }
 }

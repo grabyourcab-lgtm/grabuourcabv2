@@ -3,6 +3,7 @@ import Header from "@/components/site/Header";
 import type { Metadata } from "next";
 import Link from "next/link";
 import TaxiSearch from "../taxi/page";
+import OtherServices from "@/components/sections/OtherServices";
 
 export const metadata: Metadata = {
   title: "Best Cab Service in Noida | Local & Outstation Taxi",
@@ -697,6 +698,7 @@ export default function CabServiceNoidaPage() {
           </div>
         </div>
       </section>
+      <OtherServices current="cab-service-noida"/>
       <Footer />
     </>
   );
