@@ -1,3 +1,5 @@
 {
-  "/car-rental-goa/page": "app/car-rental-goa/page.js"
+  "/blogs/page": "app/blogs/page.js",
+  "/blogs/self-drive-car-rental-diwali/page": "app/blogs/self-drive-car-rental-diwali/page.js",
+  "/page": "app/page.js"
 }

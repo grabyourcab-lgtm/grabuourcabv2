@@ -13,6 +13,7 @@ import Link from "next/link";
 import { CITIES, TESTIMONIALS, OFFICES, PHONES, waLink } from "@/lib/site";
 import WelcomeSection from "@/components/sections/Welcome";
 import CitiesGrid from "@/components/sections/CitiesGrid";
+import BlogsSection from "./blogs/components/BlogSection";
 
 
 export const dynamic = "force-dynamic";
@@ -219,6 +220,13 @@ export default async function Home() {
       {/* BROWSE BY MAKE */}
       <BrandsSection cars={cars} />
       <WelcomeSection/>
+      <BlogsSection
+  limit={3}
+  showHeading
+  showViewAll
+  eyebrow="From Our Blog"
+  title="Latest Blogs & Guides"
+/>
       <CitiesGrid/>
       {/* SERVICES */}
       <div className="sec grey" style={{ padding: 0 }}><ServicesSection /></div>
