@@ -1,5 +1,11 @@
 {
+  "/taxi-service-ghaziabad/page": "app/taxi-service-ghaziabad/page.js",
+  "/tempo-traveller-rent/page": "app/tempo-traveller-rent/page.js",
   "/blogs/page": "app/blogs/page.js",
-  "/blogs/self-drive-car-rental-diwali/page": "app/blogs/self-drive-car-rental-diwali/page.js",
-  "/page": "app/page.js"
+  "/luxury-car-rental/page": "app/luxury-car-rental/page.js",
+  "/corporate-cab-services/page": "app/corporate-cab-services/page.js",
+  "/page": "app/page.js",
+  "/jewar-airport-cab-service/page": "app/jewar-airport-cab-service/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/about-us/page": "app/about-us/page.js"
 }

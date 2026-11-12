@@ -7,6 +7,9 @@ import OtherServices from "@/components/sections/OtherServices";
 
 export const metadata: Metadata = {
   title: "Taxi Service in Ghaziabad | Cab Service & Self Drive Car Rental",
+  alternates: {
+    canonical: "/taxi-service-ghaziabad",
+  },
   description:
     "Book taxi service in Ghaziabad with reliable cab service and self drive car rental options. Local, airport and outstation cabs available for convenient travel.",
 };

@@ -12,6 +12,9 @@ export const metadata: Metadata = {
     "Noida International Airport Taxi and car rental | Jewar Airport self drive cars & Cabs |",
   description:
     "Book taxi, cab and self-drive car rentals for Noida International Airport (Jewar Airport). Reliable airport transfers across Delhi NCR.",
+    alternates: {
+    canonical: "/jewar-airport-cab-service",
+  },
 };
 
 const pageCss = `
