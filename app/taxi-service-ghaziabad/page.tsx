@@ -885,7 +885,7 @@ export default function TaxiServiceGhaziabadPage() {
           </div>
         </div>
       </section>
-
+            <OtherServices current="taxi-service-ghaziabad"/>
       {/* ---------- OUR OFFICE / LOCATION ---------- */}
       <section className="sec">
         <div className="container">
@@ -943,7 +943,7 @@ export default function TaxiServiceGhaziabadPage() {
           </div>
         </div>
       </section>
-      <OtherServices current="taxi-service-ghaziabad"/>
+      
       <Footer />
     </>
   );

@@ -767,7 +767,7 @@ export default function TaxiServiceDelhiPage() {
           </div>
         </div>
       </section> */}
-       <OtherServices current="taxi-service-delhi"/>
+      
       <Footer/>
     </>
   );

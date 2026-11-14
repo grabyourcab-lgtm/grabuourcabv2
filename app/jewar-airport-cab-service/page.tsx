@@ -605,7 +605,7 @@ export default function NoidaInternationalAirportTaxiPage() {
           </div>
         </div>
       </section>
-
+ <OtherServices current="jewar-airport-cab-service"/>
       {/* ---------- OUR OFFICE / LOCATION ---------- */}
       <section className="sec grey">
         <div className="container">
@@ -664,7 +664,7 @@ export default function NoidaInternationalAirportTaxiPage() {
           </div>
         </div>
       </section>
-      <OtherServices current="jewar-airport-cab-service"/>
+     
       <Footer />
     </>
   );

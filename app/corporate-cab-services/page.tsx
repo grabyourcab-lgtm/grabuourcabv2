@@ -3,6 +3,7 @@ import Header from "@/components/site/Header";
 import type { Metadata } from "next";
 import Link from "next/link";
 import TaxiSearch from "../taxi/page";
+import SeperateServices from "@/components/sections/SeperateServices";
 
 export const metadata: Metadata = {
   title: "Corporate Cab Services & Corporate Car Rental in Delhi NCR | Grab Your Cab",
@@ -769,7 +770,7 @@ export default function CorporateCabServicesPage() {
           </div>
         </div>
       </section>
-
+            <SeperateServices current="corporate-cab-services" />
       {/* ---------- OUR OFFICE / LOCATION ---------- */}
       {/* <section className="sec">
         <div className="container">

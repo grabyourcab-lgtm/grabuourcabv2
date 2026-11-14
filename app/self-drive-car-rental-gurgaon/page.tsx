@@ -753,7 +753,7 @@ export default function SelfDriveCarRentalGurgaonPage() {
           </div>
         </div>
       </section>
-
+            <OtherServices current="self-drive-car-rental-gurgaon"/>
       {/* ---------- OFFICE / LOCATION ---------- */}
       <section className="sec grey">
         <div className="container">
@@ -810,7 +810,7 @@ export default function SelfDriveCarRentalGurgaonPage() {
           </div>
         </div>
       </section>
-       <OtherServices current="self-drive-car-rental-gurgaon"/>
+       
       <Footer />
     </>
   );

@@ -1266,7 +1266,7 @@ export default function TaxiServiceGreaterNoidaPage() {
           </div>
         </div>
       </section>
-
+<OtherServices current="taxi-service-greater-noida"/>
       {/* ---------- OUR OFFICE / LOCATION ---------- */}
       <section className="sec">
         <div className="container">
@@ -1323,7 +1323,7 @@ export default function TaxiServiceGreaterNoidaPage() {
           </div>
         </div>
       </section>
-       <OtherServices current="taxi-service-greater-noida"/>
+       
       <Footer />
     </>
   );

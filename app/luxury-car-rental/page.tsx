@@ -3,6 +3,7 @@ import Header from "@/components/site/Header";
 import type { Metadata } from "next";
 import Link from "next/link";
 import TaxiSearch from "../taxi/page";
+import SeperateServices from "@/components/sections/SeperateServices";
 
 export const metadata: Metadata = {
   title: "Luxury Car on Rent in Delhi NCR | Self Drive, Wedding & Corporate Rental",
@@ -1059,7 +1060,7 @@ export default function LuxuryCarRentalPage() {
           </div>
         </div>
       </section>
-
+            <SeperateServices current="luxury-car-rental"/>
       {/* ---------- OFFICE / LOCATION ---------- */}
       {/* <section className="sec grey">
         <div className="container">

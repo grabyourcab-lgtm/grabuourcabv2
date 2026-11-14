@@ -682,7 +682,7 @@ export default function TaxiServiceInMeerutPage() {
           </div>
         </div>
       </section>
-
+            <OtherServices current="taxi-service-meerut"/>
       {/* ---------- OUR OFFICE / LOCATION ---------- */}
       <section className="sec grey">
         <div className="container">
@@ -739,7 +739,7 @@ export default function TaxiServiceInMeerutPage() {
           </div>
         </div>
       </section>
-      <OtherServices current="taxi-service-meerut"/>
+      
       <Footer />
     </>
   );

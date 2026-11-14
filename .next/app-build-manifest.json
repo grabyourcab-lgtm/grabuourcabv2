@@ -16,6 +16,31 @@
       "static/chunks/main-app.js",
       "static/chunks/app/not-found.js"
     ],
+    "/taxi-service-delhi/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/taxi-service-delhi/page.js"
+    ],
+    "/self-drive-car-rental-delhi/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/self-drive-car-rental-delhi/page.js"
+    ],
+    "/self-drive-car-rental-gurgaon/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/self-drive-car-rental-gurgaon/page.js"
+    ],
+    "/self-drive-car-rental-noida/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/self-drive-car-rental-noida/page.js"
+    ],
+    "/taxi-service-greater-noida/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/taxi-service-greater-noida/page.js"
+    ],
     "/jewar-airport-cab-service/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -55,31 +80,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/corporate-cab-services/page.js"
-    ],
-    "/blogs/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/blogs/page.js"
-    ],
-    "/about-us/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/about-us/page.js"
-    ],
-    "/about-us/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/about-us/layout.js"
-    ],
-    "/contact/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/contact/page.js"
-    ],
-    "/contact/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/contact/layout.js"
     ]
   }
 }

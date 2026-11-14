@@ -681,7 +681,7 @@ export default function SelfDriveCarRentalNoidaPage() {
           </div>
         </div>
       </section>
-
+<OtherServices current="self-drive-car-rental-noida"/>
       {/* ---------- OFFICE / LOCATION ---------- */}
       <section className="sec">
         <div className="container">
@@ -740,7 +740,7 @@ export default function SelfDriveCarRentalNoidaPage() {
           </div>
         </div>
       </section>
-      <OtherServices current="self-drive-car-rental-noida"/>
+      
       <Footer />
     </>
   );
