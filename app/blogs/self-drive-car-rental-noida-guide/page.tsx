@@ -395,6 +395,97 @@ const Page = () => {
                 </div>
                 <p>{"These are general vehicle categories, not a confirmed list of Grab Your Cab's available fleet. Ask the team for current vehicle options, model details, seating capacity and transmission before booking."}</p>
               </section>
+            
+
+                      {/* ---------- EXPLORE SELF DRIVE CARS (cards) ---------- */}
+<section style={{ marginBottom: 38 }}>
+  <style>{`.blog .article h2.cars-heading::after{display:none}`}</style>
+
+  <h2
+    className="cars-heading"
+    style={{
+      textAlign: 'center',
+      fontFamily: '"Poppins","Inter",sans-serif',
+      fontSize: 'clamp(20px,2.6vw,26px)',
+      fontWeight: 700,
+      color: '#212529',
+      lineHeight: 1.25,
+      margin: '0 0 24px',
+      paddingBottom: 0,
+    }}
+  >
+    {"Explore Self Drive Cars in Noida for Every Travel Need"}
+  </h2>
+
+  <div
+    style={{
+      display: 'grid',
+      gridTemplateColumns: 'repeat(auto-fit,minmax(220px,1fr))',
+      gap: 18,
+    }}
+  >
+    {[
+      { name: 'Hatchback', img: '/cars/hatchback.jpeg' },
+      { name: 'Sedan', img: '/cars/sedan.jpeg' },
+      { name: 'SUV', img: '/cars/suv.jpeg' },
+      { name: 'Automatic car', img: '/cars/automatic.jpeg' },
+      { name: 'Premium car', img: '/cars/premium.jpeg' },
+    ].map((car) => (
+      <div
+        key={car.name}
+        style={{
+          background: '#fff',
+          border: '1px solid #e1e1e1',
+          borderRadius: 6,
+          overflow: 'hidden',
+          boxShadow: '0 2px 10px rgba(0,0,0,.08)',
+          display: 'flex',
+          flexDirection: 'column',
+        }}
+      >
+        <div
+          style={{
+            aspectRatio: '16/10',
+            background: '#33414f',
+            overflow: 'hidden',
+          }}
+        >
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={car.img}
+            alt={`${car.name} self drive car rental in Noida`}
+            loading="lazy"
+            style={{
+              width: '100%',
+              height: '100%',
+              objectFit: 'cover',
+              display: 'block',
+            }}
+          />
+        </div>
+        <div
+          style={{
+            padding: '14px 16px',
+            textAlign: 'center',
+            borderTop: '3px solid #9f1c33',
+          }}
+        >
+          <h3
+            style={{
+              margin: 0,
+              fontFamily: '"Poppins","Inter",sans-serif',
+              fontSize: 16.5,
+              fontWeight: 600,
+              color: '#212529',
+            }}
+          >
+            {car.name}
+          </h3>
+        </div>
+      </div>
+    ))}
+  </div>
+</section>
 
               <section>
                 <h2>{"4. Self Drive Car Rental Charges in Noida"}</h2>
@@ -486,35 +577,9 @@ const Page = () => {
                <p>{"Choosing the right hiring company is very important. You need to ensure they offer good vehicles, easy booking, proper documentation and reliable support."}</p>
 <p>{"Contact the Grab Your Cab team to find out what is available in Noida at the moment."}</p>
 <p>{"Ask them what categories of vehicle they can provide, how they will collect and drop off, hire rates, deposits, miles allowed, insurance and whether you can hire out of town."}</p>
-                <ul>
-                  {beforeProceeding.map((b) => (
-                    <li key={b}>{b}</li>
-                  ))}
-                </ul>
-                <div className="cta-box">
-                  <p>
-                    {"Planning to rent a self-drive car in Noida? Share your travel dates, preferred car category, pickup location and destination with Grab Your Cab. The team can confirm current availability and the applicable booking terms. Visit "}
-                    <Link className="inline" href="/">
-                      {"www.grabyourcab.com"}
-                    </Link>
-                    {" or use the website's contact/enquiry option."}
-                  </p>
-                </div>
-                <p>
-                  {"You can also explore "}
-                  <Link className="inline" href="/self-drive-car-rental-noida">
-                    {"Self Drive Car Rental in Noida"}
-                  </Link>
-                  {", "}
-                  <Link className="inline" href="/self-drive-car-rental-delhi">
-                    {"Self Drive Car Rental in Delhi"}
-                  </Link>
-                  {" and "}
-                  <Link className="inline" href="/self-drive-car-rental-gurgaon">
-                    {"Self Drive Car Rental in Gurgaon"}
-                  </Link>
-                  {"."}
-                </p>
+                
+                
+             
               </section>
 
               <section>

@@ -13,6 +13,17 @@ import secondBlogImg from "../images/second-blog.webp"
 import thirdBlogImg from "../images/third-blog.webp"
 export const blogs: Blog[] = [
   {
+    slug: "self-drive-car-rental-noida-guide",
+    title: "Self Drive Car Rental in Noida: How to Choose and Book the Right Car",
+    excerpt: `Delhi is surrounded by some of North India's most interesting travel destinations, making it easy to plan a refreshing
+break from everyday city life. Whether you are looking for a peaceful lakeside outing, a historical monument, a spiritual
+journey, a wildlife experience or a weekend escape, there are plenty of places to explore within a few hours of the capital.`,
+    category: "Trip",
+    date: "04 Nov 2026",
+    thumbnail: thirdBlogImg,
+    readTime: "4 min read",
+  },
+  {
     slug: "self-drive-car-rental-diwali",
     title: "Self-Drive Car Rental for Diwali: A Complete Family Travel Guide",
     excerpt: "Diwali is a time for family gatherings, festive shopping, visiting relatives and taking a short holiday. But travelling during the festive season can be tough with crowded public transport, traffic jams and last-minute changes to travel plans. For the families who want more freedom, diwali self drive car rental would be a viable option.",
@@ -32,16 +43,6 @@ journey, a wildlife experience or a weekend escape, there are plenty of places t
     thumbnail: secondBlogImg,
     readTime: "4 min read",
   },
-  {
-    slug: "self-drive-car-rental-noida-guide",
-    title: "Self Drive Car Rental in Noida: How to Choose and Book the Right Car",
-    excerpt: `Delhi is surrounded by some of North India's most interesting travel destinations, making it easy to plan a refreshing
-break from everyday city life. Whether you are looking for a peaceful lakeside outing, a historical monument, a spiritual
-journey, a wildlife experience or a weekend escape, there are plenty of places to explore within a few hours of the capital.`,
-    category: "Trip",
-    date: "04 Nov 2026",
-    thumbnail: thirdBlogImg,
-    readTime: "4 min read",
-  },
+  
   
 ];
