@@ -732,7 +732,7 @@ export default function CabServiceNoidaPage() {
           </div>
         </div>
       </section>
-
+             <OtherServices current="cab-service-noida"/>
       {/* ---------- OFFICE / LOCATION ---------- */}
       <section className="sec">
         <div className="container">
@@ -791,7 +791,7 @@ export default function CabServiceNoidaPage() {
           </div>
         </div>
       </section>
-      <OtherServices current="cab-service-noida"/>
+     
       <Footer />
     </>
   );
