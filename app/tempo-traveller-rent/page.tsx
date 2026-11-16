@@ -4,6 +4,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import TaxiSearch from "../taxi/page";
 import SeperateServices from "@/components/sections/SeperateServices";
+import OtherServices from "@/components/sections/OtherServices";
 
 export const metadata: Metadata = {
   title: "Tempo Traveller on Rent | Book AC & Luxury Travellers",
@@ -588,6 +589,7 @@ export default function TempoTravellerOnRentPage() {
       </section>
 
       <SeperateServices current="tempo-traveller-rent"/>
+      {/* <OtherServices current="tempo-traveller-rent"/> */}
 
       {/* ---------- OUR OFFICE / LOCATION ---------- */}
       {/* <section className="sec grey">

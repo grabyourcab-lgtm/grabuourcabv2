@@ -10,20 +10,95 @@ import Link from "next/link";
  * limit   -> optional, kitne cards dikhane hain (default: sab)
  */
 const SERVICES = [
+  // {
+  //   slug: "tempo-traveller-rent",
+  //   title: "Tempo Traveller Rent",
+  //   desc: "Comfortable Tempo Traveller on rent for group trips, family outings, weddings, pilgrimages and outstation tours, with spacious seating and experienced drivers.",
+  // },
+  // {
+  //   slug: "luxury-car-rental",
+  //   title: "Luxury Car Rental",
+  //   desc: "Book premium luxury cars with or without a chauffeur for weddings, business meetings, airport transfers and special occasions, with a smooth and stylish ride.",
+  // },
+  // {
+  //   slug: "corporate-cab-services",
+  //   title: "Corporate Cab Services",
+  //   desc: "Reliable corporate cab services for employee commute, office transfers and client pickups, with punctual service, professional drivers and flexible monthly plans.",
+  // },
+   {
+    slug: "taxi-service-delhi",
+    title: "Taxi Service Delhi",
+    desc: "Book reliable local, outstation and airport taxis in Delhi with verified drivers and transparent fares.",
+  },
+  {
+    slug: "self-drive-car-rental-delhi",
+    title: "Self Drive Car Rental Delhi",
+    desc: "Rent a well-maintained car in Delhi and drive it yourself on hourly, daily or weekly plans.",
+  },
+  {
+    slug: "cab-service-gurgaon",
+    title: "Cab Service Gurgaon",
+    desc: "Comfortable cabs in Gurgaon for office commutes, airport transfers and outstation trips, available 24x7.",
+  },
+  {
+    slug: "self-drive-car-rental-gurgaon",
+    title: "Self Drive Car Rental Gurgaon",
+    desc: "Self drive cars in Gurgaon with simple paperwork, flexible plans and no hidden charges.",
+  },
+  {
+    slug: "cab-service-noida",
+    title: "Cab Service Noida",
+    desc: "Safe and punctual cab service in Noida for daily travel, airport drops and out-of-city journeys.",
+  },
+  {
+    slug: "self-drive-car-rental-noida",
+    title: "Self Drive Car Rental Noida",
+    desc: "Choose from a range of clean, serviced cars in Noida and enjoy the freedom of driving yourself.",
+  },
+  {
+    slug: "taxi-service-greater-noida",
+    title: "Taxi Service Greater Noida",
+    desc: "Dependable taxi service in Greater Noida for local rides, airport transfers and long-distance travel.",
+  },
+  {
+    slug: "jewar-airport-cab-service",
+    title: "Jewar Airport Cab Service",
+    desc: "Pre-booked pickups and drops for Noida International Airport, Jewar, with professional chauffeurs.",
+  },
+  {
+    slug: "taxi-service-ghaziabad",
+    title: "Taxi Service Ghaziabad",
+    desc: "Affordable taxis in Ghaziabad for city rides, railway and airport transfers, and outstation trips.",
+  },
+  {
+    slug: "car-rent-faridabad",
+    title: "Car Rent Faridabad",
+    desc: "Rent cars in Faridabad with or without a driver for business, family and weekend travel.",
+  },
+  {
+    slug: "taxi-service-meerut",
+    title: "Taxi Service Meerut",
+    desc: "Hassle-free taxi booking in Meerut and on the Delhi–Meerut route, with courteous and experienced drivers.",
+  },
+  {
+    slug: "car-rental-goa",
+    title: "Car Rental Goa",
+    desc: "Explore Goa at your own pace with our self drive and chauffeur-driven car rental options.",
+  },
   {
     slug: "tempo-traveller-rent",
     title: "Tempo Traveller Rent",
-    desc: "Comfortable Tempo Traveller on rent for group trips, family outings, weddings, pilgrimages and outstation tours, with spacious seating and experienced drivers.",
+    desc: "Spacious Tempo Travellers for family trips, group tours, pilgrimages and corporate outings.",
   },
   {
     slug: "luxury-car-rental",
     title: "Luxury Car Rental",
-    desc: "Book premium luxury cars with or without a chauffeur for weddings, business meetings, airport transfers and special occasions, with a smooth and stylish ride.",
+    desc: "Premium luxury cars for weddings, business meetings and special occasions, with or without a chauffeur.",
   },
   {
     slug: "corporate-cab-services",
     title: "Corporate Cab Services",
-    desc: "Reliable corporate cab services for employee commute, office transfers and client pickups, with punctual service, professional drivers and flexible monthly plans.",
+    desc: "Employee transport, client pickups and airport transfers for companies, with monthly billing and dedicated support.",
   },
 ];
 
