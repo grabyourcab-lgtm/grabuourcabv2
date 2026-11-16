@@ -21,7 +21,7 @@ export const SERVICES = [
   { name: "Cab Service in Noida", slug: "cab-service-noida", icon: "building", group: "Taxi", img: "/images/corporate.jpg", blurb: "Billed employee travel & airport runs." },
 ];
 export const SERVICE_TABS = ["All", "Taxi", "Self Drive", "Luxury", "Group"];
-
+// for "Where we drive" section 
 export const CITIES = [
   { name: "Delhi NCR", slug: "taxi-service-delhi", img: "/images/city-delhi.jpg", pill: "Most Popular", cabs: "260+ cabs",
     blurb: "Delhi, Noida, Gurgaon, Ghaziabad & Faridabad — cabs anywhere, any hour." },
@@ -30,6 +30,29 @@ export const CITIES = [
     // noida-international-airport-jewar
   { name: "Jewar Airport", slug: "jewar-airport-cab-service", img: "/images/city-jewar.jpg", pill: "Airport", cabs: "90+ cabs",
     blurb: "Fixed-fare transfers to & from Noida International Airport, Jewar." },
+
+      { name: "Gurgaon", slug: "cab-service-gurgaon", img: "/cars/gurgaon.png", pill: "Cab", cabs: "90+ cabs",
+    blurb: "A taxi in Gurgaon is useful for all kinds of travel, whether you’re heading to a business meeting, going shopping, catching a flight, visiting family, or planning a long-distance trip" },
+
+    
+      { name: "Noida", slug: "cab-service-noida", img: "/cars/noida.png", pill: "Cab", cabs: "90+ cabs",
+    blurb: "A cab can make day-to-day travel easier when you want direct transportation without the hassle of driving, parking or navigating through unfamiliar routes." },
+
+    { name: "Greater Noida", slug: "taxi-service-greater-noida", img: "/cars/greater_noida.png", pill: "Cab", cabs: "90+ cabs",
+    blurb: "Grab Your Cab brings multiple transportation options together under one platform, making it easier to arrange different travel requirements through a single transportation partner." },
+      
+
+    { name: "Ghaziabad", slug: "taxi-service-ghaziabad", img: "/cars/ghaziabad.png", pill: "Taxi", cabs: "90+ cabs",
+    blurb: "Grab Your Cab offers taxi services in Ghaziabad for local travel, airport pickup & drop, business tour, outstation trip, family tour, railway station transfers or corporate events." },
+
+    { name: "Faridabad", slug: "car-rent-faridabad", img: "/cars/faridabad.png", pill: "Taxi", cabs: "90+ cabs",
+    blurb: "Grab Your Cab offers easy car on rent in Faridabad for local travel, outstation visit, Airport transfer from Faridabad to Noida International Airport, Jewar or Indira Gandhi International Airport, New Delhi." },
+
+    { name: "Meerut", slug: "taxi-service-meerut", img: "/cars/meerut.png", pill: "Taxi", cabs: "90+ cabs",
+    blurb: "Grab Your Cab is now at your service to provide comfortable and reliable taxi service in Meerut for local travel, airport transfer, railway station pick up, business travel, family travel or outstation travel." },
+
+
+    
 ];
 
 export const ROUTES: Record<string, { from: string; sub: string; price: string }[]> = {
