@@ -2252,7 +2252,8 @@ export default function TaxiServiceDelhiPage() {
         </div>
 
       </section>
-
+          
+        <OtherServices current="taxi-service-delhi"/>
 
 
       {/* ---------- OUR GARAGE / LOCATION ---------- */}

@@ -815,7 +815,7 @@ export default function CabServiceGurgaonPage() {
           </div>
         </div>
       </section>
-
+            <OtherServices current="cab-service-gurgaon"/>
       {/* ---------- OFFICE / LOCATION ---------- */}
       <section className="sec">
         <div className="container">
@@ -873,7 +873,7 @@ PWO Apartments, C-4 206, Block D, PWO Appartments, Sector 43, Gurugram, Haryana 
           </div>
         </div>
       </section>
-      <OtherServices current="cab-service-gurgaon"/>
+      
       <Footer />
     </>
   );
