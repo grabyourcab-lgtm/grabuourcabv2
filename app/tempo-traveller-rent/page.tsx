@@ -177,6 +177,23 @@ img{max-width:100%;display:block}
   .garage-map iframe{min-height:240px}
   .info-block .ico{width:42px;height:42px}
 }
+  @media (max-width: 767px) {
+  .page-hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    pointer-events: none;
+  }
+
+  .page-hero h1,
+  .page-hero .crumbs,
+  .page-hero .crumbs a,
+  .page-hero .crumbs span,
+  .page-hero .crumbs b {
+    color: #fff !important;
+  }
+}
 `;
 
 const rentalOptions = [

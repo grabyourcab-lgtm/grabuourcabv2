@@ -172,6 +172,29 @@ table.cmp-table tbody td:first-child{font-weight:700;color:var(--ink);font-famil
   .garage-map iframe{min-height:240px}
   .info-block .ico{width:42px;height:42px}
 }
+
+
+
+@media (max-width: 767px) {
+  .page-hero {
+    background: linear-gradient(
+      135deg,
+      var(--red) 0%,
+      var(--red-dark) 100%
+    ) !important;
+  }
+
+  .page-hero h1,
+  .page-hero .eyebrow,
+  .page-hero .lead,
+  .page-hero .crumbs,
+  .page-hero .crumbs a,
+  .page-hero .crumbs span,
+  .page-hero .crumbs b {
+    color: #fff !important;
+  }
+}
+
 `;
 
 /* Why Choose Grab Your Cab for Luxury Car Rental? - EXACT MATCH from document */
